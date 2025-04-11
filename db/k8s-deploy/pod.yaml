@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: h2
+    labels:
+      env: demo
+spec:
+    containers:
+      - name: h2
+        image: plaurin/minimal-h2:1.4.196
+        ports:
+          - name: h2-tcp
+            containerPort: 9092
+        volumeMounts:
+          - name: h2-config
+            mountPath: /opt/h2-run
+    volumes:
+      - name: h2-config
+        configMap:
+          name: h2-config

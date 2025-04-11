@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: h2-config
+data:
+    run.sh: |
+      #!/bin/sh
+
+      #--------------------#
+      # h2 database server #
+      #--------------------#
+      java -jar h2.jar -baseDir /opt/h2-data -tcp -tcpAllowOthers &
+
+      #------------#
+      # Init stage #
+      #------------#
+      java -cp h2.jar org.h2.tools.Shell -url "jdbc:h2:tcp://localhost/test" -user sa -sql "ALTER USER sa SET PASSWORD 'dumbpass';"
+      apk add --no-cache bash curl unzip
+
+      #---------------#
+      # Shell Runtime #
+      #---------------#
+      trap 'pkill java; exit 0' SIGTERM
+      while true; do :; done
