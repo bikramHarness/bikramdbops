@@ -104,7 +104,7 @@ databaseChangeLog:
             columnName: state
 
   - changeSet:
-      id: bikramkumar
+      id: bikramkumar12
       author: bikramkumar
       changes:
         - addColumn:
