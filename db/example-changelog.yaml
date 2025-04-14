@@ -86,7 +86,7 @@ databaseChangeLog:
             columnName: country
 
   - changeSet:
-      id: my.poc:4
+      id: 08974
       author: my.poc
       labels: example-label
       context: example-context
@@ -103,4 +103,17 @@ databaseChangeLog:
             tableName: person
             columnName: state
 
-
+  - changeSet:
+      id: bikramkumar
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: ${column-vill}
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: state
