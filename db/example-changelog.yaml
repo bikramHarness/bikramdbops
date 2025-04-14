@@ -111,7 +111,7 @@ databaseChangeLog:
             tableName: person
             columns:
               - column:
-                  name: ${column-vill}
+                  name: ${column-village}
                   type: varchar(10)
       rollback:
         - dropColumn:
