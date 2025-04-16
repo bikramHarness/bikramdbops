@@ -117,3 +117,18 @@ databaseChangeLog:
         - dropColumn:
             tableName: person
             columnName: state
+
+  - changeSet:
+      id: bikramkumar1248
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: ${column.createdBy}
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: state
