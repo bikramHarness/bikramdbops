@@ -119,14 +119,14 @@ databaseChangeLog:
             columnName: state
 
   - changeSet:
-      id: bikramkumar1248
+      id: bikramkumar12489
       author: bikramkumar
       changes:
         - addColumn:
             tableName: person
             columns:
               - column:
-                  name: ${column.createdBy}
+                  name: ${column.updatedBy}
                   type: varchar(10)
       rollback:
         - dropColumn:
