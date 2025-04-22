@@ -132,3 +132,33 @@ databaseChangeLog:
         - dropColumn:
             tableName: person
             columnName: state
+
+  - changeSet:
+      id: bikramkumar6578
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: ${column.company}
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: state
+
+  - changeSet:
+      id: bikramkumar8989
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: ${column.company}
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: state
