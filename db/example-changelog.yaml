@@ -68,24 +68,6 @@ databaseChangeLog:
             tableName: company
 
   - changeSet:
-      id: 9898989
-      author: bikramkumar
-      labels: tag_3 
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: ${column-country}
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: country
-
-  - changeSet:
       id: 08974
       author: my.poc
       labels: example-label
@@ -97,21 +79,6 @@ databaseChangeLog:
             columns:
               - column:
                   name: state
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: state
-
-  - changeSet:
-      id: bikramkumar12
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: ${column-village}
                   type: varchar(10)
       rollback:
         - dropColumn:
@@ -131,34 +98,4 @@ databaseChangeLog:
       rollback:
         - dropColumn:
             tableName: person
-            columnName: state
-
-  - changeSet:
-      id: bikramkumar6578
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: ${column.company}
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: state
-
-  - changeSet:
-      id: bikramkumar8989
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: ${column.company}
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: state
+            columnName: updatedBy
