@@ -1,8 +1,8 @@
 databaseChangeLog:
   - changeSet:
-      id: 123456
-      author: bikramkumar
-      labels: tag_1 
+      id: my.poc:1
+      author: my.poc
+      labels: tag_1
       context: example-context
       comment: example comment
       changes:
@@ -34,9 +34,9 @@ databaseChangeLog:
             tableName: person
 
   - changeSet:
-      id: 1234568
-      author: bikramkumar
-      labels: tag_2 
+      id: my.poc:2
+      author: my.poc
+      labels: tag_2
       context: example-context
       comment: example comment
       changes:
@@ -68,9 +68,9 @@ databaseChangeLog:
             tableName: company
 
   - changeSet:
-      id: 9898989
-      author: bikramkumar
-      labels: tag_3 
+      id: my.poc:3
+      author: my.poc
+      labels: tag_3
       context: example-context
       comment: example comment
       changes:
@@ -103,4 +103,98 @@ databaseChangeLog:
             tableName: person
             columnName: state
 
+  - changeSet:
+      id: my.poc:5
+      author: my.poc
+      labels: tag_4
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: zone
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: zone
 
+  - changeSet:
+      id: my.poc:6
+      author: my.poc
+      labels: tag_5
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field1
+  - changeSet:
+      id: my.poc:7
+      author: my.poc
+      labels: tag_6
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field2
+  - changeSet:
+      id: satwell:11
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field6
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field6
+  - changeSet:
+      id: satwell:12
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field7
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field7
+
+  - changeSet:
+      id: bikramkumar123
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: ${column.updatedBy}
+                  type: varchar(10)
