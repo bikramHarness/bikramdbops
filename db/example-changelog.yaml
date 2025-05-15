@@ -99,3 +99,18 @@ databaseChangeLog:
         - dropColumn:
             tableName: person
             columnName: updatedBy
+
+  - changeSet:
+      id: bikramkumarsql
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: company
+            columns:
+              - column:
+                  name: text
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: company
+            columnName: text
