@@ -1,13 +1,13 @@
 databaseChangeLog:
   - changeSet:
-      id: my.poc:1
-      author: my.poc
+      id: 123456
+      author: bikramkumar
       labels: tag_1
       context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: person
+            tableName: ${table-name}
             columns:
               - column:
                   name: id
@@ -16,7 +16,7 @@ databaseChangeLog:
                   constraints:
                     primaryKey: true
               - column:
-                  name: name
+                  name: ${column-name}
                   type: VARCHAR(50)
                   constraints:
                     nullable: false
@@ -27,15 +27,15 @@ databaseChangeLog:
                   name: address2
                   type: VARCHAR(50)
               - column:
-                  name: city
+                  name: ${column-city}
                   type: VARCHAR(30)
       rollback:
         - dropTable:
             tableName: person
 
   - changeSet:
-      id: my.poc:2
-      author: my.poc
+      id: 1234568
+      author: bikramkumar
       labels: tag_2
       context: example-context
       comment: example comment
@@ -68,25 +68,7 @@ databaseChangeLog:
             tableName: company
 
   - changeSet:
-      id: my.poc:3
-      author: my.poc
-      labels: tag_3
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: country
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: country
-
-  - changeSet:
-      id: my.poc:4
+      id: 089747578
       author: my.poc
       labels: example-label
       context: example-context
@@ -104,92 +86,7 @@ databaseChangeLog:
             columnName: state
 
   - changeSet:
-      id: my.poc:5
-      author: my.poc
-      labels: tag_4
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: zone
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: zone
-
-  - changeSet:
-      id: my.poc:6
-      author: my.poc
-      labels: tag_5
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: field1
-  - changeSet:
-      id: my.poc:7
-      author: my.poc
-      labels: tag_6
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: field2
-  - changeSet:
-      id: satwell:11
-      author: satwell@harness.io
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: field6
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: field6
-  - changeSet:
-      id: satwell:12
-      author: satwell@harness.io
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: field7
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: field7
-
-  - changeSet:
-      id: bikramkumar123
+      id: bikramkumar12489
       author: bikramkumar
       changes:
         - addColumn:
@@ -198,3 +95,22 @@ databaseChangeLog:
               - column:
                   name: ${column.updatedBy}
                   type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: updatedBy
+
+  - changeSet:
+      id: bikramkumarsql
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: company
+            columns:
+              - column:
+                  name: text
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: company
+            columnName: text
