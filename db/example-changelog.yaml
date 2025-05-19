@@ -114,3 +114,18 @@ databaseChangeLog:
         - dropColumn:
             tableName: company
             columnName: text
+
+  - changeSet:
+      id: bikramkumarstate
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: company
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: company
+            columnName: state
