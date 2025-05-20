@@ -7,7 +7,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: id
@@ -31,7 +31,7 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: person
+            tableName: player
 
   - changeSet:
       id: 102
@@ -75,14 +75,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: country
 
   - changeSet:
@@ -93,14 +93,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: state
 
   - changeSet:
@@ -111,14 +111,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: zone
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: zone
 
   - changeSet:
@@ -129,14 +129,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: field1
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: field1
   - changeSet:
       id: 107
@@ -146,14 +146,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: field2
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: field2
   - changeSet:
       id: 108
@@ -162,14 +162,14 @@ databaseChangeLog:
       comment: I really want another column
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: field6
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: field6
   - changeSet:
       id: 109
@@ -178,12 +178,12 @@ databaseChangeLog:
       comment: I really want another column
       changes:
         - addColumn:
-            tableName: person
+            tableName: player
             columns:
               - column:
                   name: field7
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: person
+            tableName: player
             columnName: field7
