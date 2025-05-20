@@ -34,7 +34,7 @@ databaseChangeLog:
             tableName: khiladi
 
   - changeSet:
-      id: 102
+      id: 202
       author: bikramkumar
       labels: tag_2
       context: example-context
@@ -187,3 +187,20 @@ databaseChangeLog:
         - dropColumn:
             tableName: khiladi
             columnName: field7
+
+  - changeSet:
+      id: 110
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: khiladi
+            columns:
+              - column:
+                  name: field8
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: khiladi
+            columnName: field8
