@@ -1,13 +1,13 @@
 databaseChangeLog:
   - changeSet:
-      id: 123456
+      id: 101
       author: bikramkumar
       labels: tag_1
       context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: ${table-name}
+            tableName: person
             columns:
               - column:
                   name: id
@@ -16,7 +16,7 @@ databaseChangeLog:
                   constraints:
                     primaryKey: true
               - column:
-                  name: ${column-name}
+                  name: name
                   type: VARCHAR(50)
                   constraints:
                     nullable: false
@@ -27,14 +27,14 @@ databaseChangeLog:
                   name: address2
                   type: VARCHAR(50)
               - column:
-                  name: ${column-city}
+                  name: city
                   type: VARCHAR(30)
       rollback:
         - dropTable:
             tableName: person
 
   - changeSet:
-      id: 1234568
+      id: 102
       author: bikramkumar
       labels: tag_2
       context: example-context
@@ -68,8 +68,26 @@ databaseChangeLog:
             tableName: company
 
   - changeSet:
-      id: 089747578
-      author: my.poc
+      id: 103
+      author: bikramkumar
+      labels: tag_3
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: country
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: country
+
+  - changeSet:
+      id: 104
+      author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
@@ -86,31 +104,86 @@ databaseChangeLog:
             columnName: state
 
   - changeSet:
-      id: bikramkumar12489
+      id: 105
       author: bikramkumar
+      labels: tag_4
+      context: example-context
+      comment: example comment
       changes:
         - addColumn:
             tableName: person
             columns:
               - column:
-                  name: ${column.updatedBy}
+                  name: zone
                   type: varchar(10)
       rollback:
         - dropColumn:
             tableName: person
-            columnName: updatedBy
+            columnName: zone
 
   - changeSet:
-      id: bikramkumarsql
+      id: 106
       author: bikramkumar
+      labels: tag_5
+      context: example-context
+      comment: example comment
       changes:
         - addColumn:
-            tableName: company
+            tableName: person
             columns:
               - column:
-                  name: text
+                  name: field1
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: company
-            columnName: text
+            tableName: person
+            columnName: field1
+  - changeSet:
+      id: 107
+      author: bikramkumar
+      labels: tag_6
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field2
+  - changeSet:
+      id: 108
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field6
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field6
+  - changeSet:
+      id: 109
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: person
+            columns:
+              - column:
+                  name: field7
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: person
+            columnName: field7
