@@ -41,7 +41,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: coach
+            tableName: staff
             columns:
               - column:
                   name: id
@@ -65,7 +65,7 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: coach
+            tableName: staff
 
   - changeSet:
       id: 103
