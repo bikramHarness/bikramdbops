@@ -1,0 +1,104 @@
+databaseChangeLog:
+  - changeSet:
+      id: 101
+      author: bikramkumar
+      labels: tag_1
+      context: example-context
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: bikram
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: address1
+                  type: VARCHAR(50)
+              - column:
+                  name: address2
+                  type: VARCHAR(50)
+              - column:
+                  name: city
+                  type: VARCHAR(30)
+      rollback:
+        - dropTable:
+            tableName: bikram
+
+  - changeSet:
+      id: 202
+      author: bikramkumar
+      labels: tag_2
+      context: example-context
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: vivek
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: address1
+                  type: VARCHAR(50)
+              - column:
+                  name: address2
+                  type: VARCHAR(50)
+              - column:
+                  name: city
+                  type: VARCHAR(30)
+      rollback:
+        - dropTable:
+            tableName: vivek
+
+  - changeSet:
+      id: 103
+      author: bikramkumar
+      labels: tag_3
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: bikram
+            columns:
+              - column:
+                  name: country
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: bikram
+            columnName: country
+
+  - changeSet:
+      id: 104
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: bikram
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: bikram
+            columnName: state
