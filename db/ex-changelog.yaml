@@ -204,3 +204,20 @@ databaseChangeLog:
         - dropColumn:
             tableName: khiladi
             columnName: field8
+
+  - changeSet:
+      id: 111
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: khiladi
+            columns:
+              - column:
+                  name: field9
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: khiladi
+            columnName: field9
