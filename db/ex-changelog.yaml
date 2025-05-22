@@ -1,13 +1,13 @@
 databaseChangeLog:
   - changeSet:
-      id: 101
+      id: 201
       author: bikramkumar
       labels: tag_1
       context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: khiladi
+            tableName: abc
             columns:
               - column:
                   name: id
@@ -31,17 +31,17 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: khiladi
+            tableName: abc
 
   - changeSet:
-      id: 202
+      id: 200
       author: bikramkumar
       labels: tag_2
       context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: staff
+            tableName: xyz
             columns:
               - column:
                   name: id
@@ -65,159 +65,40 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: staff
+            tableName: xyz
 
   - changeSet:
-      id: 103
+      id: 203
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: khiladi
+            tableName: abc
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: khiladi
+            tableName: abc
             columnName: country
 
   - changeSet:
-      id: 104
+      id: 204
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: khiladi
+            tableName: abc
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: khiladi
+            tableName: abc
             columnName: state
-
-  - changeSet:
-      id: 105
-      author: bikramkumar
-      labels: tag_4
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: zone
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: zone
-
-  - changeSet:
-      id: 106
-      author: bikramkumar
-      labels: tag_5
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: field1
-  - changeSet:
-      id: 107
-      author: bikramkumar
-      labels: tag_6
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: field2
-  - changeSet:
-      id: 108
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: field6
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: field6
-  - changeSet:
-      id: 109
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: field7
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: field7
-
-  - changeSet:
-      id: 110
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: field8
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: field8
-
-  - changeSet:
-      id: 111
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: khiladi
-            columns:
-              - column:
-                  name: field9
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: khiladi
-            columnName: field9
