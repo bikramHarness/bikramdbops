@@ -102,3 +102,13 @@ databaseChangeLog:
         - dropColumn:
             tableName: party
             columnName: state
+
+  - changeSet:
+      id: 001-create-users-table
+      author: bikram
+      sqlFile:
+        path: db/example-changelog.sql
+        relativeToChangelogFile: true
+        endDelimiter: ;
+        splitStatements: true
+        stripComments: true
