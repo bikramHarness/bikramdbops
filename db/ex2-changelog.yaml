@@ -7,7 +7,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: abc
+            tableName: party
             columns:
               - column:
                   name: id
@@ -31,7 +31,7 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: abc
+            tableName: party
 
   - changeSet:
       id: 200
@@ -41,7 +41,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: xyz
+            tableName: rockstar
             columns:
               - column:
                   name: id
@@ -65,7 +65,7 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: xyz
+            tableName: rockstar
 
   - changeSet:
       id: 203
@@ -75,14 +75,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abc
+            tableName: party
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: abc
+            tableName: party
             columnName: country
 
   - changeSet:
@@ -93,12 +93,12 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abc
+            tableName: party
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abc
+            tableName: party
             columnName: state
