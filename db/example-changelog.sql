@@ -52,5 +52,5 @@ ADD [field1] varchar(10)
 --changeset other.dev:7 labels:example-label context:example-context
 --comment: example comment
 ALTER TABLE person1
-ADD [field2] varchar(100000000000000000000)
+ADD [field2] varchar(100)
 --rollback ALTER TABLE person1 DROP COLUMN field2;
