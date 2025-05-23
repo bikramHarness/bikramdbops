@@ -107,7 +107,7 @@ databaseChangeLog:
       id: 001-create-users-table
       author: bikram
       sqlFile:
-        path: db/example-changelog.sql
+        path: ../bikramdbops/db/example-changelog.sql
         relativeToChangelogFile: true
         endDelimiter: ;
         splitStatements: true
