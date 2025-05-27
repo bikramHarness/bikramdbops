@@ -112,3 +112,21 @@ databaseChangeLog:
         endDelimiter: ;
         splitStatements: true
         stripComments: true
+
+  - changeSet:
+      id: 204
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: party
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: party
+            columnName: code
