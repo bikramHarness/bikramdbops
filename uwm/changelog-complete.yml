@@ -218,11 +218,11 @@ databaseChangeLog:
        ignore: true
        changes:
        -  sqlFile:
-          path: 48-HourDeploys/scripts/bikram/bikramlargelog-01.sql
-          endDelimiter:  \nGO
-          stripComments: true
+             path: 48-HourDeploys/scripts/bikram/bikramlargelog-01.sql
+             endDelimiter:  \nGO
+             stripComments: true
        rollback:
        -  sqlFile:
-          path: 48-HourDeploys/scripts/bikram/rollback-largelog-01.sql
-          endDelimiter:  \nGO
-          stripComments: true
+             path: 48-HourDeploys/scripts/bikram/rollback-largelog-01.sql
+             endDelimiter:  \nGO
+             stripComments: true
