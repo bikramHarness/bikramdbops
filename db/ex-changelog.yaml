@@ -195,57 +195,57 @@ databaseChangeLog:
             columnName: field4
 
 
-  - changeSet:
-      id: 309
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field5
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field5
-
-  - changeSet:
-      id: 310
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field6
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field6
-
-
-  - changeSet:
-      id: 311
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field7
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field7
+#  - changeSet:
+#      id: 309
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: abcd
+#            columns:
+#              - column:
+#                  name: field5
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: abcd
+#            columnName: field5
+#
+#  - changeSet:
+#      id: 310
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: abcd
+#            columns:
+#              - column:
+#                  name: field6
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: abcd
+#            columnName: field6
+#
+#
+#  - changeSet:
+#      id: 311
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: abcd
+#            columns:
+#              - column:
+#                  name: field7
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: abcd
+#            columnName: field7
