@@ -120,3 +120,21 @@ databaseChangeLog:
         - dropColumn:
             tableName: party
             columnName: code
+
+  - changeSet:
+      id: 209
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: party
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: party
+            columnName: field1
