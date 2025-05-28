@@ -104,16 +104,6 @@ databaseChangeLog:
             columnName: state
 
   - changeSet:
-      id: 001-create-users-table
-      author: bikram
-      sqlFile:
-        path: example-changelog.sql
-        relativeToChangelogFile: true
-        endDelimiter: ;
-        splitStatements: true
-        stripComments: true
-
-  - changeSet:
       id: 208
       author: bikramkumar
       labels: example-label
