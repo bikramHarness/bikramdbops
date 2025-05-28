@@ -1,0 +1,1 @@
+DROP PROCEDURE IF EXISTS [BRWFIN].[USFS_usp_Merge_LiabilitiesAutomation];

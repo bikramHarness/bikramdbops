@@ -1,0 +1,1 @@
+DROP TYPE [BRWFIN].[udtt_AutomateLiabilityType];
