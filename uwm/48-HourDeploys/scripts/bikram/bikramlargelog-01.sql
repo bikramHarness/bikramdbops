@@ -1,3 +1,16 @@
+USE ${instance-db}
+go
+
+
+
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
 -- 1. Create a new table for customer data
 CREATE TABLE customers (
                            customer_id INT PRIMARY KEY IDENTITY(1,1),
