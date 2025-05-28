@@ -213,36 +213,16 @@ databaseChangeLog:
           endDelimiter:  \nGO
           stripComments: true
 - changeSet:
-      id: my.poc:1
-      author: my.poc
-      labels: tag_1 
-      context: example-context
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: person
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-              - column:
-                  name: name
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: city
-                  type: VARCHAR(30)
-      rollback:
-        - dropTable:
-            tableName: person          
-            
+       id: bikramlargelog
+       author: bikramkumar
+       ignore: true
+       changes:
+       -  sqlFile:
+          path: 48-HourDeploys/scripts/UCLOSE-2750/UCLOSE-2750.001.sql
+          endDelimiter:  \nGO
+          stripComments: true
+       rollback:
+       -  sqlFile:
+          path: 48-HourDeploys/scripts/UCLOSE-2750/_ROLLBACK/ROLLBACK.UCLOSE-2750.001.sql
+          endDelimiter:  \nGO
+          stripComments: true
