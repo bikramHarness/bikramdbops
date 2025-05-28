@@ -1,13 +1,13 @@
 databaseChangeLog:
   - changeSet:
-      id: 201
+      id: 300
       author: bikramkumar
       labels: tag_1
       context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: party
+            tableName: abcd
             columns:
               - column:
                   name: id
@@ -31,17 +31,17 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: party
+            tableName: abcd
 
   - changeSet:
-      id: 200
+      id: 301
       author: bikramkumar
       labels: tag_2
       context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: rockstar
+            tableName: efgh
             columns:
               - column:
                   name: id
@@ -65,76 +65,76 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: rockstar
+            tableName: efgh
 
   - changeSet:
-      id: 203
+      id: 302
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: party
+            tableName: abcd
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: party
+            tableName: abcd
             columnName: country
 
   - changeSet:
-      id: 204
+      id: 303
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: party
+            tableName: abcd
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: party
+            tableName: abcd
             columnName: state
 
   - changeSet:
-      id: 208
+      id: 304
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: party
+            tableName: abcd
             columns:
               - column:
                   name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: party
+            tableName: abcd
             columnName: code
 
   - changeSet:
-      id: 209
+      id: 305
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: party
+            tableName: abcd
             columns:
               - column:
                   name: field1
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: party
+            tableName: abcd
             columnName: field1
