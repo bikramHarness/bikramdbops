@@ -249,3 +249,21 @@ databaseChangeLog:
         - dropColumn:
             tableName: abcd
             columnName: field7
+
+  - changeSet:
+      id: 312
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: abcd
+            columns:
+              - column:
+                  name: field8
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: abcd
+            columnName: field8
