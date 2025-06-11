@@ -267,9 +267,27 @@ databaseChangeLog:
         - dropColumn:
             tableName: people
             columnName: field8
-#
+
+  - changeSet:
+      id: 313
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: people
+            columns:
+              - column:
+                  name: field9
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: people
+            columnName: field9
+
 #  - changeSet:
-#      id: 313
+#      id: 314
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
@@ -279,9 +297,9 @@ databaseChangeLog:
 #            tableName: people
 #            columns:
 #              - column:
-#                  name: field9
+#                  name: field10
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
 #            tableName: people
-#            columnName: field9
+#            columnName: field10
