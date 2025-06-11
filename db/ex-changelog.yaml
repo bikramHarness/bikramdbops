@@ -7,7 +7,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: abcd
+            tableName: people
             columns:
               - column:
                   name: id
@@ -31,7 +31,7 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: abcd
+            tableName: people
 
   - changeSet:
       id: 301
@@ -41,7 +41,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: efgh
+            tableName: folks
             columns:
               - column:
                   name: id
@@ -65,7 +65,7 @@ databaseChangeLog:
                   type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: efgh
+            tableName: folks
 
   - changeSet:
       id: 302
@@ -75,14 +75,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
+            tableName: people
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: abcd
+            tableName: people
             columnName: country
 
   - changeSet:
@@ -93,14 +93,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
+            tableName: people
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abcd
+            tableName: people
             columnName: state
 
   - changeSet:
@@ -111,14 +111,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
+            tableName: people
             columns:
               - column:
                   name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abcd
+            tableName: people
             columnName: code
 
   - changeSet:
@@ -129,14 +129,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
+            tableName: people
             columns:
               - column:
                   name: field1
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abcd
+            tableName: people
             columnName: field1
 
   - changeSet:
@@ -147,14 +147,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
+            tableName: people
             columns:
               - column:
                   name: field2
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abcd
+            tableName: people
             columnName: field2
 
 #  - changeSet:
@@ -165,14 +165,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field3
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field3
 #
 #
@@ -184,14 +184,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field4
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field4
 #
 #
@@ -203,14 +203,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field5
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field5
 
 #  - changeSet:
@@ -221,14 +221,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field6
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field6
 #
 #
@@ -240,14 +240,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field7
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field7
 #
 #  - changeSet:
@@ -258,14 +258,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field8
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field8
 #
 #  - changeSet:
@@ -276,12 +276,12 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: abcd
+#            tableName: people
 #            columns:
 #              - column:
 #                  name: field9
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: abcd
+#            tableName: people
 #            columnName: field9
