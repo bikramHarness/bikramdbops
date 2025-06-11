@@ -157,61 +157,61 @@ databaseChangeLog:
             tableName: people
             columnName: field2
 
-#  - changeSet:
-#      id: 307
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: people
-#            columns:
-#              - column:
-#                  name: field3
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: people
-#            columnName: field3
-#
-#
-#  - changeSet:
-#      id: 308
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: people
-#            columns:
-#              - column:
-#                  name: field4
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: people
-#            columnName: field4
-#
-#
-#  - changeSet:
-#      id: 309
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: people
-#            columns:
-#              - column:
-#                  name: field5
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: people
-#            columnName: field5
+  - changeSet:
+      id: 307
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: people
+            columns:
+              - column:
+                  name: field3
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: people
+            columnName: field3
+
+
+  - changeSet:
+      id: 308
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: people
+            columns:
+              - column:
+                  name: field4
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: people
+            columnName: field4
+
+
+  - changeSet:
+      id: 309
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: people
+            columns:
+              - column:
+                  name: field5
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: people
+            columnName: field5
 
 #  - changeSet:
 #      id: 310
