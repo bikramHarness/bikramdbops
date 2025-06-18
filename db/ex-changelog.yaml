@@ -109,7 +109,7 @@ databaseChangeLog:
             columnName: field2
 
   - changeSet:
-      id: 405_1
+      id: 406first
       author: bikramkumar
       context: example-context
       comment: I really want another column
@@ -118,15 +118,15 @@ databaseChangeLog:
             tableName: employee
             columns:
               - column:
-                  name: field6
+                  name: firstname
                   type: varchar(100)
       rollback:
         - dropColumn:
             tableName: employee
-            columnName: field6
+            columnName: firstname
 
   - changeSet:
-      id: 405_2
+      id: 406last
       author: bikramkumar
       context: example-context
       comment: I really want another column
@@ -135,12 +135,12 @@ databaseChangeLog:
             tableName: employee
             columns:
               - column:
-                  name: field7
+                  name: lastname
                   type: varchar(100)
       rollback:
         - dropColumn:
             tableName: employee
-            columnName: field7
+            columnName: lastname
 
 #  - changeSet:
 #      id: bikramkumar1
