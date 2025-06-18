@@ -107,40 +107,40 @@ databaseChangeLog:
         - dropColumn:
             tableName: employee
             columnName: field2
-#
-#  - changeSet:
-#      id: 406
-#      author: satwell@harness.io
-#      context: example-context
-#      comment: I really want another column
-#      changes:
-#        - addColumn:
-#            tableName: employee
-#            columns:
-#              - column:
-#                  name: field6
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: employee
-#            columnName: field6
 
-#  - changeSet:
-#      id: 407
-#      author: satwell@harness.io
-#      context: example-context
-#      comment: I really want another column
-#      changes:
-#        - addColumn:
-#            tableName: employee
-#            columns:
-#              - column:
-#                  name: field6
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: employee
-#            columnName: field6
+  - changeSet:
+      id: 406
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: field6
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: field6
+
+  - changeSet:
+      id: 407
+      author: satwell@harness.io
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: field6
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: field6
 
 #  - changeSet:
 #      id: bikramkumar1
