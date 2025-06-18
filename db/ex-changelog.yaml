@@ -109,8 +109,8 @@ databaseChangeLog:
             columnName: field2
 
   - changeSet:
-      id: 406
-      author: satwell@harness.io
+      id: 405_1
+      author: bikramkumar
       context: example-context
       comment: I really want another column
       changes:
@@ -126,8 +126,8 @@ databaseChangeLog:
             columnName: field6
 
   - changeSet:
-      id: 407
-      author: satwell@harness.io
+      id: 405_2
+      author: bikramkumar
       context: example-context
       comment: I really want another column
       changes:
@@ -135,12 +135,12 @@ databaseChangeLog:
             tableName: employee
             columns:
               - column:
-                  name: field6
+                  name: field7
                   type: varchar(100)
       rollback:
         - dropColumn:
             tableName: employee
-            columnName: field6
+            columnName: field7
 
 #  - changeSet:
 #      id: bikramkumar1
