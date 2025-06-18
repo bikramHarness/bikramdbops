@@ -1,5 +1,24 @@
 databaseChangeLog:
   - changeSet:
+      id: 400
+      author: bikramkumar
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: employee
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: employee
+
+  - changeSet:
       id: 401
       author: bikramkumar
       labels: tag_3
