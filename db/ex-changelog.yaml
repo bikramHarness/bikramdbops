@@ -72,44 +72,61 @@ databaseChangeLog:
             tableName: employee
             columnName: code
 
+  - changeSet:
+      id: 404
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: field1
+
+  - changeSet:
+      id: 405
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: field2
+#
 #  - changeSet:
-#      id: 404
-#      author: bikramkumar
-#      labels: example-label
+#      id: 406
+#      author: satwell@harness.io
 #      context: example-context
-#      comment: example comment
+#      comment: I really want another column
 #      changes:
 #        - addColumn:
 #            tableName: employee
 #            columns:
 #              - column:
-#                  name: field1
-#                  type: varchar(10)
+#                  name: field6
+#                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
 #            tableName: employee
-#            columnName: field1
-#
+#            columnName: field6
+
 #  - changeSet:
-#      id: 405
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: employee
-#            columns:
-#              - column:
-#                  name: field2
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: employee
-#            columnName: field2
-#
-#  - changeSet:
-#      id: satwell:11
+#      id: 407
 #      author: satwell@harness.io
 #      context: example-context
 #      comment: I really want another column
