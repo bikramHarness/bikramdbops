@@ -142,32 +142,32 @@ databaseChangeLog:
             tableName: team
             columnName: lastname
 
-#  - changeSet:
-#      id: 408
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: team
-#            columns:
-#              - column:
-#                  name: updatedBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: team
-#            columnName: updatedBy
-#
-#  - changeSet:
-#      id: 409
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: team
-#            columns:
-#              - column:
-#                  name: createdBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: team
-#            columnName: createdBy
+  - changeSet:
+      id: 408
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: team
+            columns:
+              - column:
+                  name: updatedBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: team
+            columnName: updatedBy
+
+  - changeSet:
+      id: 409
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: team
+            columns:
+              - column:
+                  name: createdBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: team
+            columnName: createdBy
