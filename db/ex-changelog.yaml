@@ -107,40 +107,40 @@ databaseChangeLog:
         - dropColumn:
             tableName: team
             columnName: field2
-#
-#  - changeSet:
-#      id: 506
-#      author: bikramkumar
-#      context: example-context
-#      comment: I really want another column
-#      changes:
-#        - addColumn:
-#            tableName: team
-#            columns:
-#              - column:
-#                  name: firstname
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: team
-#            columnName: firstname
-#
-#  - changeSet:
-#      id: 507
-#      author: bikramkumar
-#      context: example-context
-#      comment: I really want another column
-#      changes:
-#        - addColumn:
-#            tableName: team
-#            columns:
-#              - column:
-#                  name: lastname
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: team
-#            columnName: lastname
+
+  - changeSet:
+      id: 506
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: team
+            columns:
+              - column:
+                  name: firstname
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: team
+            columnName: firstname
+
+  - changeSet:
+      id: 507
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: team
+            columns:
+              - column:
+                  name: lastname
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: team
+            columnName: lastname
 
 #  - changeSet:
 #      id: 408
