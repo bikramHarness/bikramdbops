@@ -53,85 +53,85 @@ databaseChangeLog:
             tableName: employee
             columnName: code
 
-  - changeSet:
-      id: 304
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: field1
+#  - changeSet:
+#      id: 304
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: field1
+#
+#  - changeSet:
+#      id: 305
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: field2
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: field2
+#
+#  - changeSet:
+#      id: satwell:11
+#      author: satwell@harness.io
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: field6
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: field6
 
-  - changeSet:
-      id: 305
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: field2
-
-  - changeSet:
-      id: satwell:11
-      author: satwell@harness.io
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: field6
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: field6
-
-  - changeSet:
-      id: bikramkumar1
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: updatedBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: updatedBy
-
-  - changeSet:
-      id: bikramkumar12
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: createdBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: createdBy
+#  - changeSet:
+#      id: bikramkumar1
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: updatedBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: updatedBy
+#
+#  - changeSet:
+#      id: bikramkumar12
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: createdBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: createdBy
