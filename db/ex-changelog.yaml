@@ -142,32 +142,32 @@ databaseChangeLog:
             tableName: employee
             columnName: lastname
 
-#  - changeSet:
-#      id: bikramkumar1
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: employee
-#            columns:
-#              - column:
-#                  name: updatedBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: employee
-#            columnName: updatedBy
-#
-#  - changeSet:
-#      id: bikramkumar12
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: employee
-#            columns:
-#              - column:
-#                  name: createdBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: employee
-#            columnName: createdBy
+  - changeSet:
+      id: bikramkumar1
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: updatedBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: updatedBy
+
+  - changeSet:
+      id: bikramkumar12
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: createdBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: createdBy
