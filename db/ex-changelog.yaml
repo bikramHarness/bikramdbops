@@ -6,7 +6,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: employee
+            tableName: team
             columns:
               - column:
                   name: id
@@ -16,7 +16,7 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: employee
+            tableName: team
 
   - changeSet:
       id: 401
@@ -26,14 +26,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: employee
+            tableName: team
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: employee
+            tableName: team
             columnName: country
 
   - changeSet:
@@ -44,14 +44,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: employee
+            tableName: team
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: employee
+            tableName: team
             columnName: state
 
   - changeSet:
@@ -62,14 +62,14 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: employee
+            tableName: team
             columns:
               - column:
                   name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: employee
+            tableName: team
             columnName: code
 
 #  - changeSet:
@@ -80,14 +80,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: employee
+#            tableName: team
 #            columns:
 #              - column:
 #                  name: field1
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: employee
+#            tableName: team
 #            columnName: field1
 #
 #  - changeSet:
@@ -98,14 +98,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: employee
+#            tableName: team
 #            columns:
 #              - column:
 #                  name: field2
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: employee
+#            tableName: team
 #            columnName: field2
 
 #  - changeSet:
@@ -115,14 +115,14 @@ databaseChangeLog:
 #      comment: I really want another column
 #      changes:
 #        - addColumn:
-#            tableName: employee
+#            tableName: team
 #            columns:
 #              - column:
 #                  name: firstname
 #                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
-#            tableName: employee
+#            tableName: team
 #            columnName: firstname
 #
 #  - changeSet:
@@ -132,14 +132,14 @@ databaseChangeLog:
 #      comment: I really want another column
 #      changes:
 #        - addColumn:
-#            tableName: employee
+#            tableName: team
 #            columns:
 #              - column:
 #                  name: lastname
 #                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
-#            tableName: employee
+#            tableName: team
 #            columnName: lastname
 
 #  - changeSet:
@@ -147,14 +147,14 @@ databaseChangeLog:
 #      author: bikramkumar
 #      changes:
 #        - addColumn:
-#            tableName: employee
+#            tableName: team
 #            columns:
 #              - column:
 #                  name: updatedBy
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: employee
+#            tableName: team
 #            columnName: updatedBy
 #
 #  - changeSet:
@@ -162,12 +162,12 @@ databaseChangeLog:
 #      author: bikramkumar
 #      changes:
 #        - addColumn:
-#            tableName: employee
+#            tableName: team
 #            columns:
 #              - column:
 #                  name: createdBy
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: employee
+#            tableName: team
 #            columnName: createdBy
