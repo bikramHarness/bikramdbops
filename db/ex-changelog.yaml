@@ -72,102 +72,102 @@ databaseChangeLog:
             tableName: employee
             columnName: code
 
-  - changeSet:
-      id: 404
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: field1
+#  - changeSet:
+#      id: 404
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: field1
+#
+#  - changeSet:
+#      id: 405
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: field2
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: field2
 
-  - changeSet:
-      id: 405
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: field2
+#  - changeSet:
+#      id: 406
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: firstname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: firstname
+#
+#  - changeSet:
+#      id: 407
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: lastname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: lastname
 
-  - changeSet:
-      id: 406first
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: firstname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: firstname
-
-  - changeSet:
-      id: 406last
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: lastname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: lastname
-
-  - changeSet:
-      id: bikramkumar1
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: updatedBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: updatedBy
-
-  - changeSet:
-      id: bikramkumar12
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: createdBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: createdBy
+#  - changeSet:
+#      id: 408
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: updatedBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: updatedBy
+#
+#  - changeSet:
+#      id: 409
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: employee
+#            columns:
+#              - column:
+#                  name: createdBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: employee
+#            columnName: createdBy
