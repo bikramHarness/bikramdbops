@@ -1,89 +1,39 @@
 databaseChangeLog:
   - changeSet:
-      id: 300
-      author: bikramkumar
-      labels: tag_1
-      context: example-context
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: people
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-              - column:
-                  name: name
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: city
-                  type: VARCHAR(30)
-      rollback:
-        - dropTable:
-            tableName: people
-
-  - changeSet:
       id: 301
-      author: bikramkumar
-      labels: tag_2
-      context: example-context
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: folks
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-              - column:
-                  name: name
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: city
-                  type: VARCHAR(30)
-      rollback:
-        - dropTable:
-            tableName: folks
-
-  - changeSet:
-      id: 302
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: people
+            tableName: employee
             columnName: country
+
+  - changeSet:
+      id: 302
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: state
 
   - changeSet:
       id: 303
@@ -93,15 +43,15 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
-                  name: state
+                  name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: people
-            columnName: state
+            tableName: employee
+            columnName: code
 
   - changeSet:
       id: 304
@@ -111,15 +61,15 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
-                  name: code
+                  name: field1
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: people
-            columnName: code
+            tableName: employee
+            columnName: field1
 
   - changeSet:
       id: 305
@@ -129,177 +79,59 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: people
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: people
-            columnName: field1
-
-  - changeSet:
-      id: 306
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
                   name: field2
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: people
+            tableName: employee
             columnName: field2
 
   - changeSet:
-      id: 307
-      author: bikramkumar
-      labels: example-label
+      id: satwell:11
+      author: satwell@harness.io
       context: example-context
-      comment: example comment
+      comment: I really want another column
       changes:
         - addColumn:
-            tableName: people
-            columns:
-              - column:
-                  name: field3
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: people
-            columnName: field3
-
-
-  - changeSet:
-      id: 308
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: people
-            columns:
-              - column:
-                  name: field4
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: people
-            columnName: field4
-
-
-  - changeSet:
-      id: 309
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: people
-            columns:
-              - column:
-                  name: field5
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: people
-            columnName: field5
-
-  - changeSet:
-      id: 310
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
                   name: field6
-                  type: varchar(10)
+                  type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: people
+            tableName: employee
             columnName: field6
 
-
   - changeSet:
-      id: 311
+      id: bikramkumar1
       author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
       changes:
         - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
-                  name: field7
+                  name: updatedBy
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: people
-            columnName: field7
+            tableName: employee
+            columnName: updatedBy
 
   - changeSet:
-      id: 312
+      id: bikramkumar12
       author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
       changes:
         - addColumn:
-            tableName: people
+            tableName: employee
             columns:
               - column:
-                  name: field8
+                  name: createdBy
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: people
-            columnName: field8
-
-  - changeSet:
-      id: 313
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: people
-            columns:
-              - column:
-                  name: field9
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: people
-            columnName: field9
-
-#  - changeSet:
-#      id: 314
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: people
-#            columns:
-#              - column:
-#                  name: field10
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: people
-#            columnName: field10
+            tableName: employee
+            columnName: createdBy
