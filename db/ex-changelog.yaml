@@ -72,41 +72,41 @@ databaseChangeLog:
             tableName: team
             columnName: code
 
-#  - changeSet:
-#      id: 404
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: team
-#            columns:
-#              - column:
-#                  name: field1
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: team
-#            columnName: field1
-#
-#  - changeSet:
-#      id: 405
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: team
-#            columns:
-#              - column:
-#                  name: field2
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: team
-#            columnName: field2
+  - changeSet:
+      id: 504
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: team
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: team
+            columnName: field1
+
+  - changeSet:
+      id: 505
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: team
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: team
+            columnName: field2
 
 #  - changeSet:
 #      id: 406
