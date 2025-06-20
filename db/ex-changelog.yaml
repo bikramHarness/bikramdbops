@@ -171,3 +171,21 @@ databaseChangeLog:
         - dropColumn:
             tableName: team
             columnName: createdBy
+
+  - changeSet:
+      id: 510
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: employee
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: employee
+            columnName: code
