@@ -1,47 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: 300
-      author: bikramkumar
-      labels: tag_1
-      context: example-context
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: abcd
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-              - column:
-                  name: name
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: city
-                  type: VARCHAR(30)
-      rollback:
-        - dropTable:
-            tableName: abcd
-
-  - changeSet:
-      id: 301
+      id: 600
       author: bikramkumar
       labels: tag_2
-      context: example-context
       comment: example comment
       changes:
         - createTable:
-            tableName: efgh
+            tableName: team
             columns:
               - column:
                   name: id
@@ -49,203 +14,178 @@ databaseChangeLog:
                   autoIncrement: true
                   constraints:
                     primaryKey: true
-              - column:
-                  name: name
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: city
-                  type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: efgh
+            tableName: team
+
+#  - changeSet:
+#      id: 601
+#      author: bikramkumar
+#      labels: tag_3
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: country
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: country
+#
+#  - changeSet:
+#      id: 602
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: state
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: state
 
   - changeSet:
-      id: 302
-      author: bikramkumar
-      labels: tag_3
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: country
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: country
-
-  - changeSet:
-      id: 303
+      id: 603
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: state
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: state
-
-  - changeSet:
-      id: 304
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
+            tableName: employee
             columns:
               - column:
                   name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abcd
+            tableName: employee
             columnName: code
 
   - changeSet:
-      id: 305
+      id: 603
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: abcd
+            tableName: team
             columns:
               - column:
-                  name: field1
+                  name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: abcd
-            columnName: field1
+            tableName: team
+            columnName: code
 
-  - changeSet:
-      id: 306
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field2
-
-  - changeSet:
-      id: 307
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field3
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field3
-
-
-  - changeSet:
-      id: 308
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field4
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field4
-
-
-  - changeSet:
-      id: 309
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field5
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field5
-
-  - changeSet:
-      id: 310
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field6
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field6
-
-
-  - changeSet:
-      id: 311
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: abcd
-            columns:
-              - column:
-                  name: field7
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: abcd
-            columnName: field7
+#  - changeSet:
+#      id: 504
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: field1
+#
+#  - changeSet:
+#      id: 505
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: field2
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: field2
+#
+#  - changeSet:
+#      id: 506
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: firstname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: firstname
+#
+#  - changeSet:
+#      id: 507
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: lastname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: lastname
+#
+#  - changeSet:
+#      id: 408
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: updatedBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: updatedBy
+#
+#  - changeSet:
+#      id: 409
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: team
+#            columns:
+#              - column:
+#                  name: createdBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: team
+#            columnName: createdBy
