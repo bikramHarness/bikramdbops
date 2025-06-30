@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: 500
+      id: 100
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: team
+            tableName: schema
             columns:
               - column:
                   name: id
@@ -16,176 +16,176 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: team
+            tableName: schema
 
   - changeSet:
-      id: 501
+      id: 101
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: team
+            tableName: schema
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: team
+            tableName: schema
             columnName: country
 
   - changeSet:
-      id: 502
+      id: 102
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: team
+            tableName: schema
             columns:
               - column:
                   name: state
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: team
+            tableName: schema
             columnName: state
 
-  - changeSet:
-      id: 503
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: code
+#  - changeSet:
+#      id: 103
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: code
 
-  - changeSet:
-      id: 504
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: field1
-
-  - changeSet:
-      id: 505
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: field2
-
-  - changeSet:
-      id: 506
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: firstname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: firstname
-
-  - changeSet:
-      id: 507
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: lastname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: lastname
-
-  - changeSet:
-      id: 408
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: updatedBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: updatedBy
-
-  - changeSet:
-      id: 409
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: team
-            columns:
-              - column:
-                  name: createdBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: team
-            columnName: createdBy
-
-  - changeSet:
-      id: 510
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: employee
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: employee
-            columnName: code
+#  - changeSet:
+#      id: 504
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: field1
+#
+#  - changeSet:
+#      id: 505
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: field2
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: field2
+#
+#  - changeSet:
+#      id: 506
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: firstname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: firstname
+#
+#  - changeSet:
+#      id: 507
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: lastname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: lastname
+#
+#  - changeSet:
+#      id: 508
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: updatedBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: updatedBy
+#
+#  - changeSet:
+#      id: 509
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: createdBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: createdBy
+#
+#  - changeSet:
+#      id: 510
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: schema
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema
+#            columnName: code
