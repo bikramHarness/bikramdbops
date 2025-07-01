@@ -36,23 +36,23 @@ databaseChangeLog:
             tableName: instance1
             columnName: country
 
-#  - changeSet:
-#      id: 602
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: instance1
-#            columns:
-#              - column:
-#                  name: state
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: instance1
-#            columnName: state
+  - changeSet:
+      id: 602
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: instance1
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: instance1
+            columnName: state
 
 #  - changeSet:
 #      id: 603
