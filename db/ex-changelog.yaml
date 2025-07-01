@@ -54,23 +54,23 @@ databaseChangeLog:
             tableName: schema1
             columnName: state
 
-#  - changeSet:
-#      id: 203
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: schema1
-#            columns:
-#              - column:
-#                  name: code
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: schema1
-#            columnName: code
+  - changeSet:
+      id: 203
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: schema1
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: schema1
+            columnName: code
 
 #  - changeSet:
 #      id: 204
