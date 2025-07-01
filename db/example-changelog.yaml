@@ -36,23 +36,23 @@ databaseChangeLog:
             tableName: hotel
             columnName: country
 
-#  - changeSet:
-#      id: 202
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: hotel
-#            columns:
-#              - column:
-#                  name: state
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: hotel
-#            columnName: state
+  - changeSet:
+      id: 202
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: hotel
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: hotel
+            columnName: state
 
 #  - changeSet:
 #      id: 203
