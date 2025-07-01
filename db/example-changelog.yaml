@@ -1,13 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: 123456
+      id: 200
       author: bikramkumar
-      labels: tag_1 
-      context: example-context
+      labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: ${table-name}
+            tableName: hotel
             columns:
               - column:
                   name: id
@@ -15,117 +14,178 @@ databaseChangeLog:
                   autoIncrement: true
                   constraints:
                     primaryKey: true
-              - column:
-                  name: ${column-name}
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: ${column-city}
-                  type: VARCHAR(30)
       rollback:
         - dropTable:
-            tableName: person
+            tableName: hotel
 
   - changeSet:
-      id: 1234568
+      id: 201
       author: bikramkumar
-      labels: tag_2 
-      context: example-context
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: company
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-              - column:
-                  name: name
-                  type: VARCHAR(50)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: address1
-                  type: VARCHAR(50)
-              - column:
-                  name: address2
-                  type: VARCHAR(50)
-              - column:
-                  name: city
-                  type: VARCHAR(30)
-      rollback:
-        - dropTable:
-            tableName: company
-
-  - changeSet:
-      id: 089747578
-      author: my.poc
-      labels: example-label
+      labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: person
+            tableName: hotel
             columns:
               - column:
-                  name: state
-                  type: varchar(10)
+                  name: country
+                  type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: person
-            columnName: state
+            tableName: hotel
+            columnName: country
 
-  - changeSet:
-      id: bikramkumar12489
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: person
-            columns:
-              - column:
-                  name: ${column.updatedBy}
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: person
-            columnName: updatedBy
+#  - changeSet:
+#      id: 202
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: state
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: state
 
-  - changeSet:
-      id: bikramkumarsql
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: company
-            columns:
-              - column:
-                  name: text
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: company
-            columnName: text
+#  - changeSet:
+#      id: 203
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: code
 
-  - changeSet:
-      id: bikramkumarstate
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: company
-            columns:
-              - column:
-                  name: state
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: company
-            columnName: state
+#  - changeSet:
+#      id: 204
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: field1
+#
+#  - changeSet:
+#      id: 505
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: field2
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: field2
+#
+#  - changeSet:
+#      id: 506
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: firstname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: firstname
+#
+#  - changeSet:
+#      id: 507
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: lastname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: lastname
+#
+#  - changeSet:
+#      id: 508
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: updatedBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: updatedBy
+#
+#  - changeSet:
+#      id: 509
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: createdBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: createdBy
+#
+#  - changeSet:
+#      id: 510
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: hotel
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: hotel
+#            columnName: code
