@@ -6,7 +6,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - createTable:
-            tableName: schema
+            tableName: schema1
             columns:
               - column:
                   name: id
@@ -16,7 +16,7 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: schema
+            tableName: schema1
 
   - changeSet:
       id: 101
@@ -26,33 +26,33 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: schema
+            tableName: schema1
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: schema
+            tableName: schema1
             columnName: country
 
-  - changeSet:
-      id: 102
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: schema
-            columns:
-              - column:
-                  name: state
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: schema
-            columnName: state
+#  - changeSet:
+#      id: 102
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: schema1
+#            columns:
+#              - column:
+#                  name: state
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: schema1
+#            columnName: state
 
 #  - changeSet:
 #      id: 103
@@ -62,14 +62,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: code
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: code
 
 #  - changeSet:
@@ -80,14 +80,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: field1
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: field1
 #
 #  - changeSet:
@@ -98,14 +98,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: field2
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: field2
 #
 #  - changeSet:
@@ -115,14 +115,14 @@ databaseChangeLog:
 #      comment: I really want another column
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: firstname
 #                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: firstname
 #
 #  - changeSet:
@@ -132,14 +132,14 @@ databaseChangeLog:
 #      comment: I really want another column
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: lastname
 #                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: lastname
 #
 #  - changeSet:
@@ -147,14 +147,14 @@ databaseChangeLog:
 #      author: bikramkumar
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: updatedBy
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: updatedBy
 #
 #  - changeSet:
@@ -162,14 +162,14 @@ databaseChangeLog:
 #      author: bikramkumar
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: createdBy
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: createdBy
 #
 #  - changeSet:
@@ -180,12 +180,12 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columns:
 #              - column:
 #                  name: code
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: schema
+#            tableName: schema1
 #            columnName: code
