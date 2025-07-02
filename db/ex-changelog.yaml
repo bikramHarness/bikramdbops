@@ -72,23 +72,23 @@ databaseChangeLog:
             tableName: repo
             columnName: code
 
-#  - changeSet:
-#      id: 204
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: field1
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: field1
+  - changeSet:
+      id: b204
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: field1
 #
 #  - changeSet:
 #      id: 505
