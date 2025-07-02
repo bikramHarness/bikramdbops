@@ -1,0 +1,14 @@
+name: <+pipeline.name>
+replicas: 1
+
+image: <+artifact.image>
+dockercfg: <+artifact.imagePullSecret>
+
+createNamespace: true
+namespace: <+infra.namespace>
+
+env:
+  config:
+    key1: value1
+  secrets:
+    key2: value2

@@ -1,0 +1,6 @@
+name: <+pipeline.name>_<+pipeline.executionId>
+replica: 2
+#replica: <+2 ne <+pipeline.variables.replica> ? <+pipeline.variables.replica> : 1>
+#label: <+"local" ne <+pipeline.variables.label> ? "notequal" : "equal">
+#label: "<+ <+pipeline.variables>.contains("label") ? <+pipeline.variables.label> :"empty">"
+label: <+env.name> + "-" + <+project.name>
