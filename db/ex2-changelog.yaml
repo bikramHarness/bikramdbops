@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: 600
+      id: b600
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: instance1
+            tableName: repos
             columns:
               - column:
                   name: id
@@ -16,43 +16,43 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: instance1
+            tableName: repos
 
   - changeSet:
-      id: 601
+      id: b601
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: instance1
+            tableName: repos
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: instance1
+            tableName: repos
             columnName: country
 
-  - changeSet:
-      id: 602
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: instance1
-            columns:
-              - column:
-                  name: state
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: instance1
-            columnName: state
+#  - changeSet:
+#      id: 602
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: repos
+#            columns:
+#              - column:
+#                  name: state
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: repos
+#            columnName: state
 
 #  - changeSet:
 #      id: 603
@@ -80,14 +80,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: code
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: code
 
 #  - changeSet:
@@ -98,14 +98,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: field1
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: field1
 #
 #  - changeSet:
@@ -116,14 +116,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: field2
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: field2
 #
 #  - changeSet:
@@ -133,14 +133,14 @@ databaseChangeLog:
 #      comment: I really want another column
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: firstname
 #                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: firstname
 #
 #  - changeSet:
@@ -150,14 +150,14 @@ databaseChangeLog:
 #      comment: I really want another column
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: lastname
 #                  type: varchar(100)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: lastname
 #
 #  - changeSet:
@@ -165,14 +165,14 @@ databaseChangeLog:
 #      author: bikramkumar
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: updatedBy
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: updatedBy
 #
 #  - changeSet:
@@ -180,12 +180,12 @@ databaseChangeLog:
 #      author: bikramkumar
 #      changes:
 #        - addColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columns:
 #              - column:
 #                  name: createdBy
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: instance1
+#            tableName: repos
 #            columnName: createdBy
