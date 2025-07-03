@@ -56,3 +56,12 @@ databaseChangeLog:
       changes:
         - createCollection:
             collectionName: plants
+
+  - changeSet:
+      id: satwell:16
+      author: satwell@harness.io
+      changes:
+        - loadUpdateData:
+            file: example/users.csv
+            primaryKey: scientific_name
+            tableName: plants
