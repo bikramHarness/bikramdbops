@@ -54,6 +54,15 @@ databaseChangeLog:
             tableName: hotel
             columnName: state
 
+  - changeSet:
+      id: satwell:16
+      author: satwell@harness.io
+      changes:
+        - loadUpdateData:
+            file: example/users.csv
+            primaryKey: scientific_name
+            tableName: plants
+
 #  - changeSet:
 #      id: 203
 #      author: bikramkumar
