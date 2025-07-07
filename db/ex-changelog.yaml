@@ -36,94 +36,94 @@ databaseChangeLog:
             tableName: repo
             columnName: country
 
-#  - changeSet:
-#      id: b202
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: state
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: state
-#
-#  - changeSet:
-#      id: b203
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: code
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: code
-#
-#  - changeSet:
-#      id: b204
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: field1
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: field1
-#
-#  - changeSet:
-#      id: b205
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: field2
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: field2
-#
-#  - changeSet:
-#      id: 506
-#      author: bikramkumar
-#      context: example-context
-#      comment: I really want another column
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: firstname
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: firstname
+  - changeSet:
+      id: b202
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: state
+
+  - changeSet:
+      id: b203
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: code
+
+  - changeSet:
+      id: b204
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: field1
+
+  - changeSet:
+      id: b205
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: field2
+
+  - changeSet:
+      id: b206
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: firstname
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: firstname
 #
 #  - changeSet:
 #      id: 507
