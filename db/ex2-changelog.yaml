@@ -36,23 +36,23 @@ databaseChangeLog:
             tableName: repos
             columnName: country
 
-#  - changeSet:
-#      id: b602
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repos
-#            columns:
-#              - column:
-#                  name: state
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repos
-#            columnName: state
+  - changeSet:
+      id: b602
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repos
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repos
+            columnName: state
 #
 #  - changeSet:
 #      id: b603
