@@ -125,22 +125,22 @@ databaseChangeLog:
             tableName: repos
             columnName: firstname
 
-#  - changeSet:
-#      id: 607
-#      author: bikramkumar
-#      context: example-context
-#      comment: I really want another column
-#      changes:
-#        - addColumn:
-#            tableName: repos
-#            columns:
-#              - column:
-#                  name: lastname
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: repos
-#            columnName: lastname
+  - changeSet:
+      id: 607
+      author: bikramkumar
+      context: example-context
+      comment: I really want another column
+      changes:
+        - addColumn:
+            tableName: repos
+            columns:
+              - column:
+                  name: lastname
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: repos
+            columnName: lastname
 #
 #  - changeSet:
 #      id: 608
