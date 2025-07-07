@@ -36,59 +36,59 @@ databaseChangeLog:
             tableName: repos
             columnName: country
 
-  - changeSet:
-      id: b602
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: state
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: state
-
-  - changeSet:
-      id: b603
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: code
-
-  - changeSet:
-      id: b604
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: field1
+#  - changeSet:
+#      id: b602
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: repos
+#            columns:
+#              - column:
+#                  name: state
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: repos
+#            columnName: state
+#
+#  - changeSet:
+#      id: b603
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: repos
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: repos
+#            columnName: code
+#
+#  - changeSet:
+#      id: b604
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: repos
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: repos
+#            columnName: field1
 
 #  - changeSet:
 #      id: 605
