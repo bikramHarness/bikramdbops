@@ -141,36 +141,36 @@ databaseChangeLog:
         - dropColumn:
             tableName: repo
             columnName: lastname
-#
-#  - changeSet:
-#      id: 508
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: updatedBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: updatedBy
-#
-#  - changeSet:
-#      id: 509
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: createdBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: createdBy
+
+  - changeSet:
+      id: b208
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: updatedBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: updatedBy
+
+  - changeSet:
+      id: b209
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: createdBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: createdBy
 #
 #  - changeSet:
 #      id: 510
