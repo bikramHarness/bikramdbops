@@ -90,23 +90,23 @@ databaseChangeLog:
             tableName: repos
             columnName: field1
 
-#  - changeSet:
-#      id: 605
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repos
-#            columns:
-#              - column:
-#                  name: field2
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repos
-#            columnName: field2
+  - changeSet:
+      id: 605
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repos
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repos
+            columnName: field2
 #
 #  - changeSet:
 #      id: 606
