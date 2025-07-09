@@ -57,11 +57,11 @@ databaseChangeLog:
         - createCollection:
             collectionName: dog
 
-#  - changeSet:
-#      id: b106
-#      author: bikramkumar
-#      changes:
-#        - loadUpdateData:
-#            file: example/users.csv
-#            primaryKey: scientific_name
-#            tableName: dog
+  - changeSet:
+      id: b106
+      author: bikramkumar
+      changes:
+        - loadUpdateData:
+            file: example/users.csv
+            primaryKey: scientific_name
+            tableName: dog
