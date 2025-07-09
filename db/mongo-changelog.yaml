@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: b101
-      author: satwell@harness.io
+      author: bikramkumar
       comment: I really want another column
       changes:
         - createCollection:
@@ -24,7 +24,7 @@ databaseChangeLog:
               validationLevel: strict
   - changeSet:
       id: b102
-      author: satwell@harness.io
+      author: bikramkumar
       ignore: false
       context: example-context
       comment: add an index
@@ -35,14 +35,14 @@ databaseChangeLog:
             options: '{unique: false, name: "idx_name"}'
   - changeSet:
       id: b103
-      author: satwell@harness.io
+      author: bikramkumar
       ignore: false
       changes:
         - createCollection:
             collectionName: cat
   - changeSet:
       id: b104
-      author: satwell@harness.io
+      author: bikramkumar
       ignore: false
       changes:
         - createIndex:
@@ -51,7 +51,7 @@ databaseChangeLog:
             options: '{name: "TripPair_Idx17"}'
   - changeSet:
       id: b105
-      author: satwell@harness.io
+      author: bikramkumar
       comment: create dog table
       changes:
         - createCollection:
@@ -59,7 +59,7 @@ databaseChangeLog:
 
   - changeSet:
       id: b106
-      author: satwell@harness.io
+      author: bikramkumar
       changes:
         - loadUpdateData:
             file: example/users.csv
