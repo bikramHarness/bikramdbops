@@ -36,23 +36,23 @@ databaseChangeLog:
             tableName: repo
             columnName: country
 
-#  - changeSet:
-#      id: b202
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: state
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: state
+  - changeSet:
+      id: b202
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repottt
+            columns:
+              - column:
+                  name: state
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repottt
+            columnName: state
 #
 #  - changeSet:
 #      id: b203
