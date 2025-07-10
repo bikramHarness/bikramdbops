@@ -37,22 +37,22 @@ databaseChangeLog:
 #            columnName: country
 
   - changeSet:
-      id: b2021
+      id: b222
       author: bikramkumar1
       labels: example-label
       context: example-context
       comment: example comment
       changes:
-        - addColumn:
-            tableName: repottt
+        - addColumn1:
+            tableName: repo
             columns:
               - column:
-                  name: state
+                  name: street
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: repottt
-            columnName: state
+            tableName: repo
+            columnName: street
 #
 #  - changeSet:
 #      id: b203
