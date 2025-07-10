@@ -43,7 +43,7 @@ databaseChangeLog:
       context: example-context
       comment: example comment
       changes:
-        - addColumn1:
+        - addColumn:
             tableName: repo
             columns:
               - column:
