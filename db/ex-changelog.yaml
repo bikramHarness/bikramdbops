@@ -1,40 +1,40 @@
 databaseChangeLog:
-#  - changeSet:
-#      id: b200
-#      author: bikramkumar
-#      labels: tag_2
-#      comment: example comment
-#      changes:
-#        - createTable:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: id
-#                  type: INT
-#                  autoIncrement: true
-#                  constraints:
-#                    primaryKey: true
-#      rollback:
-#        - dropTable:
-#            tableName: repo
-#
-#  - changeSet:
-#      id: b201
-#      author: bikramkumar
-#      labels: tag_3
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: country
-#                  type: varchar(100)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: country
+  - changeSet:
+      id: b200
+      author: bikramkumar
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: repo
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: repo
+
+  - changeSet:
+      id: b201
+      author: bikramkumar
+      labels: tag_3
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: country
+                  type: varchar(100)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: country
 
   - changeSet:
       id: b211
