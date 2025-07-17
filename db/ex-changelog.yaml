@@ -157,35 +157,35 @@ databaseChangeLog:
             tableName: repo
             columnName: updatedBy
 
-#  - changeSet:
-#      id: b209
-#      author: bikramkumar
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: createdBy
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: createdBy
-#
-#  - changeSet:
-#      id: 510
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: repo
-#            columns:
-#              - column:
-#                  name: code
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: repo
-#            columnName: code
+  - changeSet:
+      id: b209
+      author: bikramkumar
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: createdBy
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: createdBy
+
+  - changeSet:
+      id: 510
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: repo
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: repo
+            columnName: code
