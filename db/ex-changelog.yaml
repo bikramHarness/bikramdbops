@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: b200
+      id: b300
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: repo
+            tableName: facebook
             columns:
               - column:
                   name: id
@@ -16,176 +16,176 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: repo
+            tableName: facebook
 
   - changeSet:
-      id: b201
+      id: b301
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: repo
+            tableName: facebook
             columns:
               - column:
                   name: country
                   type: varchar(100)
       rollback:
         - dropColumn:
-            tableName: repo
+            tableName: facebook
             columnName: country
 
-  - changeSet:
-      id: b211
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: street
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: street
-
-  - changeSet:
-      id: b203
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: code
-
-  - changeSet:
-      id: b204
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: field1
-
-  - changeSet:
-      id: b205
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: field2
-
-  - changeSet:
-      id: b206
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: firstname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: firstname
-
-  - changeSet:
-      id: b207
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: lastname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: lastname
-
-  - changeSet:
-      id: b208
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: updatedBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: updatedBy
-
-  - changeSet:
-      id: b209
-      author: bikramkumar
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: createdBy
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: createdBy
-
-  - changeSet:
-      id: 510
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repo
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repo
-            columnName: code
+#  - changeSet:
+#      id: b311
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: street
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: street
+#
+#  - changeSet:
+#      id: b303
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: code
+#
+#  - changeSet:
+#      id: b304
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: field1
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: field1
+#
+#  - changeSet:
+#      id: b305
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: field2
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: field2
+#
+#  - changeSet:
+#      id: b306
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: firstname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: firstname
+#
+#  - changeSet:
+#      id: b307
+#      author: bikramkumar
+#      context: example-context
+#      comment: I really want another column
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: lastname
+#                  type: varchar(100)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: lastname
+#
+#  - changeSet:
+#      id: b308
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: updatedBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: updatedBy
+#
+#  - changeSet:
+#      id: b309
+#      author: bikramkumar
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: createdBy
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: createdBy
+#
+#  - changeSet:
+#      id: b310
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: color
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: color
