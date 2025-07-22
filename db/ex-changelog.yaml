@@ -36,24 +36,24 @@ databaseChangeLog:
             tableName: facebook
             columnName: country
 
-#  - changeSet:
-#      id: b311
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: facebook
-#            columns:
-#              - column:
-#                  name: street
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: facebook
-#            columnName: street
-#
+  - changeSet:
+      id: b311
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: facebook
+            columns:
+              - column:
+                  name: street
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: facebook
+            columnName: street
+
 #  - changeSet:
 #      id: b303
 #      author: bikramkumar
