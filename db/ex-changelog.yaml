@@ -89,6 +89,24 @@ databaseChangeLog:
         - dropColumn:
             tableName: facebook
             columnName: field1
+
+  - changeSet:
+#      id: b304
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: facebook
+            columns:
+              - column:
+                  name: handle
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: facebook
+            columnName: handle
 #
 #  - changeSet:
 #      id: b305
