@@ -91,7 +91,7 @@ databaseChangeLog:
             columnName: field1
 
   - changeSet:
-#      id: b304
+      id: b304
       author: bikramkumar
       labels: example-label
       context: example-context
@@ -107,24 +107,24 @@ databaseChangeLog:
         - dropColumn:
             tableName: facebook
             columnName: handle
-#
-#  - changeSet:
-#      id: b305
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: facebook
-#            columns:
-#              - column:
-#                  name: field2
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: facebook
-#            columnName: field2
+
+  - changeSet:
+      id: b305
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: facebook
+            columns:
+              - column:
+                  name: field2
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: facebook
+            columnName: field2
 #
 #  - changeSet:
 #      id: b306
