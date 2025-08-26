@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: c1000
+      id: b10
       author: bikramkumar
       labels: tag_2
       comment: example comment
@@ -19,7 +19,7 @@ databaseChangeLog:
             tableName: facebook
 
   - changeSet:
-      id: c1001
+      id: b11
       author: bikramkumar
       labels: tag_3
       context: example-context
@@ -30,14 +30,14 @@ databaseChangeLog:
             columns:
               - column:
                   name: country
-                  type: varchar(100)
+                  type: varchar(1)
       rollback:
         - dropColumn:
             tableName: facebook
             columnName: country
 
   - changeSet:
-      id: c1011
+      id: b12
       author: bikramkumar
       labels: example-label
       context: example-context
@@ -55,7 +55,7 @@ databaseChangeLog:
             columnName: street
 
   - changeSet:
-      id: c1003
+      id: b13
       author: bikramkumar
       labels: example-label
       context: example-context
@@ -73,7 +73,7 @@ databaseChangeLog:
             columnName: code
 
   - changeSet:
-      id: c1005
+      id: b14
       author: bikramkumar
       labels: example-label
       context: example-context
@@ -91,7 +91,7 @@ databaseChangeLog:
             columnName: handle
 
 #  - changeSet:
-#      id: c104
+#      id: b104
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
