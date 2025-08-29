@@ -18,80 +18,80 @@ databaseChangeLog:
         - dropTable:
             tableName: facebook
 
-  - changeSet:
-      id: b11
-      author: bikramkumar
-      labels: tag_3
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: facebook
-            columns:
-              - column:
-                  name: country
-                  type: varchar(1)
-      rollback:
-        - dropColumn:
-            tableName: facebook
-            columnName: country
-
-  - changeSet:
-      id: b12
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: facebook
-            columns:
-              - column:
-                  name: street
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: facebook
-            columnName: street
-
-  - changeSet:
-      id: b13
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: facebook
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: facebook
-            columnName: code
-
-  - changeSet:
-      id: b14
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: facebook
-            columns:
-              - column:
-                  name: handle
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: facebook
-            columnName: handle
+#  - changeSet:
+#      id: b11
+#      author: bikramkumar
+#      labels: tag_3
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: country
+#                  type: varchar(1)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: country
+#
+#  - changeSet:
+#      id: b12
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: street
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: street
 
 #  - changeSet:
-#      id: b104
+#      id: b13
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: code
+#
+#  - changeSet:
+#      id: b14
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: handle
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: facebook
+#            columnName: handle
+
+#  - changeSet:
+#      id: b15
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
