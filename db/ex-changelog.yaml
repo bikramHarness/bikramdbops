@@ -53,24 +53,24 @@ databaseChangeLog:
         - dropColumn:
             tableName: plant
             columnName: street
-#
-#  - changeSet:
-#      id: d13
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: plant
-#            columns:
-#              - column:
-#                  name: code
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: plant
-#            columnName: code
+
+  - changeSet:
+      id: d13
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: plant
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: plant
+            columnName: code
 #
 #  - changeSet:
 #      id: d14
