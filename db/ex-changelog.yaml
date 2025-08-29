@@ -1,25 +1,25 @@
 databaseChangeLog:
-  - changeSet:
-      id: b10
-      author: bikramkumar
-      labels: tag_2
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: facebook
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-      rollback:
-        - dropTable:
-            tableName: facebook
+#  - changeSet:
+#      id: d10
+#      author: bikramkumar
+#      labels: tag_2
+#      comment: example comment
+#      changes:
+#        - createTable:
+#            tableName: facebook
+#            columns:
+#              - column:
+#                  name: id
+#                  type: INT
+#                  autoIncrement: true
+#                  constraints:
+#                    primaryKey: true
+#      rollback:
+#        - dropTable:
+#            tableName: facebook
 
 #  - changeSet:
-#      id: b11
+#      id: d11
 #      author: bikramkumar
 #      labels: tag_3
 #      context: example-context
@@ -37,7 +37,7 @@ databaseChangeLog:
 #            columnName: country
 #
 #  - changeSet:
-#      id: b12
+#      id: d12
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
@@ -55,7 +55,7 @@ databaseChangeLog:
 #            columnName: street
 
 #  - changeSet:
-#      id: b13
+#      id: d13
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
@@ -73,7 +73,7 @@ databaseChangeLog:
 #            columnName: code
 #
 #  - changeSet:
-#      id: b14
+#      id: d14
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
@@ -90,20 +90,20 @@ databaseChangeLog:
 #            tableName: facebook
 #            columnName: handle
 
-#  - changeSet:
-#      id: b15
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: facebook
-#            columns:
-#              - column:
-#                  name: field1
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: facebook
-#            columnName: field1
+  - changeSet:
+      id: b15
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: facebook
+            columns:
+              - column:
+                  name: field1
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: facebook
+            columnName: field1
