@@ -108,20 +108,20 @@ databaseChangeLog:
             tableName: plant
             columnName: height
 
-#  - changeSet:
-#      id: d16
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: plant
-#            columns:
-#              - column:
-#                  name: weight
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: plant
-#            columnName: weight
+  - changeSet:
+      id: d16
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: plant
+            columns:
+              - column:
+                  name: weight
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: plant
+            columnName: weight
