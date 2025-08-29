@@ -18,23 +18,23 @@ databaseChangeLog:
         - dropTable:
             tableName: plant
 
-#  - changeSet:
-#      id: d11
-#      author: bikramkumar
-#      labels: tag_3
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: plant
-#            columns:
-#              - column:
-#                  name: country
-#                  type: varchar(1)
-#      rollback:
-#        - dropColumn:
-#            tableName: plant
-#            columnName: country
+  - changeSet:
+      id: d11
+      author: bikramkumar
+      labels: tag_3
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: plant
+            columns:
+              - column:
+                  name: country
+                  type: varchar(1)
+      rollback:
+        - dropColumn:
+            tableName: plant
+            columnName: country
 #
 #  - changeSet:
 #      id: d12
