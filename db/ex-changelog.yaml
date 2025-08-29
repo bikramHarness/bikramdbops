@@ -91,7 +91,7 @@ databaseChangeLog:
             columnName: handle
 
   - changeSet:
-      id: b15
+      id: d15
       author: bikramkumar
       labels: example-label
       context: example-context
@@ -101,9 +101,9 @@ databaseChangeLog:
             tableName: plant
             columns:
               - column:
-                  name: field1
+                  name: height
                   type: varchar(10)
       rollback:
         - dropColumn:
             tableName: plant
-            columnName: field1
+            columnName: height
