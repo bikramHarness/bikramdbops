@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: d10
+      id: d20
       author: bikramkumar
       labels: tag_2
       comment: example comment
@@ -19,7 +19,7 @@ databaseChangeLog:
             tableName: plant
 
   - changeSet:
-      id: d11
+      id: d21
       author: bikramkumar
       labels: tag_3
       context: example-context
@@ -37,7 +37,7 @@ databaseChangeLog:
             columnName: country
 
   - changeSet:
-      id: d12
+      id: d22
       author: bikramkumar
       labels: example-label
       context: example-context
@@ -54,74 +54,74 @@ databaseChangeLog:
             tableName: plant
             columnName: street
 
-  - changeSet:
-      id: d13
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: plant
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: plant
-            columnName: code
-
-  - changeSet:
-      id: d14
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: plant
-            columns:
-              - column:
-                  name: handle
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: plant
-            columnName: handle
-
-  - changeSet:
-      id: d15
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: plant
-            columns:
-              - column:
-                  name: height
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: plant
-            columnName: height
-
-  - changeSet:
-      id: d16
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: plant
-            columns:
-              - column:
-                  name: weight
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: plant
-            columnName: weight
+#  - changeSet:
+#      id: d23
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: plant
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: plant
+#            columnName: code
+#
+#  - changeSet:
+#      id: d24
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: plant
+#            columns:
+#              - column:
+#                  name: handle
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: plant
+#            columnName: handle
+#
+#  - changeSet:
+#      id: d25
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: plant
+#            columns:
+#              - column:
+#                  name: height
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: plant
+#            columnName: height
+#
+#  - changeSet:
+#      id: d26
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: plant
+#            columns:
+#              - column:
+#                  name: weight
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: plant
+#            columnName: weight
