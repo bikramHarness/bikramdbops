@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: d20
+      id: ID0
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: plant
+            tableName: human
             columns:
               - column:
                   name: id
@@ -16,112 +16,112 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: plant
+            tableName: human
 
   - changeSet:
-      id: d21
+      id: ID1
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: plant
+            tableName: human
             columns:
               - column:
                   name: country
                   type: varchar(1)
       rollback:
         - dropColumn:
-            tableName: plant
+            tableName: human
             columnName: country
 
   - changeSet:
-      id: d22
+      id: ID2
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: plant
+            tableName: human
             columns:
               - column:
                   name: street
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: plant
+            tableName: human
             columnName: street
 
   - changeSet:
-      id: d23
+      id: ID3
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: plant
+            tableName: human
             columns:
               - column:
                   name: code
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: plant
+            tableName: human
             columnName: code
 
-  - changeSet:
-      id: d24
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: plant
-            columns:
-              - column:
-                  name: handle
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: plant
-            columnName: handle
-
-  - changeSet:
-      id: d25
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: plant
-            columns:
-              - column:
-                  name: height
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: plant
-            columnName: height
-#
 #  - changeSet:
-#      id: d26
+#      id: ID4
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: plant
+#            tableName: human
+#            columns:
+#              - column:
+#                  name: handle
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: human
+#            columnName: handle
+
+#  - changeSet:
+#      id: ID5
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: human
+#            columns:
+#              - column:
+#                  name: height
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: human
+#            columnName: height
+#
+#  - changeSet:
+#      id: ID6
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: human
 #            columns:
 #              - column:
 #                  name: weight
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: plant
+#            tableName: human
 #            columnName: weight
