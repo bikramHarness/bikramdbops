@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: ID0
+      id: AVID0
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: human
+            tableName: avenegers
             columns:
               - column:
                   name: id
@@ -16,112 +16,112 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: human
+            tableName: avenegers
 
   - changeSet:
-      id: ID1
+      id: AVID1
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: human
+            tableName: avenegers
             columns:
               - column:
                   name: country
                   type: varchar(1)
       rollback:
         - dropColumn:
-            tableName: human
+            tableName: avenegers
             columnName: country
 
-  - changeSet:
-      id: ID2
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: human
-            columns:
-              - column:
-                  name: street
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: human
-            columnName: street
-
-  - changeSet:
-      id: ID3
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: human
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: human
-            columnName: code
-
 #  - changeSet:
-#      id: ID4
+#      id: AVID2
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: human
+#            tableName: avenegers
+#            columns:
+#              - column:
+#                  name: street
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: avenegers
+#            columnName: street
+
+#  - changeSet:
+#      id: AVID3
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: avenegers
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: avenegers
+#            columnName: code
+
+#  - changeSet:
+#      id: AVID4
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: avenegers
 #            columns:
 #              - column:
 #                  name: handle
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: human
+#            tableName: avenegers
 #            columnName: handle
 
 #  - changeSet:
-#      id: ID5
+#      id: AVID5
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: human
+#            tableName: avenegers
 #            columns:
 #              - column:
 #                  name: height
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: human
+#            tableName: avenegers
 #            columnName: height
 #
 #  - changeSet:
-#      id: ID6
+#      id: AVID6
 #      author: bikramkumar
 #      labels: example-label
 #      context: example-context
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: human
+#            tableName: avenegers
 #            columns:
 #              - column:
 #                  name: weight
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: human
+#            tableName: avenegers
 #            columnName: weight
