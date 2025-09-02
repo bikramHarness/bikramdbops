@@ -89,24 +89,24 @@ databaseChangeLog:
         - dropColumn:
             tableName: plant
             columnName: handle
-#
-#  - changeSet:
-#      id: d25
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: plant
-#            columns:
-#              - column:
-#                  name: height
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: plant
-#            columnName: height
+
+  - changeSet:
+      id: d25
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: plant
+            columns:
+              - column:
+                  name: height
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: plant
+            columnName: height
 #
 #  - changeSet:
 #      id: d26
