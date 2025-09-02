@@ -1,1 +1,37 @@
-databaseChangeLog: []
+databaseChangeLog:
+  - changeSet:
+      id: WID0
+      author: bikramkumar
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: window
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: window
+            
+#  - changeSet:
+#      id: WID2
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: window
+#            columns:
+#              - column:
+#                  name: handle
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: window
+#            columnName: handle
