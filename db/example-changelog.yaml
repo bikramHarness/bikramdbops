@@ -1,2 +1,2 @@
 databaseChangeLog:
-  -  logicalFilePath:  changelog.yml
+  -  logicalFilePath:  ex-changelog.yaml
