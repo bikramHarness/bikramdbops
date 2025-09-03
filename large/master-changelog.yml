@@ -1,7 +1,4 @@
 databaseChangeLog:
-- include:
-      file: harness-base-changelog.yml
-      relativeToChangelogFile: true
 - changeSet:
      id: SEQFIX-1
      author: bikram

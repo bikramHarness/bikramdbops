@@ -1,0 +1,6501 @@
+databaseChangeLog:
+- changeSet:
+     id: SEQFIX-V2-1
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-001.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-001.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-2
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-002.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-002.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-3
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-003.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-003.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-4
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-004.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-004.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-5
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-005.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-005.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-6
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-006.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-006.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-7
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-007.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-007.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-8
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-008.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-008.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-9
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-009.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-009.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-10
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-010.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-010.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-11
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-011.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-011.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-12
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-012.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-012.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-13
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-013.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-013.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-14
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-014.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-014.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-15
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-015.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-015.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-16
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-016.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-016.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-17
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-017.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-017.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-18
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-018.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-018.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-19
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-019.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-019.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-20
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-020.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-020.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-21
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-021.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-021.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-22
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-022.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-022.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-23
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-023.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-023.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-24
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-024.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-024.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-25
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-025.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-025.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-26
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-026.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-026.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-27
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-027.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-027.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-28
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-028.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-028.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-29
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-029.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-029.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-30
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-030.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-030.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-31
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-031.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-031.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-32
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-032.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-032.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-33
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-033.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-033.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-34
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-034.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-034.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-35
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-035.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-035.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-36
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-036.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-036.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-37
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-037.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-037.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-38
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-038.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-038.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-39
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-039.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-039.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-40
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-040.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-040.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-41
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-041.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-041.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-42
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-042.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-042.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-43
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-043.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-043.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-44
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-044.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-044.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-45
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-045.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-045.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-46
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-046.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-046.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-47
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-047.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-047.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-48
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-048.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-048.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-49
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-049.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-049.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-50
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-050.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-050.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-51
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-051.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-051.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-52
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-052.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-052.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-53
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-053.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-053.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-54
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-054.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-054.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-55
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-055.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-055.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-56
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-056.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-056.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-57
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-057.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-057.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-58
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-058.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-058.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-59
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-059.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-059.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-60
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-060.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-060.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-61
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-061.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-061.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-62
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-062.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-062.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-63
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-063.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-063.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-64
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-064.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-064.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-65
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-065.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-065.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-66
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-066.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-066.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-67
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-067.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-067.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-68
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-068.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-068.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-69
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-069.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-069.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-70
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-070.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-070.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-71
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-071.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-071.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-72
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-072.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-072.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-73
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-073.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-073.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-74
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-074.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-074.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-75
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-075.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-075.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-76
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-076.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-076.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-77
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-077.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-077.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-78
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-078.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-078.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-79
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-079.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-079.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-80
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-080.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-080.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-81
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-081.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-081.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-82
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-082.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-082.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-83
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-083.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-083.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-84
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-084.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-084.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-85
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-085.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-085.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-86
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-086.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-086.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-87
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-087.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-087.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-88
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-088.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-088.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-89
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-089.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-089.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-90
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-090.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-090.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-91
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-091.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-091.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-92
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-092.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-092.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-93
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-093.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-093.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-94
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-094.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-094.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-95
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-095.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-095.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-96
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-096.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-096.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-97
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-097.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-097.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-98
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-098.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-098.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-99
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-099.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-099.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-100
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-100.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-100.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-101
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-101.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-101.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-102
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-102.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-102.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-103
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-103.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-103.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-104
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-104.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-104.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-105
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-105.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-105.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-106
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-106.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-106.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-107
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-107.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-107.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-108
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-108.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-108.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-109
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-109.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-109.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-110
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-110.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-110.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-111
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-111.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-111.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-112
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-112.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-112.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-113
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-113.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-113.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-114
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-114.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-114.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-115
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-115.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-115.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-116
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-116.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-116.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-117
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-117.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-117.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-118
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-118.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-118.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-119
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-119.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-119.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-120
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-120.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-120.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-121
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-121.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-121.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-122
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-122.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-122.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-123
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-123.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-123.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-124
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-124.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-124.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-125
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-125.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-125.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-126
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-126.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-126.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-127
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-127.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-127.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-128
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-128.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-128.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-129
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-129.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-129.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-130
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-130.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-130.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-131
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-131.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-131.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-132
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-132.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-132.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-133
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-133.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-133.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-134
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-134.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-134.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-135
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-135.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-135.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-136
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-136.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-136.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-137
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-137.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-137.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-138
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-138.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-138.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-139
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-139.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-139.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-140
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-140.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-140.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-141
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-141.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-141.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-142
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-142.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-142.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-143
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-143.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-143.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-144
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-144.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-144.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-145
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-145.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-145.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-146
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-146.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-146.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-147
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-147.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-147.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-148
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-148.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-148.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-149
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-149.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-149.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-150
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-150.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-150.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-151
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-151.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-151.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-152
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-152.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-152.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-153
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-153.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-153.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-154
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-154.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-154.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-155
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-155.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-155.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-156
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-156.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-156.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-157
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-157.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-157.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-158
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-158.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-158.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-159
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-159.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-159.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-160
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-160.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-160.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-161
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-161.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-161.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-162
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-162.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-162.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-163
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-163.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-163.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-164
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-164.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-164.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-165
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-165.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-165.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-166
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-166.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-166.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-167
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-167.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-167.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-168
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-168.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-168.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-169
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-169.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-169.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-170
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-170.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-170.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-171
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-171.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-171.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-172
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-172.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-172.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-173
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-173.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-173.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-174
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-174.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-174.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-175
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-175.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-175.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-176
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-176.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-176.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-177
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-177.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-177.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-178
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-178.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-178.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-179
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-179.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-179.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-180
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-180.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-180.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-181
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-181.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-181.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-182
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-182.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-182.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-183
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-183.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-183.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-184
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-184.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-184.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-185
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-185.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-185.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-186
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-186.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-186.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-187
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-187.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-187.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-188
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-188.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-188.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-189
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-189.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-189.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-190
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-190.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-190.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-191
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-191.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-191.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-192
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-192.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-192.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-193
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-193.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-193.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-194
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-194.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-194.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-195
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-195.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-195.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-196
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-196.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-196.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-197
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-197.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-197.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-198
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-198.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-198.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-199
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-199.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-199.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-200
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-200.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-200.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-201
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-201.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-201.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-202
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-202.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-202.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-203
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-203.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-203.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-204
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-204.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-204.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-205
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-205.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-205.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-206
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-206.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-206.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-207
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-207.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-207.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-208
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-208.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-208.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-209
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-209.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-209.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-210
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-210.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-210.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-211
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-211.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-211.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-212
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-212.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-212.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-213
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-213.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-213.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-214
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-214.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-214.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-215
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-215.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-215.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-216
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-216.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-216.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-217
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-217.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-217.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-218
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-218.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-218.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-219
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-219.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-219.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-220
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-220.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-220.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-221
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-221.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-221.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-222
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-222.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-222.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-223
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-223.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-223.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-224
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-224.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-224.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-225
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-225.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-225.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-226
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-226.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-226.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-227
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-227.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-227.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-228
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-228.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-228.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-229
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-229.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-229.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-230
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-230.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-230.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-231
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-231.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-231.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-232
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-232.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-232.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-233
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-233.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-233.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-234
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-234.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-234.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-235
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-235.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-235.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-236
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-236.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-236.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-237
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-237.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-237.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-238
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-238.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-238.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-239
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-239.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-239.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-240
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-240.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-240.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-241
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-241.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-241.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-242
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-242.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-242.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-243
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-243.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-243.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-244
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-244.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-244.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-245
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-245.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-245.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-246
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-246.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-246.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-247
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-247.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-247.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-248
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-248.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-248.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-249
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-249.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-249.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-250
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-250.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-250.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-251
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-251.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-251.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-252
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-252.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-252.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-253
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-253.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-253.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-254
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-254.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-254.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-255
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-255.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-255.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-256
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-256.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-256.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-257
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-257.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-257.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-258
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-258.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-258.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-259
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-259.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-259.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-260
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-260.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-260.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-261
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-261.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-261.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-262
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-262.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-262.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-263
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-263.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-263.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-264
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-264.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-264.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-265
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-265.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-265.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-266
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-266.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-266.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-267
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-267.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-267.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-268
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-268.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-268.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-269
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-269.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-269.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-270
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-270.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-270.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-271
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-271.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-271.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-272
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-272.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-272.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-273
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-273.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-273.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-274
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-274.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-274.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-275
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-275.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-275.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-276
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-276.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-276.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-277
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-277.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-277.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-278
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-278.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-278.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-279
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-279.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-279.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-280
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-280.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-280.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-281
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-281.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-281.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-282
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-282.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-282.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-283
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-283.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-283.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-284
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-284.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-284.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-285
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-285.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-285.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-286
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-286.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-286.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-287
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-287.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-287.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-288
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-288.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-288.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-289
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-289.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-289.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-290
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-290.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-290.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-291
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-291.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-291.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-292
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-292.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-292.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-293
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-293.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-293.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-294
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-294.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-294.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-295
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-295.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-295.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-296
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-296.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-296.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-297
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-297.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-297.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-298
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-298.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-298.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-299
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-299.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-299.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-300
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-300.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-300.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-301
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-301.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-301.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-302
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-302.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-302.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-303
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-303.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-303.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-304
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-304.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-304.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-305
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-305.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-305.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-306
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-306.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-306.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-307
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-307.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-307.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-308
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-308.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-308.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-309
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-309.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-309.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-310
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-310.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-310.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-311
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-311.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-311.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-312
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-312.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-312.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-313
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-313.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-313.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-314
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-314.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-314.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-315
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-315.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-315.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-316
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-316.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-316.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-317
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-317.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-317.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-318
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-318.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-318.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-319
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-319.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-319.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-320
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-320.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-320.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-321
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-321.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-321.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-322
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-322.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-322.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-323
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-323.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-323.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-324
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-324.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-324.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-325
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-325.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-325.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-326
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-326.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-326.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-327
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-327.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-327.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-328
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-328.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-328.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-329
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-329.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-329.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-330
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-330.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-330.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-331
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-331.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-331.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-332
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-332.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-332.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-333
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-333.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-333.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-334
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-334.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-334.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-335
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-335.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-335.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-336
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-336.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-336.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-337
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-337.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-337.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-338
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-338.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-338.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-339
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-339.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-339.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-340
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-340.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-340.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-341
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-341.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-341.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-342
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-342.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-342.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-343
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-343.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-343.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-344
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-344.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-344.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-345
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-345.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-345.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-346
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-346.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-346.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-347
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-347.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-347.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-348
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-348.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-348.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-349
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-349.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-349.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-350
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-350.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-350.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-351
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-351.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-351.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-352
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-352.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-352.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-353
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-353.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-353.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-354
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-354.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-354.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-355
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-355.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-355.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-356
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-356.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-356.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-357
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-357.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-357.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-358
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-358.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-358.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-359
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-359.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-359.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-360
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-360.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-360.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-361
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-361.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-361.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-362
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-362.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-362.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-363
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-363.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-363.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-364
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-364.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-364.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-365
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-365.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-365.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-366
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-366.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-366.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-367
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-367.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-367.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-368
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-368.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-368.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-369
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-369.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-369.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-370
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-370.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-370.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-371
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-371.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-371.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-372
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-372.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-372.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-373
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-373.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-373.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-374
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-374.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-374.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-375
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-375.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-375.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-376
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-376.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-376.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-377
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-377.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-377.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-378
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-378.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-378.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-379
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-379.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-379.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-380
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-380.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-380.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-381
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-381.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-381.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-382
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-382.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-382.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-383
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-383.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-383.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-384
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-384.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-384.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-385
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-385.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-385.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-386
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-386.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-386.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-387
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-387.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-387.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-388
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-388.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-388.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-389
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-389.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-389.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-390
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-390.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-390.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-391
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-391.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-391.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-392
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-392.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-392.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-393
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-393.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-393.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-394
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-394.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-394.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-395
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-395.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-395.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-396
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-396.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-396.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-397
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-397.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-397.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-398
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-398.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-398.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-399
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-399.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-399.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-400
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-400.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-400.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-401
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-401.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-401.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-402
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-402.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-402.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-403
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-403.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-403.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-404
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-404.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-404.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-405
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-405.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-405.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-406
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-406.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-406.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-407
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-407.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-407.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-408
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-408.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-408.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-409
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-409.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-409.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-410
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-410.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-410.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-411
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-411.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-411.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-412
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-412.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-412.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-413
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-413.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-413.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-414
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-414.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-414.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-415
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-415.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-415.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-416
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-416.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-416.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-417
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-417.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-417.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-418
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-418.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-418.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-419
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-419.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-419.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-420
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-420.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-420.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-421
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-421.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-421.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-422
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-422.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-422.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-423
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-423.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-423.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-424
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-424.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-424.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-425
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-425.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-425.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-426
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-426.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-426.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-427
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-427.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-427.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-428
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-428.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-428.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-429
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-429.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-429.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-430
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-430.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-430.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-431
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-431.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-431.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-432
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-432.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-432.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-433
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-433.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-433.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-434
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-434.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-434.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-435
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-435.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-435.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-436
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-436.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-436.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-437
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-437.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-437.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-438
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-438.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-438.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-439
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-439.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-439.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-440
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-440.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-440.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-441
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-441.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-441.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-442
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-442.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-442.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-443
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-443.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-443.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-444
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-444.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-444.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-445
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-445.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-445.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-446
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-446.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-446.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-447
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-447.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-447.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-448
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-448.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-448.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-449
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-449.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-449.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-450
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-450.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-450.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-451
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-451.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-451.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-452
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-452.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-452.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-453
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-453.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-453.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-454
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-454.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-454.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-455
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-455.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-455.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-456
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-456.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-456.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-457
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-457.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-457.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-458
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-458.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-458.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-459
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-459.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-459.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-460
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-460.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-460.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-461
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-461.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-461.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-462
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-462.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-462.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-463
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-463.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-463.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-464
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-464.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-464.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-465
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-465.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-465.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-466
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-466.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-466.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-467
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-467.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-467.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-468
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-468.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-468.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-469
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-469.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-469.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-470
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-470.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-470.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-471
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-471.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-471.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-472
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-472.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-472.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-473
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-473.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-473.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-474
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-474.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-474.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-475
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-475.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-475.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-476
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-476.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-476.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-477
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-477.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-477.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-478
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-478.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-478.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-479
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-479.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-479.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-480
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-480.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-480.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-481
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-481.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-481.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-482
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-482.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-482.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-483
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-483.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-483.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-484
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-484.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-484.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-485
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-485.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-485.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-486
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-486.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-486.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-487
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-487.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-487.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-488
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-488.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-488.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-489
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-489.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-489.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-490
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-490.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-490.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-491
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-491.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-491.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-492
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-492.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-492.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-493
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-493.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-493.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-494
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-494.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-494.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-495
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-495.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-495.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-496
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-496.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-496.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-497
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-497.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-497.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-498
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-498.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-498.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-499
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-499.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-499.sql
+          endDelimiter:  \nGO
+          stripComments: true
+- changeSet:
+     id: SEQFIX-V2-500
+     author: bikram_v2
+     changes:
+     -  sqlFile:
+          path: scripts/generated/changeset-500.sql
+          endDelimiter:  \nGO
+          stripComments: true
+     rollback:
+     -  sqlFile:
+          path: scripts/generated/rollback-500.sql
+          endDelimiter:  \nGO
+          stripComments: true
