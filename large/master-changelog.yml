@@ -3399,2488 +3399,2488 @@ databaseChangeLog:
           endDelimiter:  \nGO
           splitStatements: false
           stripComments: true
-- changeSet:
-     id: SEQFIX-V4-201
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-201.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-201.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-202
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-202.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-202.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-203
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-203.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-203.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-204
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-204.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-204.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-205
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-205.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-205.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-206
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-206.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-206.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-207
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-207.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-207.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-208
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-208.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-208.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-209
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-209.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-209.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-210
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-210.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-210.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-211
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-211.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-211.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-212
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-212.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-212.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-213
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-213.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-213.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-214
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-214.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-214.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-215
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-215.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-215.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-216
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-216.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-216.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-217
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-217.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-217.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-218
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-218.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-218.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-219
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-219.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-219.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-220
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-220.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-220.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-221
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-221.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-221.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-222
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-222.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-222.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-223
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-223.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-223.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-224
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-224.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-224.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-225
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-225.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-225.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-226
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-226.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-226.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-227
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-227.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-227.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-228
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-228.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-228.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-229
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-229.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-229.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-230
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-230.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-230.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-231
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-231.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-231.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-232
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-232.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-232.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-233
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-233.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-233.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-234
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-234.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-234.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-235
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-235.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-235.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-236
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-236.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-236.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-237
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-237.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-237.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-238
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-238.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-238.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-239
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-239.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-239.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-240
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-240.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-240.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-241
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-241.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-241.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-242
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-242.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-242.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-243
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-243.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-243.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-244
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-244.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-244.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-245
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-245.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-245.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-246
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-246.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-246.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-247
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-247.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-247.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-248
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-248.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-248.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-249
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-249.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-249.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-250
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-250.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-250.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-251
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-251.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-251.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-252
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-252.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-252.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-253
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-253.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-253.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-254
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-254.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-254.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-255
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-255.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-255.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-256
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-256.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-256.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-257
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-257.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-257.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-258
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-258.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-258.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-259
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-259.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-259.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-260
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-260.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-260.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-261
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-261.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-261.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-262
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-262.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-262.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-263
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-263.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-263.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-264
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-264.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-264.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-265
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-265.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-265.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-266
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-266.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-266.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-267
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-267.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-267.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-268
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-268.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-268.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-269
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-269.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-269.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-270
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-270.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-270.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-271
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-271.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-271.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-272
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-272.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-272.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-273
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-273.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-273.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-274
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-274.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-274.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-275
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-275.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-275.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-276
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-276.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-276.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-277
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-277.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-277.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-278
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-278.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-278.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-279
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-279.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-279.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-280
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-280.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-280.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-281
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-281.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-281.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-282
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-282.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-282.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-283
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-283.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-283.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-284
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-284.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-284.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-285
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-285.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-285.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-286
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-286.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-286.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-287
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-287.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-287.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-288
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-288.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-288.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-289
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-289.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-289.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-290
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-290.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-290.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-291
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-291.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-291.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-292
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-292.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-292.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-293
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-293.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-293.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-294
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-294.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-294.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-295
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-295.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-295.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-296
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-296.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-296.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-297
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-297.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-297.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-298
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-298.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-298.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-299
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-299.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-299.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-300
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-300.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-300.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-301
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-301.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-301.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-302
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-302.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-302.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-303
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-303.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-303.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-304
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-304.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-304.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-305
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-305.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-305.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-306
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-306.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-306.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-307
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-307.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-307.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-308
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-308.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-308.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-309
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-309.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-309.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-310
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-310.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-310.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-311
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-311.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-311.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-312
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-312.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-312.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-313
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-313.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-313.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-314
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-314.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-314.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-315
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-315.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-315.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-316
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-316.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-316.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-317
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-317.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-317.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-318
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-318.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-318.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-319
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-319.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-319.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-320
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-320.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-320.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-321
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-321.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-321.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-322
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-322.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-322.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-323
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-323.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-323.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-324
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-324.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-324.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-325
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-325.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-325.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-326
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-326.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-326.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-327
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-327.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-327.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-328
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-328.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-328.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-329
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-329.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-329.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-330
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-330.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-330.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-331
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-331.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-331.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-332
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-332.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-332.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-333
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-333.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-333.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-334
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-334.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-334.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-335
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-335.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-335.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-336
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-336.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-336.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-337
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-337.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-337.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-338
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-338.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-338.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-339
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-339.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-339.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-340
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-340.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-340.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-341
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-341.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-341.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-342
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-342.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-342.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-343
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-343.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-343.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-344
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-344.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-344.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-345
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-345.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-345.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-- changeSet:
-     id: SEQFIX-V4-346
-     author: bikram_v4
-     changes:
-     -  sqlFile:
-          path: scripts/generated/changeset-346.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
-     rollback:
-     -  sqlFile:
-          path: scripts/generated/rollback-346.sql
-          relativeToChangelogFile: true
-          endDelimiter:  \nGO
-          splitStatements: false
-          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-201
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-201.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-201.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-202
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-202.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-202.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-203
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-203.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-203.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-204
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-204.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-204.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-205
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-205.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-205.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-206
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-206.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-206.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-207
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-207.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-207.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-208
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-208.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-208.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-209
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-209.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-209.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-210
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-210.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-210.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-211
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-211.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-211.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-212
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-212.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-212.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-213
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-213.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-213.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-214
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-214.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-214.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-215
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-215.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-215.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-216
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-216.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-216.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-217
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-217.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-217.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-218
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-218.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-218.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-219
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-219.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-219.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-220
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-220.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-220.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-221
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-221.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-221.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-222
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-222.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-222.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-223
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-223.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-223.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-224
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-224.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-224.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-225
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-225.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-225.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-226
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-226.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-226.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-227
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-227.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-227.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-228
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-228.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-228.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-229
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-229.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-229.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-230
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-230.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-230.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-231
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-231.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-231.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-232
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-232.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-232.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-233
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-233.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-233.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-234
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-234.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-234.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-235
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-235.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-235.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-236
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-236.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-236.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-237
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-237.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-237.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-238
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-238.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-238.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-239
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-239.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-239.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-240
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-240.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-240.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-241
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-241.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-241.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-242
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-242.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-242.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-243
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-243.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-243.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-244
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-244.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-244.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-245
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-245.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-245.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-246
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-246.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-246.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-247
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-247.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-247.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-248
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-248.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-248.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-249
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-249.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-249.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-250
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-250.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-250.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-251
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-251.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-251.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-252
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-252.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-252.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-253
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-253.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-253.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-254
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-254.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-254.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-255
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-255.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-255.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-256
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-256.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-256.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-257
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-257.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-257.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-258
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-258.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-258.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-259
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-259.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-259.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-260
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-260.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-260.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-261
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-261.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-261.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-262
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-262.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-262.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-263
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-263.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-263.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-264
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-264.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-264.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-265
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-265.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-265.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-266
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-266.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-266.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-267
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-267.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-267.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-268
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-268.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-268.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-269
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-269.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-269.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-270
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-270.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-270.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-271
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-271.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-271.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-272
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-272.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-272.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-273
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-273.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-273.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-274
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-274.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-274.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-275
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-275.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-275.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-276
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-276.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-276.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-277
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-277.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-277.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-278
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-278.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-278.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-279
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-279.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-279.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-280
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-280.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-280.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-281
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-281.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-281.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-282
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-282.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-282.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-283
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-283.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-283.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-284
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-284.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-284.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-285
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-285.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-285.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-286
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-286.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-286.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-287
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-287.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-287.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-288
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-288.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-288.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-289
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-289.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-289.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-290
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-290.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-290.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-291
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-291.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-291.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-292
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-292.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-292.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-293
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-293.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-293.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-294
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-294.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-294.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-295
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-295.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-295.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-296
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-296.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-296.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-297
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-297.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-297.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-298
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-298.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-298.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-299
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-299.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-299.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-300
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-300.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-300.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-301
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-301.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-301.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-302
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-302.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-302.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-303
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-303.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-303.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-304
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-304.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-304.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-305
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-305.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-305.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-306
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-306.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-306.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-307
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-307.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-307.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-308
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-308.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-308.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-309
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-309.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-309.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-310
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-310.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-310.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-311
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-311.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-311.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-312
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-312.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-312.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-313
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-313.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-313.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-314
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-314.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-314.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-315
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-315.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-315.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-316
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-316.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-316.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-317
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-317.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-317.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-318
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-318.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-318.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-319
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-319.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-319.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-320
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-320.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-320.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-321
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-321.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-321.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-322
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-322.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-322.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-323
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-323.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-323.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-324
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-324.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-324.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-325
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-325.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-325.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-326
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-326.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-326.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-327
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-327.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-327.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-328
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-328.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-328.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-329
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-329.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-329.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-330
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-330.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-330.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-331
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-331.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-331.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-332
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-332.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-332.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-333
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-333.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-333.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-334
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-334.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-334.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-335
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-335.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-335.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-336
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-336.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-336.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-337
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-337.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-337.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-338
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-338.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-338.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-339
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-339.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-339.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-340
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-340.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-340.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-341
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-341.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-341.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-342
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-342.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-342.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-343
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-343.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-343.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-344
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-344.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-344.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-345
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-345.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-345.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#- changeSet:
+#     id: SEQFIX-V4-346
+#     author: bikram_v4
+#     changes:
+#     -  sqlFile:
+#          path: scripts/generated/changeset-346.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
+#     rollback:
+#     -  sqlFile:
+#          path: scripts/generated/rollback-346.sql
+#          relativeToChangelogFile: true
+#          endDelimiter:  \nGO
+#          splitStatements: false
+#          stripComments: true
 #- changeSet:
 #     id: SEQFIX-V4-347
 #     author: bikram_v4
