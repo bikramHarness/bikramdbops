@@ -107,21 +107,21 @@ databaseChangeLog:
         - dropColumn:
             tableName: avenegers
             columnName: height
-#
-#  - changeSet:
-#      id: AVID6
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: avenegers
-#            columns:
-#              - column:
-#                  name: weight
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: avenegers
-#            columnName: weight
+
+  - changeSet:
+      id: AVID6
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: avenegers
+            columns:
+              - column:
+                  name: weight
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: avenegers
+            columnName: weight
