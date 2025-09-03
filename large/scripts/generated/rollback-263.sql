@@ -1,31 +1,13 @@
--- rollback for changeset 263
-set define off;
-whenever sqlerror continue;
+-- Rollback v4-263
+PRINT 'Rolling back changeset 263';
+GO
 
--- Remove staged data created by this changeset (safe, project-scoped where possible)
-delete from dc_masterfile_orig_map_pi
-where project_oid = p_project_oid
-  and exists (
-      select 1 from dc_masterfile_meta_pi mm
-      where mm.project_oid = p_project_oid
-  );
+IF OBJECT_ID('dbo.proc_transform_263', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_263;
+GO
+IF OBJECT_ID('dbo.audit_v4_263', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_263;
+GO
+IF OBJECT_ID('dbo.staging_table_263', 'U') IS NOT NULL DROP TABLE dbo.staging_table_263;
+GO
 
--- Drop temporary objects if they exist
-declare
-    v_exists number;
-begin
-    select count(*) into v_exists from user_tables where table_name = 'TMP_STAGE_263';
-    if v_exists > 0 then
-        execute immediate 'drop table TMP_STAGE_263 purge';
-    end if;
-end;
-/
-
-begin
-    for idx in (select index_name from user_indexes where table_name = 'TMP_STAGE_263') loop
-        execute immediate 'drop index ' || idx.index_name;
-    end loop;
-end;
-/
-
-prompt Completed rollback for changeset 263
+PRINT 'Rollback completed for changeset 263';
+GO

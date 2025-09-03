@@ -1,31 +1,13 @@
--- rollback for changeset 346
-set define off;
-whenever sqlerror continue;
+-- Rollback v4-346
+PRINT 'Rolling back changeset 346';
+GO
 
--- Remove staged data created by this changeset (safe, project-scoped where possible)
-delete from dc_masterfile_orig_map_pi
-where project_oid = p_project_oid
-  and exists (
-      select 1 from dc_masterfile_meta_pi mm
-      where mm.project_oid = p_project_oid
-  );
+IF OBJECT_ID('dbo.proc_transform_346', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_346;
+GO
+IF OBJECT_ID('dbo.audit_v4_346', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_346;
+GO
+IF OBJECT_ID('dbo.staging_table_346', 'U') IS NOT NULL DROP TABLE dbo.staging_table_346;
+GO
 
--- Drop temporary objects if they exist
-declare
-    v_exists number;
-begin
-    select count(*) into v_exists from user_tables where table_name = 'TMP_STAGE_346';
-    if v_exists > 0 then
-        execute immediate 'drop table TMP_STAGE_346 purge';
-    end if;
-end;
-/
-
-begin
-    for idx in (select index_name from user_indexes where table_name = 'TMP_STAGE_346') loop
-        execute immediate 'drop index ' || idx.index_name;
-    end loop;
-end;
-/
-
-prompt Completed rollback for changeset 346
+PRINT 'Rollback completed for changeset 346';
+GO

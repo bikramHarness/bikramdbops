@@ -1,31 +1,13 @@
--- rollback for changeset 368
-set define off;
-whenever sqlerror continue;
+-- Rollback v4-368
+PRINT 'Rolling back changeset 368';
+GO
 
--- Remove staged data created by this changeset (safe, project-scoped where possible)
-delete from dc_masterfile_orig_map_pi
-where project_oid = p_project_oid
-  and exists (
-      select 1 from dc_masterfile_meta_pi mm
-      where mm.project_oid = p_project_oid
-  );
+IF OBJECT_ID('dbo.proc_transform_368', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_368;
+GO
+IF OBJECT_ID('dbo.audit_v4_368', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_368;
+GO
+IF OBJECT_ID('dbo.staging_table_368', 'U') IS NOT NULL DROP TABLE dbo.staging_table_368;
+GO
 
--- Drop temporary objects if they exist
-declare
-    v_exists number;
-begin
-    select count(*) into v_exists from user_tables where table_name = 'TMP_STAGE_368';
-    if v_exists > 0 then
-        execute immediate 'drop table TMP_STAGE_368 purge';
-    end if;
-end;
-/
-
-begin
-    for idx in (select index_name from user_indexes where table_name = 'TMP_STAGE_368') loop
-        execute immediate 'drop index ' || idx.index_name;
-    end loop;
-end;
-/
-
-prompt Completed rollback for changeset 368
+PRINT 'Rollback completed for changeset 368';
+GO
