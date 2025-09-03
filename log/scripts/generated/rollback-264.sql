@@ -1,4 +1,13 @@
--- rollback V2-264
-    drop table if exists sample_table_264;
-    delete from padding_table where id between 2640000 and 2660000;
-    
+-- Rollback v4-264
+PRINT 'Rolling back changeset 264';
+GO
+
+IF OBJECT_ID('dbo.proc_transform_264', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_264;
+GO
+IF OBJECT_ID('dbo.audit_v4_264', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_264;
+GO
+IF OBJECT_ID('dbo.staging_table_264', 'U') IS NOT NULL DROP TABLE dbo.staging_table_264;
+GO
+
+PRINT 'Rollback completed for changeset 264';
+GO

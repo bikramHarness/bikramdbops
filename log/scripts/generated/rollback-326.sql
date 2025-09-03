@@ -1,4 +1,13 @@
--- rollback V2-326
-    drop table if exists sample_table_326;
-    delete from padding_table where id between 3260000 and 3280000;
-    
+-- Rollback v4-326
+PRINT 'Rolling back changeset 326';
+GO
+
+IF OBJECT_ID('dbo.proc_transform_326', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_326;
+GO
+IF OBJECT_ID('dbo.audit_v4_326', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_326;
+GO
+IF OBJECT_ID('dbo.staging_table_326', 'U') IS NOT NULL DROP TABLE dbo.staging_table_326;
+GO
+
+PRINT 'Rollback completed for changeset 326';
+GO

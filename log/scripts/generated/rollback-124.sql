@@ -1,4 +1,13 @@
--- rollback V2-124
-    drop table if exists sample_table_124;
-    delete from padding_table where id between 1240000 and 1260000;
-    
+-- Rollback v4-124
+PRINT 'Rolling back changeset 124';
+GO
+
+IF OBJECT_ID('dbo.proc_transform_124', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_124;
+GO
+IF OBJECT_ID('dbo.audit_v4_124', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_124;
+GO
+IF OBJECT_ID('dbo.staging_table_124', 'U') IS NOT NULL DROP TABLE dbo.staging_table_124;
+GO
+
+PRINT 'Rollback completed for changeset 124';
+GO
