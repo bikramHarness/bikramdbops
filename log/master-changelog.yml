@@ -1,0 +1,751 @@
+databaseChangeLog:
+- changeSet:
+     id: SEQFIX-HUGE-1
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-001.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-001.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-2
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-002.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-002.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-3
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-003.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-003.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-4
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-004.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-004.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-5
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-005.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-005.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-6
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-006.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-006.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-7
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-007.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-007.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-8
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-008.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-008.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-9
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-009.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-009.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-10
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-010.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-010.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-11
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-011.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-011.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-12
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-012.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-012.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-13
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-013.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-013.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-14
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-014.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-014.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-15
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-015.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-015.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-16
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-016.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-016.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-17
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-017.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-017.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-18
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-018.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-018.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-19
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-019.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-019.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-20
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-020.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-020.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-21
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-021.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-021.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-22
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-022.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-022.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-23
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-023.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-023.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-24
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-024.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-024.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-25
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-025.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-025.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-26
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-026.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-026.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-27
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-027.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-027.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-28
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-028.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-028.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-29
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-029.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-029.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-30
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-030.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-030.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-31
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-031.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-031.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-32
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-032.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-032.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-33
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-033.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-033.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-34
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-034.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-034.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-35
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-035.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-035.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-36
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-036.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-036.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-37
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-037.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-037.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-38
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-038.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-038.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-39
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-039.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-039.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-40
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-040.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-040.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-41
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-041.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-041.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-42
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-042.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-042.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-43
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-043.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-043.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-44
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-044.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-044.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-45
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-045.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-045.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-46
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-046.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-046.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-47
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-047.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-047.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-48
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-048.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-048.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-49
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-049.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-049.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+- changeSet:
+     id: SEQFIX-HUGE-50
+     author: bikram_huge
+     changes:
+     - sqlFile:
+          path: scripts/generated/changeset-050.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
+     rollback:
+     - sqlFile:
+          path: scripts/generated/rollback-050.sql
+          relativeToChangelogFile: true
+          splitStatements: false
+          stripComments: true
