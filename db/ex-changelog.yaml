@@ -54,23 +54,23 @@ databaseChangeLog:
             tableName: avenegers
             columnName: street
 
-#  - changeSet:
-#      id: AVID3
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: avenegers
-#            columns:
-#              - column:
-#                  name: code
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: avenegers
-#            columnName: code
+  - changeSet:
+      id: AVID3
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: avenegers
+            columns:
+              - column:
+                  name: code
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: avenegers
+            columnName: code
 
 #  - changeSet:
 #      id: AVID4
