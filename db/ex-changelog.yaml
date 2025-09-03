@@ -90,23 +90,23 @@ databaseChangeLog:
             tableName: avenegers
             columnName: handle
 
-#  - changeSet:
-#      id: AVID5
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: avenegers
-#            columns:
-#              - column:
-#                  name: height
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: avenegers
-#            columnName: height
+  - changeSet:
+      id: AVID5
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: avenegers
+            columns:
+              - column:
+                  name: height
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: avenegers
+            columnName: height
 #
 #  - changeSet:
 #      id: AVID6
