@@ -1,13 +1,4 @@
--- Rollback v4-368
-PRINT 'Rolling back changeset 368';
-GO
-
-IF OBJECT_ID('dbo.proc_transform_368', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_368;
-GO
-IF OBJECT_ID('dbo.audit_v4_368', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_368;
-GO
-IF OBJECT_ID('dbo.staging_table_368', 'U') IS NOT NULL DROP TABLE dbo.staging_table_368;
-GO
-
-PRINT 'Rollback completed for changeset 368';
+-- Rollback for LargeProc_368
+IF OBJECT_ID('PRDATA.USFS_usp_LargeProc_368', 'P') IS NOT NULL
+    DROP PROCEDURE PRDATA.USFS_usp_LargeProc_368;
 GO

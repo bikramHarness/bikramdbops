@@ -1,13 +1,4 @@
--- Rollback v4-13
-PRINT 'Rolling back changeset 13';
-GO
-
-IF OBJECT_ID('dbo.proc_transform_13', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_13;
-GO
-IF OBJECT_ID('dbo.audit_v4_13', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_13;
-GO
-IF OBJECT_ID('dbo.staging_table_13', 'U') IS NOT NULL DROP TABLE dbo.staging_table_13;
-GO
-
-PRINT 'Rollback completed for changeset 13';
+-- Rollback for LargeProc_13
+IF OBJECT_ID('PRDATA.USFS_usp_LargeProc_13', 'P') IS NOT NULL
+    DROP PROCEDURE PRDATA.USFS_usp_LargeProc_13;
 GO

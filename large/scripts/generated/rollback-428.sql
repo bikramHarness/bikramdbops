@@ -1,13 +1,4 @@
--- Rollback v4-428
-PRINT 'Rolling back changeset 428';
-GO
-
-IF OBJECT_ID('dbo.proc_transform_428', 'P') IS NOT NULL DROP PROCEDURE dbo.proc_transform_428;
-GO
-IF OBJECT_ID('dbo.audit_v4_428', 'U') IS NOT NULL DROP TABLE dbo.audit_v4_428;
-GO
-IF OBJECT_ID('dbo.staging_table_428', 'U') IS NOT NULL DROP TABLE dbo.staging_table_428;
-GO
-
-PRINT 'Rollback completed for changeset 428';
+-- Rollback for LargeProc_428
+IF OBJECT_ID('PRDATA.USFS_usp_LargeProc_428', 'P') IS NOT NULL
+    DROP PROCEDURE PRDATA.USFS_usp_LargeProc_428;
 GO
