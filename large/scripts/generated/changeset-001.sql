@@ -1,12 +1,7 @@
-USE ${instance-db}
-GO
+USE ${instance-db};
 
 SET ANSI_NULLS ON;
-GO
-
 SET QUOTED_IDENTIFIER ON;
-GO
-
 
 /**********************************************************************************************************
 -----------------------------------------------------------------------------------------------------------
@@ -242,12 +237,14 @@ BEGIN
                 UPDATE dbo.dummy_table SET col1 = col1 + 98 WHERE id = @param1;
                 -- Dummy update 99
                 UPDATE dbo.dummy_table SET col1 = col1 + 99 WHERE id = @param1;
+
                 DECLARE @k INT = 1;
                 WHILE @k <= 500
                 BEGIN
                     INSERT INTO dbo.dummy_table (col1) VALUES (@k);
                     SET @k = @k + 1;
-                END
+                END;
+
         -- Commit transaction
         COMMIT TRANSACTION;
     END TRY
@@ -265,4 +262,3 @@ BEGIN
         RETURN;
     END CATCH;
 END;
-GO
