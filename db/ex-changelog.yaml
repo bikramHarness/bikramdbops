@@ -18,23 +18,23 @@ databaseChangeLog:
         - dropTable:
             tableName: ironMan
 
-#  - changeSet:
-#      id: IDDD1
-#      author: bikramkumar
-#      labels: tag_3
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: ironMan
-#            columns:
-#              - column:
-#                  name: country
-#                  type: varchar(1)
-#      rollback:
-#        - dropColumn:
-#            tableName: ironMan
-#            columnName: country
+  - changeSet:
+      id: IDDD1
+      author: bikramkumar
+      labels: tag_3
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: ironMan
+            columns:
+              - column:
+                  name: country
+                  type: varchar(1)
+      rollback:
+        - dropColumn:
+            tableName: ironMan
+            columnName: country
 
 #  - changeSet:
 #      id: IDDD2
