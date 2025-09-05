@@ -1,1 +1,127 @@
-databaseChangeLog: []
+databaseChangeLog:
+  - changeSet:
+      id: IDDD0
+      author: bikramkumar
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: ironMan
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: ironMan
+
+  - changeSet:
+      id: IDDD1
+      author: bikramkumar
+      labels: tag_3
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: ironMan
+            columns:
+              - column:
+                  name: country
+                  type: varchar(1)
+      rollback:
+        - dropColumn:
+            tableName: ironMan
+            columnName: country
+
+#  - changeSet:
+#      id: IDDD2
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: ironMan
+#            columns:
+#              - column:
+#                  name: street
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: ironMan
+#            columnName: street
+#
+#  - changeSet:
+#      id: IDDD3
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: ironMan
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: ironMan
+#            columnName: code
+#
+#  - changeSet:
+#      id: IDDD4
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: ironMan
+#            columns:
+#              - column:
+#                  name: handle
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: ironMan
+#            columnName: handle
+#
+#  - changeSet:
+#      id: IDDD5
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: ironMan
+#            columns:
+#              - column:
+#                  name: height
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: ironMan
+#            columnName: height
+#
+#  - changeSet:
+#      id: IDDD6
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: ironMan
+#            columns:
+#              - column:
+#                  name: weight
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: ironMan
+#            columnName: weight
