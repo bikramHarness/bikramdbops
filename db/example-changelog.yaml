@@ -1,1 +1,2 @@
-databaseChangeLog: []
+databaseChangeLog:
+  -  logicalFilePath:  changelog.yml
