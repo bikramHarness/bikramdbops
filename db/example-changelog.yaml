@@ -1,2 +1,20 @@
 databaseChangeLog:
   -  logicalFilePath:  changelog.yml
+  - changeSet:
+      id: IDDD0
+      author: bikramkumar
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: ironMan
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: ironMan
