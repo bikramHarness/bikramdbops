@@ -36,23 +36,23 @@ databaseChangeLog:
             tableName: ironMan
             columnName: country
 
-#  - changeSet:
-#      id: IDDD2
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: ironMan
-#            columns:
-#              - column:
-#                  name: street
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: ironMan
-#            columnName: street
+  - changeSet:
+      id: IDDD2
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: ironMan
+            columns:
+              - column:
+                  name: street
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: ironMan
+            columnName: street
 #
 #  - changeSet:
 #      id: IDDD3
