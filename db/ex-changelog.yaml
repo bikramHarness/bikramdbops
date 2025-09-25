@@ -17,7 +17,6 @@ databaseChangeLog:
       rollback:
         - dropTable:
             tableName: ironMan
-
   - changeSet:
       id: IDDD1
       author: bikramkumar
@@ -35,7 +34,6 @@ databaseChangeLog:
         - dropColumn:
             tableName: ironMan
             columnName: country
-
   - changeSet:
       id: IDDD2
       author: bikramkumar
@@ -53,6 +51,46 @@ databaseChangeLog:
         - dropColumn:
             tableName: ironMan
             columnName: street
+  - changeSet:
+      id: 1695636708223-1
+      author: Bikram Kumar
+      comment: Create college table with Id, name and place
+      changes:
+        - createTable:
+            tableName: college
+            columns:
+              - column:
+                  name: Id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: place
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: createdAt
+                  type: DATETIME2
+                  defaultValueComputed: GETDATE()
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updatedAt
+                  type: DATETIME2
+                  defaultValueComputed: GETDATE()
+                  constraints:
+                    nullable: false
+      rollback:
+        - dropTable:
+            tableName: college
 #
 #  - changeSet:
 #      id: IDDD3
