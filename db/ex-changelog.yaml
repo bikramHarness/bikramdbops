@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: IDDD0
+      id: bikram1
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: ironMan
+            tableName: batman
             columns:
               - column:
                   name: id
@@ -16,42 +16,42 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: ironMan
+            tableName: batman
 
   - changeSet:
-      id: IDDD1
+      id: bikram2
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: ironMan
+            tableName: batman
             columns:
               - column:
                   name: country
                   type: varchar(1)
       rollback:
         - dropColumn:
-            tableName: ironMan
+            tableName: batman
             columnName: country
 
   - changeSet:
-      id: IDDD2
+      id: bikram2
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: ironMan
+            tableName: batman
             columns:
               - column:
                   name: street
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: ironMan
+            tableName: batman
             columnName: street
 #
 #  - changeSet:
@@ -62,14 +62,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columns:
 #              - column:
 #                  name: code
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columnName: code
 #
 #  - changeSet:
@@ -80,14 +80,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columns:
 #              - column:
 #                  name: handle
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columnName: handle
 #
 #  - changeSet:
@@ -98,14 +98,14 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columns:
 #              - column:
 #                  name: height
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columnName: height
 #
 #  - changeSet:
@@ -116,12 +116,12 @@ databaseChangeLog:
 #      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columns:
 #              - column:
 #                  name: weight
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: ironMan
+#            tableName: batman
 #            columnName: weight
