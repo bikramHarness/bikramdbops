@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: b600
+      id: bikram1
       author: bikramkumar
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: repos
+            tableName: batman
             columns:
               - column:
                   name: id
@@ -16,158 +16,112 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: repos
+            tableName: batman
 
   - changeSet:
-      id: b601
+      id: bikram2
       author: bikramkumar
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: repos
+            tableName: batman
             columns:
               - column:
                   name: country
-                  type: varchar(100)
+                  type: varchar(1)
       rollback:
         - dropColumn:
-            tableName: repos
+            tableName: batman
             columnName: country
 
   - changeSet:
-      id: b602
+      id: bikram3
       author: bikramkumar
       labels: example-label
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: repos
+            tableName: batman
             columns:
               - column:
-                  name: state
+                  name: street
                   type: varchar(10)
       rollback:
         - dropColumn:
-            tableName: repos
-            columnName: state
-
-  - changeSet:
-      id: b603
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: code
-
-  - changeSet:
-      id: b604
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: field1
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: field1
-
-  - changeSet:
-      id: 605
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: field2
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: field2
-
-  - changeSet:
-      id: 606
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: firstname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: firstname
-
-  - changeSet:
-      id: 607
-      author: bikramkumar
-      context: example-context
-      comment: I really want another column
-      changes:
-        - addColumn:
-            tableName: repos
-            columns:
-              - column:
-                  name: lastname
-                  type: varchar(100)
-      rollback:
-        - dropColumn:
-            tableName: repos
-            columnName: lastname
+            tableName: batman
+            columnName: street
 #
 #  - changeSet:
-#      id: 608
+#      id: IDDD3
 #      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: repos
+#            tableName: batman
 #            columns:
 #              - column:
-#                  name: updatedBy
+#                  name: code
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: repos
-#            columnName: updatedBy
+#            tableName: batman
+#            columnName: code
 #
 #  - changeSet:
-#      id: 609
+#      id: IDDD4
 #      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
 #      changes:
 #        - addColumn:
-#            tableName: repos
+#            tableName: batman
 #            columns:
 #              - column:
-#                  name: createdBy
+#                  name: handle
 #                  type: varchar(10)
 #      rollback:
 #        - dropColumn:
-#            tableName: repos
-#            columnName: createdBy
+#            tableName: batman
+#            columnName: handle
+#
+#  - changeSet:
+#      id: IDDD5
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: height
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: height
+#
+#  - changeSet:
+#      id: IDDD6
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: weight
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: weight
