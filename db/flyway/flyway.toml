@@ -1,0 +1,3 @@
+
+[flyway]
+defaultSchema = "dbo_bikram"
