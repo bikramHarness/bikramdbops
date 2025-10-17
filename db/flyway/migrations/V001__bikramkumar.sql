@@ -1,5 +1,5 @@
 
-CREATE TABLE outofordertable (
+CREATE TABLE table_1 (
     id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50),
