@@ -89,24 +89,24 @@ databaseChangeLog:
         - dropColumn:
             tableName: batman
             columnName: handle
-#
-#  - changeSet:
-#      id: IDDD5
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: batman
-#            columns:
-#              - column:
-#                  name: height
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: batman
-#            columnName: height
+
+  - changeSet:
+      id: bikram6
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: batman
+            columns:
+              - column:
+                  name: height
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: batman
+            columnName: height
 #
 #  - changeSet:
 #      id: IDDD6
