@@ -161,3 +161,21 @@ databaseChangeLog:
         - dropColumn:
             tableName: batman
             columnName: car
+
+  - changeSet:
+      id: bikram10
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: batman
+            columns:
+              - column:
+                  name: car
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: batman
+            columnName: car
