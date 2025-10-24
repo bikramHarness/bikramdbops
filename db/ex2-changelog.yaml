@@ -173,9 +173,9 @@ databaseChangeLog:
             tableName: batman
             columns:
               - column:
-                  name: car
+                  name: hotel
                   type: varchar(10)
       rollback:
         - dropColumn:
             tableName: batman
-            columnName: car
+            columnName: hotel
