@@ -1,2 +1,2 @@
 
-drop table table_5;
+drop table table_4;
