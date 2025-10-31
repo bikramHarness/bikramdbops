@@ -215,3 +215,21 @@ databaseChangeLog:
         - dropColumn:
             tableName: batman
             columnName: black
+
+  - changeSet:
+      id: bikram13
+      author: bikramkumar
+      labels: example-label
+      context: example-context
+      comment: example comment
+      changes:
+        - addColumn:
+            tableName: batman
+            columns:
+              - column:
+                  name: white
+                  type: varchar(10)
+      rollback:
+        - dropColumn:
+            tableName: batman
+            columnName: white
