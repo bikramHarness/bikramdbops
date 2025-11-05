@@ -1,7 +1,7 @@
 
 try {
 
-  if (db.getCollectionNames().includes("users")) {
+  if (db.getCollectionNames().includes("users1")) {
     db.users.drop();
     print("🗑️ Dropped 'users' collection");
   } else {
