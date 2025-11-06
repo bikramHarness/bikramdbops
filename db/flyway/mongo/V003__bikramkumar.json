@@ -1,0 +1,13 @@
+{
+  "create": "users3",
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["email", "name"],
+      "properties": {
+        "email": { "bsonType": "string" },
+        "name":  { "bsonType": "string" }
+      }
+    }
+  }
+}
