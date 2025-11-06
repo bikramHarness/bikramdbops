@@ -1,0 +1,6 @@
+
+CREATE TABLE table_10 (
+    id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    description VARCHAR(50),
+);
