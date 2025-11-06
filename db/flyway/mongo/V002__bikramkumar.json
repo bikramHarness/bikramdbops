@@ -1,8 +1,0 @@
-{
-  "operation": "insertMany",
-  "collection": "users",
-  "documents": [
-    { "email": "admin@example.com", "name": "Admin User" },
-    { "email": "guest@example.com", "name": "Guest User" }
-  ]
-}
