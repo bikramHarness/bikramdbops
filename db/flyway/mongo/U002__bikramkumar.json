@@ -1,4 +1,3 @@
 {
-  "operation": "dropCollection",
-  "collection": "users2"
+  "drop": "users2"
 }

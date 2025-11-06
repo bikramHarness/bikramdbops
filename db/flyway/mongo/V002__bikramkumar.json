@@ -1,15 +1,12 @@
 {
-  "operation": "createCollection",
-  "collection": "users2",
-  "options": {
-    "validator": {
-      "$jsonSchema": {
-        "bsonType": "object",
-        "required": ["email", "name"],
-        "properties": {
-          "email": { "bsonType": "string" },
-          "name": { "bsonType": "string" }
-        }
+  "create": "users2",
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["email", "name"],
+      "properties": {
+        "email": { "bsonType": "string" },
+        "name":  { "bsonType": "string" }
       }
     }
   }
