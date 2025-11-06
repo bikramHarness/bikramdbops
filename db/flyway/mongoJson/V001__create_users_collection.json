@@ -1,0 +1,16 @@
+{
+  "operation": "createCollection",
+  "collection": "users",
+  "options": {
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["email", "name"],
+        "properties": {
+          "email": { "bsonType": "string" },
+          "name": { "bsonType": "string" }
+        }
+      }
+    }
+  }
+}

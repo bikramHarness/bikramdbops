@@ -1,0 +1,7 @@
+{
+  "operation": "deleteMany",
+  "collection": "users",
+  "filter": {
+    "email": { "$in": ["admin@example.com", "guest@example.com"] }
+  }
+}
