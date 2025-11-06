@@ -1,1 +1,1 @@
-flyway.sqlMigrationSuffixes = [".js", ".json"]
+flyway.sqlMigrationSuffixes = [".json"]
