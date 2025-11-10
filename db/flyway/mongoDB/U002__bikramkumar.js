@@ -2,7 +2,8 @@
 try {
 
   if (db.getCollectionNames().includes("users1")) {
-    db.users.drop();
+    db.users1.drop();
+    db.users2.drop();
     print("🗑️ Dropped 'users' collection");
   } else {
     print("⚠️ 'users' collection does not exist — skipping drop.");
