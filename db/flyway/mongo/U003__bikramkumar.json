@@ -1,3 +1,15 @@
 {
-  "drop": "users3"
+  "collMod": "users2",
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["email", "name"],
+      "properties": {
+        "email": { "bsonType": "string" },
+        "name": { "bsonType": "string" }
+      }
+    }
+  },
+  "validationLevel": "strict",
+  "validationAction": "error"
 }
