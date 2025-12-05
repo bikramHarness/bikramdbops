@@ -1,6 +1,6 @@
 
 CREATE TABLE table_12 (
-    id INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    id VARCHAR(36) PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50),
 );
