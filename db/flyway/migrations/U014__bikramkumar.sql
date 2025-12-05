@@ -1,0 +1,2 @@
+
+ALTER TABLE table_2 DROP company VARCHAR(50);
