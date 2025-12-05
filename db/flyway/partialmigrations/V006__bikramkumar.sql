@@ -1,6 +1,6 @@
 
-CREATE TABLE table_5 (
-    id SERIAL PRIMARY KEY,
+CREATE TABLE collection1 (
+    id VARCHAR(36) PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(50)
 );
