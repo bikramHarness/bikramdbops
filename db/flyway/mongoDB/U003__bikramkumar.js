@@ -1,22 +1,15 @@
+// V3__create_index_admin_id_name.js
+// Create compound index on admin (id, name)
+if (!db.getCollectionNames().includes("admin")) {
+  throw new Error("Collection 'admin' does not exist. Create admin collection before indexing.");
+}
 
-try {
+var indexName = "idx_admin_id_name";
+var existing = db.admin.getIndexes().some(function(ix){ return ix.name === indexName; });
 
-  if (db.getCollectionNames().includes("users1")) {
-    db.users1.drop();
-    db.users2.drop();
-    print("🗑️ Dropped 'users' collection");
-  } else {
-    print("⚠️ 'users' collection does not exist — skipping drop.");
-  }
-
-  if (db.getCollectionNames().includes("orders")) {
-    db.orders.drop();
-    print("🗑️ Dropped 'orders' collection");
-  } else {
-    print("⚠️ 'orders' collection does not exist — skipping drop.");
-  }
-
-} catch (e) {
-  print("Error in U001__drop_init_collections.js:", e);
-  throw e;
+if (!existing) {
+  db.admin.createIndex({ id: 1, name: 1 }, { name: indexName });
+  print("Created index '" + indexName + "' on admin(id, name)");
+} else {
+  print("Index '" + indexName + "' already exists on admin, skipping");
 }
