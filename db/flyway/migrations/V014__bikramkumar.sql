@@ -1,2 +1,0 @@
-
-ALTER TABLE table_1 ADD company VARCHAR(50);

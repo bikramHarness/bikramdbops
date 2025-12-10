@@ -1,13 +1,12 @@
 {
-  "collMod": "users2",
+  "create": "users3",
   "validator": {
     "$jsonSchema": {
       "bsonType": "object",
-      "required": ["email", "name", "country"],
+      "required": ["email", "name"],
       "properties": {
         "email": { "bsonType": "string" },
-        "name":  { "bsonType": "string" },
-        "country": { "bsonType": "string" }
+        "name":  { "bsonType": "string" }
       }
     }
   }
