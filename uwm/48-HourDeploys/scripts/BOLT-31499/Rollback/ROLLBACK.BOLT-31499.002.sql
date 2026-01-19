@@ -1,2 +1,0 @@
-
-DROP PROCEDURE [PRDATA].[USFS_usp_ClearFHACaseDetails]

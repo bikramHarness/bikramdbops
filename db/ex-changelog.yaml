@@ -26,7 +26,7 @@ databaseChangeLog:
       comment: example comment
       changes:
         - addColumn:
-            tableName: batman2
+            tableName: batman
             columns:
               - column:
                   name: country

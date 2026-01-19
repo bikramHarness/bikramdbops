@@ -1,4 +1,0 @@
--- Rollback for LargeProc_134
-IF OBJECT_ID('PRDATA.USFS_usp_LargeProc_134', 'P') IS NOT NULL
-    DROP PROCEDURE PRDATA.USFS_usp_LargeProc_134;
-GO
