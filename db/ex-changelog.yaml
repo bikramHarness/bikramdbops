@@ -72,7 +72,7 @@ databaseChangeLog:
             tableName: batman
             columnName: code
 
- - changeSet:
+  - changeSet:
      id: bikram5
      author: bikramkumar
      labels: example-label
