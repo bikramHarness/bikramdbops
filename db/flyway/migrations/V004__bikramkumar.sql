@@ -1,1 +1,1 @@
-ALTER TABLE table_4 ADD company VARCHAR(50);
+ALTER TABLE table_3 ADD company VARCHAR(50);

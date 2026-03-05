@@ -1,2 +1,2 @@
 
-ALTER TABLE table_4 drop company VARCHAR(50);
+ALTER TABLE table_3 drop company VARCHAR(50);
