@@ -1,25 +1,40 @@
 databaseChangeLog:
   - changeSet:
-      id: my.poc:1
-      author: my.poc
-      comment: example comment
+      id: user:8
+      author: user@harness.io
       context: example-context
-      labels: tag_1
+      labels: create-collection, base-setup
+      comment: |
+        Creating a new collection 'mg1' to store user address information.
+        Includes fields: id, name, address1, address2, and city.
       changes:
         - createCollection:
-            collectionName: iron
-        # or other MongoDB operations
+            collectionName: mg1
+      rollback:
+        - dropCollection:
+            collectionName: mg1
 
   - changeSet:
-      id: my.poc:2
-      author: my.poc
-      comment: example comment
+      id: user:9
+      author: user@harness.io
       context: example-context
-      labels: tag_2
+      labels: add-collection
+      comment: Create a new collection 'mg2'
       changes:
-        - addColumn:
-            tableName: iron
-            columns:
-              - column:
-                  name: newField
-                  type: string
+        - createCollection:
+            collectionName: mg2
+      rollback:
+        - dropCollection:
+            collectionName: mg2
+
+  - changeSet:
+      id: user:10
+      author: user@harness.io
+      context: example-context
+      labels: dynamic-collections
+      changes:
+        - createCollection:
+            collectionName: mg3
+      rollback:
+        - dropCollection:
+            collectionName: mg3
