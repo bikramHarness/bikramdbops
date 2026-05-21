@@ -1,0 +1,77 @@
+databaseChangeLog:
+  - changeSet:
+      id: "1-create-users-table"
+      author: "db-devops-test"
+      changes:
+        - createTable:
+            tableName: "test_users"
+            columns:
+              - column:
+                  name: "id"
+                  type: "BIGINT"
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+
+              - column:
+                  name: "profile"
+                  type: "NVARCHAR(MAX)"
+
+              - column:
+                  name: "activity"
+                  type: "NVARCHAR(MAX)"
+
+              - column:
+                  name: "metadata"
+                  type: "NVARCHAR(MAX)"
+
+  - changeSet:
+      id: "2-create-events-table"
+      author: "db-devops-test"
+      changes:
+        - createTable:
+            tableName: "test_events"
+            columns:
+              - column:
+                  name: "id"
+                  type: "BIGINT"
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+
+              - column:
+                  name: "data"
+                  type: "NVARCHAR(MAX)"
+
+              - column:
+                  name: "metrics"
+                  type: "NVARCHAR(MAX)"
+
+  - changeSet:
+      id: "3-create-sessions-table"
+      author: "db-devops-test"
+      changes:
+        - createTable:
+            tableName: "test_sessions"
+            columns:
+              - column:
+                  name: "id"
+                  type: "BIGINT"
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+
+              - column:
+                  name: "session_data"
+                  type: "NVARCHAR(MAX)"
+
+              - column:
+                  name: "tokens"
+                  type: "NVARCHAR(MAX)"
+
+  - changeSet:
+      id: "4-delete-sessions-table"
+      author: "db-devops-test"
+      changes:
+        - dropTable:
+            tableName: "test_sessions"
