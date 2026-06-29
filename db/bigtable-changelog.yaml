@@ -1,0 +1,42 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-logical-view-daily-active-users
+      author: harness
+      changes:
+        - createBigtableLogicalView:
+            name: daily_active_users
+            query: >
+              SELECT user_id, COUNT(event_id) as event_count
+              FROM `my_project.raw_data.events`
+              GROUP BY user_id
+
+  - changeSet:
+      id: create-logical-view-recent-orders
+      author: harness
+      changes:
+        - createBigtableLogicalView:
+            name: recent_orders
+            query: >
+              SELECT order_id, customer_id, total
+              FROM `my_project.sales.orders`
+              WHERE order_date > TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 7 DAY)
+
+  - changeSet:
+      id: delete-logical-view-recent-orders
+      author: harness
+      changes:
+        - deleteBigtableLogicalView:
+            name: recent_orders
+
+  - changeSet:
+      id: create-logical-view-with-rollback
+      author: harness
+      changes:
+        - createBigtableLogicalView:
+            name: temp_view
+            query: >
+              SELECT _key, cf1['name'] as user_name
+              FROM temp_table
+      rollback:
+        - deleteBigtableLogicalView:
+            name: temp_view
