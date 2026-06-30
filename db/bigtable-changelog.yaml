@@ -1,42 +1,76 @@
 databaseChangeLog:
   - changeSet:
-      id: create-logical-view-daily-active-users
+      id: 1
       author: harness
       changes:
-        - createBigtableLogicalView:
-            name: daily_active_users
-            query: >
-              SELECT user_id, COUNT(event_id) as event_count
-              FROM `my_project.raw_data.events`
-              GROUP BY user_id
+        - createBigtableTable:
+            tableName: users
+            columnFamilies:
+              - name: profile
+                gcRule:
+                  maxNumVersions: 3
+              - name: orders
+                gcRule:
+                  maxAge: 30d
+              - name: audit
+                gcRule:
+                  union:
+                    - maxNumVersions: 5
+                    - maxAge: 90d
 
   # - changeSet:
-  #     id: create-logical-view-recent-orders
+  #     id: 2
   #     author: harness
   #     changes:
-  #       - createBigtableLogicalView:
-  #           name: recent_orders
-  #           query: >
-  #             SELECT order_id, customer_id, total
-  #             FROM `my_project.sales.orders`
-  #             WHERE order_date > TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 7 DAY)
+  #       - createBigtableTable:
+  #           tableName: products
+  #           columnFamilies:
+  #             - name: details
+  #               gcRule:
+  #                 intersection:
+  #                   - maxNumVersions: 2
+  #                   - maxAge: 7d
+  #             - name: metadata
 
   # - changeSet:
-  #     id: delete-logical-view-recent-orders
+  #     id: 3
   #     author: harness
   #     changes:
-  #       - deleteBigtableLogicalView:
-  #           name: recent_orders
+  #       - createBigtableTable:
+  #           tableName: sessions
+  #           columnFamilies:
+  #             - name: data
+  #               gcRule:
+  #                 maxAge: 1h
 
   # - changeSet:
-  #     id: create-logical-view-with-rollback
+  #     id: 4
   #     author: harness
   #     changes:
-  #       - createBigtableLogicalView:
-  #           name: temp_view
-  #           query: >
-  #             SELECT _key, cf1['name'] as user_name
-  #             FROM temp_table
+  #       - createBigtableTable:
+  #           tableName: events
+  #           columnFamilies:
+  #             - name: payload
+  #               gcRule:
+  #                 intersection:
+  #                   - maxNumVersions: 10
+  #                   - maxAge: 2h
+  #             - name: metadata
+  #               gcRule:
+  #                 maxNumVersions: 1
+  #             - name: indexes
+
+  # - changeSet:
+  #     id: 5
+  #     author: harness
+  #     changes:
+  #       - createBigtableTable:
+  #           tableName: temp_analytics
+  #           columnFamilies:
+  #             - name: metrics
+  #               gcRule:
+  #                 maxAge: 7d
+  #             - name: dimensions
   #     rollback:
-  #       - deleteBigtableLogicalView:
-  #           name: temp_view
+  #       - deleteBigtableTable:
+  #           tableName: temp_analytics
