@@ -18,19 +18,19 @@ databaseChangeLog:
                     - maxNumVersions: 5
                     - maxAge: 90d
 
-  # - changeSet:
-  #     id: 2
-  #     author: harness
-  #     changes:
-  #       - createBigtableTable:
-  #           tableName: products
-  #           columnFamilies:
-  #             - name: details
-  #               gcRule:
-  #                 intersection:
-  #                   - maxNumVersions: 2
-  #                   - maxAge: 7d
-  #             - name: metadata
+  - changeSet:
+      id: 2
+      author: harness
+      changes:
+        - createBigtableTable:
+            tableName: products
+            columnFamilies:
+              - name: details
+                gcRule:
+                  intersection:
+                    - maxNumVersions: 2
+                    - maxAge: 7d
+              - name: metadata
 
   # - changeSet:
   #     id: 3
