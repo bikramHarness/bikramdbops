@@ -16,19 +16,19 @@ databaseChangeLog:
         - deleteBigtableTable:
             tableName: user_events
 
-#  - changeSet:
-#      id: 2-create-column-family
-#      author: harness
-#      changes:
-#        - createColumnFamily:
-#            tableName: user_events
-#            familyName: preferences
-#            gcRule:
-#              maxNumVersions: 5
-#      rollback:
-#        - deleteColumnFamily:
-#            tableName: user_events
-#            familyName: preferences
+ - changeSet:
+     id: 2-create-column-family
+     author: harness
+     changes:
+       - createColumnFamily:
+           tableName: user_events
+           familyName: preferences
+           gcRule:
+             maxNumVersions: 5
+     rollback:
+       - deleteColumnFamily:
+           tableName: user_events
+           familyName: preferences
 #
 #  - changeSet:
 #      id: 3-modify-gc-rule
