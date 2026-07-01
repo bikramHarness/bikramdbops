@@ -16,7 +16,7 @@ databaseChangeLog:
         - deleteBigtableTable:
             tableName: user_events
 
- - changeSet:
+  - changeSet:
      id: 2-create-column-family
      author: harness
      changes:
