@@ -1,76 +1,79 @@
 databaseChangeLog:
   - changeSet:
-      id: 1
+      id: 1-create-table
       author: harness
       changes:
         - createBigtableTable:
-            tableName: users
+            tableName: user_events
             columnFamilies:
               - name: profile
                 gcRule:
                   maxNumVersions: 3
-              - name: orders
+              - name: activity
                 gcRule:
                   maxAge: 30d
-              - name: audit
-                gcRule:
-                  union:
-                    - maxNumVersions: 5
-                    - maxAge: 90d
+      rollback:
+        - deleteBigtableTable:
+            tableName: user_events
 
-  - changeSet:
-      id: 2
-      author: harness
-      changes:
-        - createBigtableTable:
-            tableName: products
-            columnFamilies:
-              - name: details
-                gcRule:
-                  intersection:
-                    - maxNumVersions: 2
-                    - maxAge: 7d
-              - name: metadata
-
-  # - changeSet:
-  #     id: 3
-  #     author: harness
-  #     changes:
-  #       - createBigtableTable:
-  #           tableName: sessions
-  #           columnFamilies:
-  #             - name: data
-  #               gcRule:
-  #                 maxAge: 1h
-
-  # - changeSet:
-  #     id: 4
-  #     author: harness
-  #     changes:
-  #       - createBigtableTable:
-  #           tableName: events
-  #           columnFamilies:
-  #             - name: payload
-  #               gcRule:
-  #                 intersection:
-  #                   - maxNumVersions: 10
-  #                   - maxAge: 2h
-  #             - name: metadata
-  #               gcRule:
-  #                 maxNumVersions: 1
-  #             - name: indexes
-
-  # - changeSet:
-  #     id: 5
-  #     author: harness
-  #     changes:
-  #       - createBigtableTable:
-  #           tableName: temp_analytics
-  #           columnFamilies:
-  #             - name: metrics
-  #               gcRule:
-  #                 maxAge: 7d
-  #             - name: dimensions
-  #     rollback:
-  #       - deleteBigtableTable:
-  #           tableName: temp_analytics
+#  - changeSet:
+#      id: 2-create-column-family
+#      author: harness
+#      changes:
+#        - createColumnFamily:
+#            tableName: user_events
+#            familyName: preferences
+#            gcRule:
+#              maxNumVersions: 5
+#      rollback:
+#        - deleteColumnFamily:
+#            tableName: user_events
+#            familyName: preferences
+#
+#  - changeSet:
+#      id: 3-modify-gc-rule
+#      author: harness
+#      changes:
+#        - modifyColumnFamilyGCRule:
+#            tableName: user_events
+#            familyName: profile
+#            gcRule:
+#              intersection:
+#                - maxNumVersions: 5
+#                - maxAge: 7d
+#
+#  - changeSet:
+#      id: 4-enable-change-stream
+#      author: harness
+#      changes:
+#        - modifyChangeStreamConfig:
+#            tableName: user_events
+#            changeStreamConfig:
+#              retentionPeriod: 3d
+#
+#  - changeSet:
+#      id: 5-create-materialized-view
+#      author: harness
+#      changes:
+#        - createBigtableMaterializedView:
+#            name: user_activity_summary
+#            query: >
+#              SELECT _key, profile['user_id'] AS user_id
+#              FROM user_events
+#              ORDER BY _key ASC
+#      rollback:
+#        - deleteBigtableMaterializedView:
+#            name: user_activity_summary
+#
+#  - changeSet:
+#      id: 6-create-logical-view
+#      author: harness
+#      changes:
+#        - createBigtableLogicalView:
+#            name: recent_activity
+#            query: >
+#              SELECT _key, activity['event_type'] AS event_type
+#              FROM user_events
+#      rollback:
+#        - deleteBigtableLogicalView:
+#            name: recent_activity
