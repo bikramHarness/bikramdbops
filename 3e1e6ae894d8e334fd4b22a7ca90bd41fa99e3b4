@@ -1,0 +1,38 @@
+db/bigtable-changelog.yaml
+  human 19
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "19",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/bigtable-changelog.yaml"
+    }
+  ],
+  "base_commit_sha": "b826e33eb2099ec9fa95a1b2cff2bec9a4226c42",
+  "branch": "main",
+  "commit_sha": "3e1e6ae894d8e334fd4b22a7ca90bd41fa99e3b4",
+  "commit_time": "2026-07-01T17:58:45+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.21",
+  "prompts": {
+    "human": {
+      "accepted_lines": 1,
+      "agent_id": null,
+      "human_author": "Bikram Kumar <bikram.kumar@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 1,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/bikramHarness/bikramdbops",
+  "schema_version": "authorship/3.0.0"
+}
