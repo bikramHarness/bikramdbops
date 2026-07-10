@@ -65,15 +65,15 @@ databaseChangeLog:
 #        - deleteBigtableMaterializedView:
 #            name: user_activity_summary
 #
-#  - changeSet:
-#      id: 6-create-logical-view
-#      author: harness
-#      changes:
-#        - createBigtableLogicalView:
-#            name: recent_activity
-#            query: >
-#              SELECT _key, activity['event_type'] AS event_type
-#              FROM user_events
-#      rollback:
-#        - deleteBigtableLogicalView:
-#            name: recent_activity
+  - changeSet:
+      id: 6-create-logical-view
+      author: harness
+      changes:
+        - createBigtableLogicalView:
+            name: recent_activity
+            query: >
+              SELECT _key, activity['event_type'] AS event_type
+              FROM user_events
+      rollback:
+        - deleteBigtableLogicalView:
+            name: recent_activity
