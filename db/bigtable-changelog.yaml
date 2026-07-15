@@ -90,7 +90,7 @@ databaseChangeLog:
       rollback:
         - deleteBigtableLogicalView:
             name: recent_activity
-            
+
   - changeSet:
       id: delete-iam-binding-test
       author: harness
