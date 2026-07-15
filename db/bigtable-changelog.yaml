@@ -30,17 +30,17 @@ databaseChangeLog:
            tableName: user_events
            familyName: preferences
 
-#  - changeSet:
-#      id: 3-modify-gc-rule
-#      author: harness
-#      changes:
-#        - modifyColumnFamilyGCRule:
-#            tableName: user_events
-#            familyName: profile
-#            gcRule:
-#              intersection:
-#                - maxNumVersions: 5
-#                - maxAge: 7d
+  - changeSet:
+      id: 3-modify-gc-rule
+      author: harness
+      changes:
+        - modifyColumnFamilyGCRule:
+            tableName: user_events
+            familyName: profile
+            gcRule:
+              intersection:
+                - maxNumVersions: 5
+                - maxAge: 7d
 #
 #  - changeSet:
 #      id: 4-enable-change-stream
@@ -91,23 +91,23 @@ databaseChangeLog:
         - deleteBigtableLogicalView:
             name: recent_activity
 
-  - changeSet:
-      id: delete-iam-binding-test
-      author: harness
-      changes:
-        - deleteBigTableIAMRoleTableBinding:
-            tableName: myTable
-            role: roles/bigtable.reader
-            members:
-              - "user:mike@example.com"
-              - "group:admins@example.com"
-      rollback:
-        - addBigTableIAMRoleTableBinding:
-            tableName: myTable
-            role: roles/bigtable.reader
-            members:
-              - "user:mike@example.com"
-              - "group:admins@example.com"
+#  - changeSet:
+#      id: delete-iam-binding-test
+#      author: harness
+#      changes:
+#        - deleteBigTableIAMRoleTableBinding:
+#            tableName: myTable
+#            role: roles/bigtable.reader
+#            members:
+#              - "user:mike@example.com"
+#              - "group:admins@example.com"
+#      rollback:
+#        - addBigTableIAMRoleTableBinding:
+#            tableName: myTable
+#            role: roles/bigtable.reader
+#            members:
+#              - "user:mike@example.com"
+#              - "group:admins@example.com"
 
 #  - changeSet:
 #      id: tighten-events-gc
