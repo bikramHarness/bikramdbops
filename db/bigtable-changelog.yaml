@@ -29,18 +29,18 @@ databaseChangeLog:
        - deleteColumnFamily:
            tableName: user_events
            familyName: preferences
-#
-#  - changeSet:
-#      id: 3-modify-gc-rule
-#      author: harness
-#      changes:
-#        - modifyColumnFamilyGCRule:
-#            tableName: user_events
-#            familyName: profile
-#            gcRule:
-#              intersection:
-#                - maxNumVersions: 5
-#                - maxAge: 7d
+
+  - changeSet:
+      id: 3-modify-gc-rule
+      author: harness
+      changes:
+        - modifyColumnFamilyGCRule:
+            tableName: user_events
+            familyName: profile
+            gcRule:
+              intersection:
+                - maxNumVersions: 5
+                - maxAge: 7d
 #
 #  - changeSet:
 #      id: 4-enable-change-stream
@@ -77,3 +77,17 @@ databaseChangeLog:
       rollback:
         - deleteBigtableLogicalView:
             name: recent_activity
+
+#  - changeSet:
+#      id: tighten-events-gc
+#      author: harness
+#      changes:
+#        - modifyColumnFamilyGCRule:
+#            tableName: animals
+#            familyName: preferences
+#            gcRule:
+#              intersection:
+#                - gcRule:
+#                    maxAge: 30d
+#                - gcRule:
+#                    maxNumVersions: 3
