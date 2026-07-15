@@ -90,6 +90,24 @@ databaseChangeLog:
       rollback:
         - deleteBigtableLogicalView:
             name: recent_activity
+            
+  - changeSet:
+      id: delete-iam-binding-test
+      author: harness
+      changes:
+        - deleteBigTableIAMRoleTableBinding:
+            tableName: myTable
+            role: roles/bigtable.reader
+            members:
+              - "user:mike@example.com"
+              - "group:admins@example.com"
+      rollback:
+        - addBigTableIAMRoleTableBinding:
+            tableName: myTable
+            role: roles/bigtable.reader
+            members:
+              - "user:mike@example.com"
+              - "group:admins@example.com"
 
 #  - changeSet:
 #      id: tighten-events-gc
