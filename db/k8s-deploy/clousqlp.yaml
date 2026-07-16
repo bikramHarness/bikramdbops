@@ -1,0 +1,62 @@
+databaseChangeLog:
+  - changeSet:
+      id: csql-post-sleep-1-bulk-inventory
+      author: bikram
+      comment: "Post-sleep insert to verify token refresh after ~1hr - 50k inventory rows"
+      changes:
+        - sql:
+            sql: |
+              INSERT INTO inventory (name, quantity, unit, location)
+              SELECT
+                (ARRAY['Brisket','Pulled Pork','Chicken Wings','Beef Ribs','Sausage Links',
+                       'Smoked Turkey','Burnt Ends','Pork Belly','Hot Chicken','Jalapeno Sausage'])
+                    [floor(random()*10+1)],
+                floor(random()*100+1)::int,
+                (ARRAY['lbs','racks','links','pieces'])
+                    [floor(random()*4+1)],
+                (ARRAY['Seattle','Portland','Austin','Nashville','San Francisco',
+                       'Chicago','Dallas','Miami','Denver','Phoenix'])
+                    [floor(random()*10+1)]
+              FROM generate_series(1, 50000);
+
+  - changeSet:
+      id: csql-post-sleep-1-bulk-suppliers
+      author: bikram
+      comment: "Post-sleep insert - 50k supplier rows"
+      changes:
+        - sql:
+            sql: |
+              INSERT INTO suppliers (name, location, item, lead_days)
+              SELECT
+                (ARRAY['Pacific Meats Co','Cascade Farms','Texas Prime','Lone Star Supply',
+                       'Music City Meats','Bay Area Foods','Windy City Meats','Miami Meats',
+                       'Rocky Mountain Supply','Desert Supply Co'])
+                    [floor(random()*10+1)],
+                (ARRAY['Seattle','Portland','Austin','Nashville','San Francisco',
+                       'Chicago','Dallas','Miami','Denver','Phoenix'])
+                    [floor(random()*10+1)],
+                (ARRAY['Brisket','Pulled Pork','Chicken Wings','Beef Ribs','Sausage Links',
+                       'Smoked Turkey','Burnt Ends','Pork Belly','Hot Chicken','Jalapeno Sausage'])
+                    [floor(random()*10+1)],
+                floor(random()*7+1)::int
+              FROM generate_series(1, 50000);
+
+  - changeSet:
+      id: csql-post-sleep-1-bulk-inventory-2
+      author: bikram
+      comment: "Post-sleep insert - 50k more inventory rows"
+      changes:
+        - sql:
+            sql: |
+              INSERT INTO inventory (name, quantity, unit, location)
+              SELECT
+                (ARRAY['Brisket','Pulled Pork','Chicken Wings','Beef Ribs','Sausage Links',
+                       'Smoked Turkey','Burnt Ends','Pork Belly','Hot Chicken','Jalapeno Sausage'])
+                    [floor(random()*10+1)],
+                floor(random()*100+1)::int,
+                (ARRAY['lbs','racks','links','pieces'])
+                    [floor(random()*4+1)],
+                (ARRAY['Seattle','Portland','Austin','Nashville','San Francisco',
+                       'Chicago','Dallas','Miami','Denver','Phoenix'])
+                    [floor(random()*10+1)]
+              FROM generate_series(1, 50000);
