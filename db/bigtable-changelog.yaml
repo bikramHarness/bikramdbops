@@ -41,16 +41,16 @@ databaseChangeLog:
               intersection:
                 - maxNumVersions: 5
                 - maxAge: 7d
-#
-#  - changeSet:
-#      id: 4-enable-change-stream
-#      author: harness
-#      changes:
-#        - modifyChangeStreamConfig:
-#            tableName: user_events
-#            changeStreamConfig:
-#              retentionPeriod: 3d
-#
+
+  - changeSet:
+      id: 4-enable-change-stream
+      author: harness
+      changes:
+        - modifyChangeStreamConfig:
+            tableName: user_events
+            changeStreamConfig:
+              retentionPeriod: 3d
+
 #  - changeSet:
 #      id: 5-create-materialized-view
 #      author: harness
@@ -64,7 +64,7 @@ databaseChangeLog:
 #      rollback:
 #        - deleteBigtableMaterializedView:
 #            name: user_activity_summary
-#
+
   - changeSet:
       id: 6-create-logical-view
       author: harness
@@ -91,34 +91,34 @@ databaseChangeLog:
         - deleteBigtableLogicalView:
             name: recent_activity
 
-#  - changeSet:
-#      id: delete-iam-binding-test
-#      author: harness
-#      changes:
-#        - deleteBigTableIAMRoleTableBinding:
-#            tableName: myTable
-#            role: roles/bigtable.reader
-#            members:
-#              - "user:mike@example.com"
-#              - "group:admins@example.com"
-#      rollback:
-#        - addBigTableIAMRoleTableBinding:
-#            tableName: myTable
-#            role: roles/bigtable.reader
-#            members:
-#              - "user:mike@example.com"
-#              - "group:admins@example.com"
+  - changeSet:
+      id: delete-iam-binding-test
+      author: harness
+      changes:
+        - deleteBigTableIAMRoleTableBinding:
+            tableName: myTable
+            role: roles/bigtable.reader
+            members:
+              - "user:mike@example.com"
+              - "group:admins@example.com"
+      rollback:
+        - addBigTableIAMRoleTableBinding:
+            tableName: myTable
+            role: roles/bigtable.reader
+            members:
+              - "user:mike@example.com"
+              - "group:admins@example.com"
 
-#  - changeSet:
-#      id: tighten-events-gc
-#      author: harness
-#      changes:
-#        - modifyColumnFamilyGCRule:
-#            tableName: animals
-#            familyName: preferences
-#            gcRule:
-#              intersection:
-#                - gcRule:
-#                    maxAge: 30d
-#                - gcRule:
-#                    maxNumVersions: 3
+  - changeSet:
+      id: tighten-events-gc
+      author: harness
+      changes:
+        - modifyColumnFamilyGCRule:
+            tableName: animals
+            familyName: preferences
+            gcRule:
+              intersection:
+                - gcRule:
+                    maxAge: 30d
+                - gcRule:
+                    maxNumVersions: 3
