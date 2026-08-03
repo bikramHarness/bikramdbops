@@ -1,0 +1,203 @@
+sql/001-multi-changelog.sql
+  human 1-7
+db/bigtable-sqlchangelog.sql
+  human 1-8
+changelog.yaml
+  human 1-3
+db/docker/Dockerfile.linux.amd64
+  human 1-10
+db/k8s-deploy/delegate.yaml
+  human 1-248
+db/k8s-deploy/pod.yaml
+  human 1-20
+db/k8s-deploy/sqlserver.yaml
+  human 1-59
+db/k8s-deploy/clousqlp.yaml
+  human 1-62
+db/liquibase.checks-package.yaml
+  human 1-14
+db/k8s-deploy/service.yaml
+  human 1-12
+db/entrypoint.sh
+  human 1-33
+db/k8s-deploy/config.yaml
+  human 1-24
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 7,
+          "added_lines": 7,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-7",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "sql/001-multi-changelog.sql"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 8,
+          "added_lines": 8,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-8",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/bigtable-sqlchangelog.sql"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 3,
+          "added_lines": 3,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "1-3",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "changelog.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 10,
+          "hash": "human",
+          "lines": "1-10",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/docker/Dockerfile.linux.amd64"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 248,
+          "hash": "human",
+          "lines": "1-248",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/k8s-deploy/delegate.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 20,
+          "hash": "human",
+          "lines": "1-20",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/k8s-deploy/pod.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 59,
+          "hash": "human",
+          "lines": "1-59",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/k8s-deploy/sqlserver.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 62,
+          "hash": "human",
+          "lines": "1-62",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/k8s-deploy/clousqlp.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 14,
+          "hash": "human",
+          "lines": "1-14",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/liquibase.checks-package.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 12,
+          "hash": "human",
+          "lines": "1-12",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/k8s-deploy/service.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 33,
+          "hash": "human",
+          "lines": "1-33",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/entrypoint.sh"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 0,
+          "added_lines": 0,
+          "deleted_lines": 24,
+          "hash": "human",
+          "lines": "1-24",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "db/k8s-deploy/config.yaml"
+    }
+  ],
+  "base_commit_sha": "d47f24d884d9e876fcb0ceeeba2077a9ae2eb3db",
+  "branch": "main",
+  "commit_sha": "e42e13660d596ee4effe4763e6c69ea6e50d2912",
+  "commit_time": "2026-08-03T23:04:14+05:30",
+  "commit_type": "direct_commit",
+  "harness_aidlc_version": "1.4.29",
+  "prompts": {
+    "human": {
+      "accepted_lines": 18,
+      "agent_id": null,
+      "human_author": "Bikram Kumar <bikram.kumar@harness.io>",
+      "overriden_lines": 0,
+      "total_additions": 18,
+      "total_deletions": 482
+    }
+  },
+  "repo": "https://github.com/bikramHarness/bikramdbops",
+  "schema_version": "authorship/3.0.0"
+}
