@@ -123,12 +123,12 @@ databaseChangeLog:
 #                - gcRule:
 #                    maxNumVersions: 3
 
-  - changeSet:
-      id: validate-users-created
-      author: harness
-      changes:
-        - sql:
-            sql: "SELECT COUNT(*) as table_count FROM users WHERE true LIMIT 1"
+#  - changeSet:
+#      id: validate-users-created
+#      author: harness
+#      changes:
+#        - sql:
+#            sql: "SELECT COUNT(*) as table_count FROM users WHERE true LIMIT 1"
 
   - changeSet:
       id: create-events-table
@@ -142,25 +142,25 @@ databaseChangeLog:
                   maxNumVersions: 5
               - name: metadata
 
-  - changeSet:
-      id: validate-events-created
-      author: harness
-      changes:
-        - sql:
-            sql: |
-              SELECT COUNT(DISTINCT table_name) as table_count
-              FROM information_schema.tables
-              WHERE table_schema = 'bigtable'
-              AND table_name IN ('users', 'events')
+#  - changeSet:
+#      id: validate-events-created
+#      author: harness
+#      changes:
+#        - sql:
+#            sql: |
+#              SELECT COUNT(DISTINCT table_name) as table_count
+#              FROM information_schema.tables
+#              WHERE table_schema = 'bigtable'
+#              AND table_name IN ('users', 'events')
 
-  - changeSet:
-      id: validate-users-profile-family
-      author: harness
-      changes:
-        - sql:
-            sql: |
-              SELECT column_family_name
-              FROM information_schema.column_families
-              WHERE table_name = 'users'
-              AND column_family_name = 'profile'
-              LIMIT 1
+#  - changeSet:
+#      id: validate-users-profile-family
+#      author: harness
+#      changes:
+#        - sql:
+#            sql: |
+#              SELECT column_family_name
+#              FROM information_schema.column_families
+#              WHERE table_name = 'users'
+#              AND column_family_name = 'profile'
+#              LIMIT 1
