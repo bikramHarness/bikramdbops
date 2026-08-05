@@ -13,7 +13,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg1
-
   - changeSet:
       id: user:9
       author: user@harness.io
@@ -26,7 +25,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg2
-
   - changeSet:
       id: user:10
       author: user@harness.io
@@ -38,3 +36,40 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg3
+  - changeSet:
+      id: create-furniture-collection
+      author: harness-ai
+      comment: Creates the furniture collection with a unique index on item_code
+      labels: ""
+      changes:
+        - createCollection:
+            collectionName: furniture
+      rollback:
+        - dropCollection:
+            collectionName: furniture
+  - changeSet:
+      id: create-furniture-item-code-index
+      author: harness-ai
+      comment: Creates a unique index on item_code for fast lookups in the furniture collection
+      labels: ""
+      changes:
+        - createIndex:
+            collectionName: furniture
+            keys: '{"item_code": 1}'
+            options: '{"name": "idx_furniture_item_code", "unique": true}'
+      rollback:
+        - dropIndex:
+            collectionName: furniture
+            indexName: idx_furniture_item_code
+  - changeSet:
+      id: insert-furniture-seed-data
+      author: harness-ai
+      comment: Inserts seed documents for basic furniture categories
+      labels: ""
+      changes:
+        - insertMany:
+            collectionName: furniture
+            documents: '[{"item_code": "CHAIR-001", "name": "Office Chair", "category": "seating", "price": 299.99, "in_stock": true}, {"item_code": "DESK-001", "name": "Standing Desk", "category": "workspace", "price": 599.99, "in_stock": true}, {"item_code": "SOFA-001", "name": "Three-Seater Sofa", "category": "seating", "price": 1199.99, "in_stock": false}]'
+      rollback:
+        - runCommand:
+            command: '{"delete": "furniture", "deletes": [{"q": {"item_code": {"$in": ["CHAIR-001", "DESK-001", "SOFA-001"]}}, "limit": 0}]}'
