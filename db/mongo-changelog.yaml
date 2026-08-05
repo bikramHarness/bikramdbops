@@ -13,7 +13,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg1
-
   - changeSet:
       id: user:9
       author: user@harness.io
@@ -26,7 +25,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg2
-
   - changeSet:
       id: user:10
       author: user@harness.io
@@ -38,3 +36,54 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg3
+  - changeSet:
+      id: create-products-collection
+      author: harness-ai
+      comment: Creates the products collection with schema validation for e-commerce catalog
+      labels: ""
+      changes:
+        - createCollection:
+            collectionName: products
+      rollback:
+        - dropCollection:
+            collectionName: products
+  - changeSet:
+      id: add-products-name-index
+      author: harness-ai
+      comment: Creates an index on the name field for fast product search lookups
+      labels: ""
+      changes:
+        - createIndex:
+            collectionName: products
+            keys: '{"name": 1}'
+            options: '{"name": "idx_products_name", "unique": false}'
+      rollback:
+        - dropIndex:
+            collectionName: products
+            indexName: idx_products_name
+  - changeSet:
+      id: add-products-sku-unique-index
+      author: harness-ai
+      comment: Creates a unique index on the sku field to enforce SKU uniqueness across products
+      labels: ""
+      changes:
+        - createIndex:
+            collectionName: products
+            keys: '{"sku": 1}'
+            options: '{"name": "idx_products_sku_unique", "unique": true}'
+      rollback:
+        - dropIndex:
+            collectionName: products
+            indexName: idx_products_sku_unique
+  - changeSet:
+      id: insert-sample-products
+      author: harness-ai
+      comment: Inserts sample product documents to seed the products collection
+      labels: ""
+      changes:
+        - insertMany:
+            collectionName: products
+            documents: '[{"sku": "WIDGET-001", "name": "Blue Widget", "price": 19.99, "category": "widgets", "inStock": true}, {"sku": "GADGET-002", "name": "Red Gadget", "price": 49.99, "category": "gadgets", "inStock": true}]'
+      rollback:
+        - runCommand:
+            command: '{"delete": "products", "deletes": [{"q": {"sku": {"$in": ["WIDGET-001", "GADGET-002"]}}, "limit": 0}]}'
