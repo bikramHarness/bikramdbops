@@ -13,7 +13,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg1
-
   - changeSet:
       id: user:9
       author: user@harness.io
@@ -26,7 +25,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg2
-
   - changeSet:
       id: user:10
       author: user@harness.io
@@ -38,3 +36,28 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg3
+  - changeSet:
+      id: create-products-collection
+      author: harness-ai
+      comment: Create a simple products collection with a unique index on product_code
+      labels: ""
+      changes:
+        - createCollection:
+            collectionName: products
+      rollback:
+        - dropCollection:
+            collectionName: products
+  - changeSet:
+      id: create-index-products-product-code
+      author: harness-ai
+      comment: Add unique index on product_code field in the products collection
+      labels: ""
+      changes:
+        - createIndex:
+            collectionName: products
+            keys: '{"product_code": 1}'
+            options: '{"name": "idx_products_product_code", "unique": true}'
+      rollback:
+        - dropIndex:
+            collectionName: products
+            indexName: idx_products_product_code
