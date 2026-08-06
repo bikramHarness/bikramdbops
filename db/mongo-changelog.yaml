@@ -13,7 +13,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg1
-
   - changeSet:
       id: user:9
       author: user@harness.io
@@ -26,7 +25,6 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg2
-
   - changeSet:
       id: user:10
       author: user@harness.io
@@ -38,3 +36,40 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg3
+  - changeSet:
+      id: create-products-collection
+      author: sarthak
+      comment: Create products collection for storing product catalog data
+      labels: ""
+      changes:
+        - createCollection:
+            collectionName: products
+      rollback:
+        - dropCollection:
+            collectionName: products
+  - changeSet:
+      id: create-products-name-index
+      author: sarthak
+      comment: Create index on name field for faster product lookups
+      labels: ""
+      changes:
+        - createIndex:
+            collectionName: products
+            keys: '{"name": 1}'
+            options: '{"name": "idx_products_name"}'
+      rollback:
+        - dropIndex:
+            collectionName: products
+            indexName: idx_products_name
+  - changeSet:
+      id: insert-sample-products
+      author: sarthak
+      comment: Insert sample product documents for testing
+      labels: ""
+      changes:
+        - insertMany:
+            collectionName: products
+            documents: '[{"name": "Widget Pro", "price": 29.99, "category": "electronics", "inStock": true}, {"name": "Gadget Plus", "price": 49.99, "category": "electronics", "inStock": true}, {"name": "Tool Basic", "price": 19.99, "category": "tools", "inStock": false}]'
+      rollback:
+        - runCommand:
+            command: '{"delete": "products", "deletes": [{"q": {"name": {"$in": ["Widget Pro", "Gadget Plus", "Tool Basic"]}}, "limit": 0}]}'
