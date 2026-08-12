@@ -1,0 +1,14 @@
+sql/001-create-users-table.sql
+  h_26c2061ab307d8 20-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "705d6f202ae61c9202e673ffd5b5c147ea0281bb",
+  "prompts": {},
+  "humans": {
+    "h_26c2061ab307d8": {
+      "author": "Bikram Kumar <bikram.kumar@harness.io>"
+    }
+  }
+}
