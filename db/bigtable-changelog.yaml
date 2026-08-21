@@ -7,9 +7,9 @@ databaseChangeLog:
             tableName: opa_test
             columnFamilies:
               - name: profile
-                gcRule:
-                  maxNumVersions: 3
-              - name: activity
+#                gcRule:
+#                  maxNumVersions: 3
+#              - name: activity
 #                gcRule:
 #                  maxAge: 30d
       rollback:
