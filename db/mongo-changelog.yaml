@@ -9,32 +9,32 @@ databaseChangeLog:
         Includes fields: id, name, address1, address2, and city.
       changes:
         - createCollection:
-            collectionName: mg1
+            collectionName: rowdy
       rollback:
         - dropCollection:
-            collectionName: mg1
+            collectionName: rowdy
 
-  - changeSet:
-      id: user:9
-      author: user@harness.io
-      context: example-context
-      labels: add-collection
-      comment: Create a new collection 'mg2'
-      changes:
-        - createCollection:
-            collectionName: mg2
-      rollback:
-        - dropCollection:
-            collectionName: mg2
-
-  - changeSet:
-      id: user:10
-      author: user@harness.io
-      context: example-context
-      labels: dynamic-collections
-      changes:
-        - createCollection:
-            collectionName: mg3
-      rollback:
-        - dropCollection:
-            collectionName: mg3
+#  - changeSet:
+#      id: user:9
+#      author: user@harness.io
+#      context: example-context
+#      labels: add-collection
+#      comment: Create a new collection 'mg2'
+#      changes:
+#        - createCollection:
+#            collectionName: mg2
+#      rollback:
+#        - dropCollection:
+#            collectionName: mg2
+#
+#  - changeSet:
+#      id: user:10
+#      author: user@harness.io
+#      context: example-context
+#      labels: dynamic-collections
+#      changes:
+#        - createCollection:
+#            collectionName: mg3
+#      rollback:
+#        - dropCollection:
+#            collectionName: mg3
