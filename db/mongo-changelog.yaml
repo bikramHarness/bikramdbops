@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
-      id: user:8
-      author: user@harness.io
+      id: bikram
+      author: kumar
       context: example-context
       labels: create-collection, base-setup
       comment: |
@@ -9,10 +9,10 @@ databaseChangeLog:
         Includes fields: id, name, address1, address2, and city.
       changes:
         - createCollection:
-            collectionName: rowdy
+            collectionName: rowdy2
       rollback:
         - dropCollection:
-            collectionName: rowdy
+            collectionName: rowdy2
 
 #  - changeSet:
 #      id: user:9
