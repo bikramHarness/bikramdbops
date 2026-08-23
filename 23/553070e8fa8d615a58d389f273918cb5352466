@@ -1,0 +1,14 @@
+db/mongo-changelog.yaml
+  h_26c2061ab307d8 3-4,12,15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "23553070e8fa8d615a58d389f273918cb5352466",
+  "prompts": {},
+  "humans": {
+    "h_26c2061ab307d8": {
+      "author": "Bikram Kumar <bikram.kumar@harness.io>"
+    }
+  }
+}
