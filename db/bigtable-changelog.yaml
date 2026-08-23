@@ -4,17 +4,17 @@ databaseChangeLog:
       author: harness
       changes:
         - createBigtableTable:
-            tableName: opa_test
+            tableName: opa_temp
             columnFamilies:
               - name: profile
-                gcRule:
-                  maxNumVersions: 3
-              - name: activity1
-                gcRule:
-                  maxAge: 30d
+#                gcRule:
+#                  maxNumVersions: 3
+#              - name: activity1
+#                gcRule:
+#                  maxAge: 30d
       rollback:
         - deleteBigtableTable:
-            tableName: opa_test
+            tableName: opa_temp
 
 #  - changeSet:
 #     id: 2-create-column-family
