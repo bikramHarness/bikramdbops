@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: bikram3
+      id: bikram4
       author: kumar
       context: example-context
       labels: create-collection, base-setup
@@ -9,10 +9,10 @@ databaseChangeLog:
         Includes fields: id, name, address1, address2, and city.
       changes:
         - createCollection:
-            collectionName: rowdy3
+            collectionName: rowdy4
       rollback:
         - dropCollection:
-            collectionName: rowdy23
+            collectionName: rowdy4
 
 #  - changeSet:
 #      id: user:9
