@@ -4,7 +4,7 @@ databaseChangeLog:
       author: harness
       changes:
         - createBigtableTable:
-            tableName: opa_temp
+            tableName: opa_temp_3
             columnFamilies:
               - name: profile
 #                gcRule:
@@ -14,7 +14,7 @@ databaseChangeLog:
 #                  maxAge: 30d
       rollback:
         - deleteBigtableTable:
-            tableName: opa_temp
+            tableName: opa_temp_3
 
 #  - changeSet:
 #     id: 2-create-column-family
