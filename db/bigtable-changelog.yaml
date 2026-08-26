@@ -7,7 +7,6 @@ databaseChangeLog:
             tableName: test-validate-table
             columnFamilies:
               - name: cf1
-              - name: cf1
 #  - changeSet:
 #      id: 2-opa_test_table
 #      author: harness
