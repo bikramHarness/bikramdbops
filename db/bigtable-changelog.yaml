@@ -7,23 +7,57 @@ databaseChangeLog:
             tableName: test-validate-table
             columnFamilies:
               - name: cf1
-#  - changeSet:
-#      id: 2-opa_test_table
-#      author: harness
-#      changes:
-#        - createBigtableTable:
-#            tableName: opa_temp_3
-#            columnFamilies:
-#              - name: profile
-#                gcRule:
-#                  maxNumVersions: 3
-#              - name: activity1
-#                gcRule:
-#                  maxAge: 30d
-#      rollback:
-#        - deleteBigtableTable:
-#            tableName: opa_temp_3
-
+                #  - changeSet:
+                #      id: 2-opa_test_table
+                #      author: harness
+                #      changes:
+                #        - createBigtableTable:
+                #            tableName: opa_temp_3
+                #            columnFamilies:
+                #              - name: profile
+                #                gcRule:
+                #                  maxNumVersions: 3
+                #              - name: activity1
+                #                gcRule:
+                #                  maxAge: 30d
+                #      rollback:
+                #        - deleteBigtableTable:
+                #            tableName: opa_temp_3
+  - changeSet:
+      id: create-table-xyxx
+      author: bikram-kumar
+      comment: "Create Bigtable table xyxx with column family qwert"
+      labels: ""
+      changes:
+        - createBigtableTable:
+            tableName: xyxx
+            columnFamilies:
+              - name: qwert
+      rollback:
+        - deleteBigtableTable:
+            tableName: xyxx
+  - changeSet:
+      id: create-table-xybi
+      author: bikram-kumar
+      comment: "Create Bigtable table xybi with column families qwert and asdfg, GC rule: max age 2d OR max versions 3"
+      labels: ""
+      changes:
+        - createBigtableTable:
+            tableName: xybi
+            columnFamilies:
+              - name: qwert
+                gcRule:
+                  union:
+                    - maxNumVersions: 3
+                    - maxAge: 2d
+              - name: asdfg
+                gcRule:
+                  union:
+                    - maxNumVersions: 3
+                    - maxAge: 2d
+      rollback:
+        - deleteBigtableTable:
+            tableName: xybi
 #  - changeSet:
 #     id: 2-create-column-family
 #     author: harness
