@@ -1,20 +1,29 @@
 databaseChangeLog:
   - changeSet:
-      id: 2-opa_test_table
+      id: fail-duplicate-cf
       author: harness
       changes:
         - createBigtableTable:
-            tableName: opa_temp_3
+            tableName: test-validate-table
             columnFamilies:
-              - name: profile
+              - name: cf1
+              - name: cf1
+#  - changeSet:
+#      id: 2-opa_test_table
+#      author: harness
+#      changes:
+#        - createBigtableTable:
+#            tableName: opa_temp_3
+#            columnFamilies:
+#              - name: profile
 #                gcRule:
 #                  maxNumVersions: 3
 #              - name: activity1
 #                gcRule:
 #                  maxAge: 30d
-      rollback:
-        - deleteBigtableTable:
-            tableName: opa_temp_3
+#      rollback:
+#        - deleteBigtableTable:
+#            tableName: opa_temp_3
 
 #  - changeSet:
 #     id: 2-create-column-family
