@@ -7,23 +7,35 @@ databaseChangeLog:
             tableName: test-validate-table
             columnFamilies:
               - name: cf1
-#  - changeSet:
-#      id: 2-opa_test_table
-#      author: harness
-#      changes:
-#        - createBigtableTable:
-#            tableName: opa_temp_3
-#            columnFamilies:
-#              - name: profile
-#                gcRule:
-#                  maxNumVersions: 3
-#              - name: activity1
-#                gcRule:
-#                  maxAge: 30d
-#      rollback:
-#        - deleteBigtableTable:
-#            tableName: opa_temp_3
-
+                #  - changeSet:
+                #      id: 2-opa_test_table
+                #      author: harness
+                #      changes:
+                #        - createBigtableTable:
+                #            tableName: opa_temp_3
+                #            columnFamilies:
+                #              - name: profile
+                #                gcRule:
+                #                  maxNumVersions: 3
+                #              - name: activity1
+                #                gcRule:
+                #                  maxAge: 30d
+                #      rollback:
+                #        - deleteBigtableTable:
+                #            tableName: opa_temp_3
+  - changeSet:
+      id: create-bigtable-table-bikram-zyz
+      author: bikram-kumar
+      comment: "Create Bigtable table bikram-zyz with column family dpp-123"
+      labels: ""
+      changes:
+        - createBigtableTable:
+            tableName: bikram-zyz
+            columnFamilies:
+              - name: dpp-123
+      rollback:
+        - deleteBigtableTable:
+            tableName: bikram-zyz
 #  - changeSet:
 #     id: 2-create-column-family
 #     author: harness
