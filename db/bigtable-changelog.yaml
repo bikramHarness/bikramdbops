@@ -7,23 +7,36 @@ databaseChangeLog:
             tableName: test-validate-table
             columnFamilies:
               - name: cf1
-#  - changeSet:
-#      id: 2-opa_test_table
-#      author: harness
-#      changes:
-#        - createBigtableTable:
-#            tableName: opa_temp_3
-#            columnFamilies:
-#              - name: profile
-#                gcRule:
-#                  maxNumVersions: 3
-#              - name: activity1
-#                gcRule:
-#                  maxAge: 30d
-#      rollback:
-#        - deleteBigtableTable:
-#            tableName: opa_temp_3
-
+                #  - changeSet:
+                #      id: 2-opa_test_table
+                #      author: harness
+                #      changes:
+                #        - createBigtableTable:
+                #            tableName: opa_temp_3
+                #            columnFamilies:
+                #              - name: profile
+                #                gcRule:
+                #                  maxNumVersions: 3
+                #              - name: activity1
+                #                gcRule:
+                #                  maxAge: 30d
+                #      rollback:
+                #        - deleteBigtableTable:
+                #            tableName: opa_temp_3
+  - changeSet:
+      id: create-table-qa-test
+      author: bikram-kumar
+      comment: Create Bigtable collection qa_test with column families team and org
+      labels: ""
+      changes:
+        - createBigtableTable:
+            tableName: qa_test
+            columnFamilies:
+              - name: team
+              - name: org
+      rollback:
+        - deleteBigtableTable:
+            tableName: qa_test
 #  - changeSet:
 #     id: 2-create-column-family
 #     author: harness
