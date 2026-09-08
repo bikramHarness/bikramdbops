@@ -6,13 +6,13 @@ databaseChangeLog:
       labels: ""
       changes:
         - createBigtableTable:
-            tableName: qa_test
+            tableName: qa_test_1
             columnFamilies:
               - name: team
               - name: org
       rollback:
         - deleteBigtableTable:
-            tableName: qa_test
+            tableName: qa_test_1
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
