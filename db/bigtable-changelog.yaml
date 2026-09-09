@@ -1,18 +1,18 @@
 databaseChangeLog:
   - changeSet:
-      id: create-table-qa-test
-      author: bikram-kumar
-      comment: Create Bigtable collection qa_test with column families team and org
+      id: qa_test_2_bikram
+      author: harness
+      comment: abcdef
       labels: ""
       changes:
         - createBigtableTable:
-            tableName: qa_test_1
+            tableName: qa_test_2
             columnFamilies:
               - name: team
               - name: org
       rollback:
         - deleteBigtableTable:
-            tableName: qa_test_1
+            tableName: qa_test_2
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
