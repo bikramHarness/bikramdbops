@@ -1,18 +1,17 @@
 databaseChangeLog:
   - changeSet:
-      id: bikram6
+      id: bikram7
       author: kumar
-      context: example-context
-      labels: create-collection, base-setup
+      context: example-context-7
+      labels: create-collection
       comment: |
-        Creating a new collection 'mg1' to store user address information.
-        Includes fields: id, name, address1, address2, and city.
+        Creating a new collection 'mg7' to store user address information.
       changes:
         - createCollection:
-            collectionName: table6
+            collectionName: table7
       rollback:
         - dropCollection:
-            collectionName: table6
+            collectionName: table7
 
 #  - changeSet:
 #      id: user:9
