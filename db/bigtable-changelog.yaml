@@ -1,18 +1,18 @@
 databaseChangeLog:
   - changeSet:
-      id: qa_test_5_bikram
+      id: qa_test_6_bikram
       author: harness
-      comment: abcdefghi
+      comment: abcdefghijk
       labels: ""
       changes:
         - createBigtableTable:
-            tableName: qa_test_5
+            tableName: qa_test_6
             columnFamilies:
               - name: team
               - name: org
       rollback:
         - deleteBigtableTable:
-            tableName: qa_test_5
+            tableName: qa_test_6
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
