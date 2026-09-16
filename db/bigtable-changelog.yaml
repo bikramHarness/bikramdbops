@@ -1,18 +1,18 @@
 databaseChangeLog:
   - changeSet:
-      id: qa_test_7_bikram
+      id: changeset-1
       author: harness
-      comment: abcdefghijkj
+      comment: bigtable
       labels: ""
       changes:
         - createBigtableTable:
-            tableName: qa_test_7
+            tableName: bmw1
             columnFamilies:
-              - name: team
-              - name: org
+              - name: drift
+              - name: engine
       rollback:
         - deleteBigtableTable:
-            tableName: qa_test_7
+            tableName: bmw1
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
