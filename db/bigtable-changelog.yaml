@@ -13,6 +13,19 @@ databaseChangeLog:
       rollback:
         - deleteBigtableTable:
             tableName: bmw1
+  - changeSet:
+      id: changeset-2
+      author: harness
+      comment: add color column family to bmw1
+      labels: ""
+      changes:
+        - createColumnFamily:
+            tableName: bmw1
+            familyName: color
+      rollback:
+        - deleteColumnFamily:
+            tableName: bmw1
+            familyName: color
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
