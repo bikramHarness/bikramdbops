@@ -1,18 +1,18 @@
 databaseChangeLog:
   - changeSet:
-      id: changeset-1
+      id: changeset-1-1
       author: harness
       comment: bigtable
       labels: ""
       changes:
         - createBigtableTable:
-            tableName: bmw1
+            tableName: bmw2
             columnFamilies:
               - name: drift
               - name: engine
       rollback:
         - deleteBigtableTable:
-            tableName: bmw1
+            tableName: bmw2
   - changeSet:
       id: changeset-2
       author: harness
