@@ -1,31 +1,45 @@
 databaseChangeLog:
   - changeSet:
-      id: changeset-1-1
+      id: changeset-1
       author: harness
       comment: bigtable
       labels: ""
       changes:
         - createBigtableTable:
-            tableName: bmw2
+            tableName: bmw1
             columnFamilies:
               - name: drift
               - name: engine
       rollback:
         - deleteBigtableTable:
-            tableName: bmw2
-  - changeSet:
-      id: changeset-2
-      author: harness
-      comment: add color column family to bmw1
-      labels: ""
-      changes:
-        - createColumnFamily:
             tableName: bmw1
-            familyName: color
-      rollback:
-        - deleteColumnFamily:
-            tableName: bmw1
-            familyName: color
+#  - changeSet:
+#      id: changeset-3
+#      author: harness
+#      comment: bigtable
+#      labels: ""
+#      changes:
+#        - createBigtableTable:
+#            tableName: bmw2
+#            columnFamilies:
+#              - name: drift
+#              - name: engine
+#      rollback:
+#        - deleteBigtableTable:
+#            tableName: bmw2
+#  - changeSet:
+#      id: changeset-2
+#      author: harness
+#      comment: add color column family to bmw1
+#      labels: ""
+#      changes:
+#        - createColumnFamily:
+#            tableName: bmw1
+#            familyName: color
+#      rollback:
+#        - deleteColumnFamily:
+#            tableName: bmw1
+#            familyName: color
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
