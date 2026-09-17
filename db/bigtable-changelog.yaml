@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
-      id: changeset-1
-      author: harness
+      id: id-1
+      author: bikram-harness
       comment: bigtable
       labels: ""
       changes:
@@ -14,8 +14,8 @@ databaseChangeLog:
         - deleteBigtableTable:
             tableName: bmw1
 #  - changeSet:
-#      id: changeset-3
-#      author: harness
+#      id: id-2
+#      author: bikram-harness
 #      comment: bigtable
 #      labels: ""
 #      changes:
@@ -28,8 +28,8 @@ databaseChangeLog:
 #        - deleteBigtableTable:
 #            tableName: bmw2
 #  - changeSet:
-#      id: changeset-2
-#      author: harness
+#      id: id-3
+#      author: bikram-harness
 #      comment: add color column family to bmw1
 #      labels: ""
 #      changes:
