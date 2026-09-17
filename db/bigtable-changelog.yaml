@@ -41,19 +41,19 @@ databaseChangeLog:
       rollback:
         - deleteBigtableTable:
             tableName: bmw3
-#  - changeSet:
-#      id: id-4
-#      author: bikram-harness
-#      comment: add color column family to bmw1
-#      labels: ""
-#      changes:
-#        - createColumnFamily:
-#            tableName: bmw1
-#            familyName: color
-#      rollback:
-#        - deleteColumnFamily:
-#            tableName: bmw1
-#            familyName: color
+  - changeSet:
+      id: id-4
+      author: bikram-harness
+      comment: add color column family to bmw1
+      labels: ""
+      changes:
+        - createColumnFamily:
+            tableName: bmw1
+            familyName: color
+      rollback:
+        - deleteColumnFamily:
+            tableName: bmw1
+            familyName: color
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
