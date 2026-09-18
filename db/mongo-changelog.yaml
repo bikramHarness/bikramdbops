@@ -1,17 +1,43 @@
 databaseChangeLog:
   - changeSet:
-      id: bikram-3
-      author: kumar3
-      context: example-context-5
+      id: b1
+      author: kumar
+      context: example-context
       labels: create-collection
-      comment: |
-        Creating a new collection 'mg3' to store user address information.
+      comment: Creating a new collection 'mg1'
       changes:
         - createCollection:
-            collectionName: asset3
+            collectionName: mg1
       rollback:
         - dropCollection:
-            collectionName: asset3
+            collectionName: mg1
+
+
+#  - changeSet:
+#      id: b2
+#      author: kumar
+#      context: example-context
+#      labels: create-collection
+#      comment: Creating a new collection 'mg2'
+#      changes:
+#        - createCollection:
+#            collectionName: mg2
+#      rollback:
+#        - dropCollection:
+#            collectionName: mg2
+#
+#  - changeSet:
+#      id: b3
+#      author: kumar
+#      context: example-context
+#      labels: create-collection
+#      comment: Creating a new collection 'mg1'
+#      changes:
+#        - createCollection:
+#            collectionName: mg3
+#      rollback:
+#        - dropCollection:
+#            collectionName: mg3
 
 #  - changeSet:
 #      id: user:9
