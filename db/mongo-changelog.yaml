@@ -39,18 +39,18 @@ databaseChangeLog:
         - dropCollection:
             collectionName: mg3
 
-#  - changeSet:
-#      id: user:9
-#      author: user@harness.io
-#      context: example-context
-#      labels: add-collection
-#      comment: Create a new collection 'mg2'
-#      changes:
-#        - createCollection:
-#            collectionName: mg2
-#      rollback:
-#        - dropCollection:
-#            collectionName: mg2
+  - changeSet:
+      id: b4
+      author: kumar
+      context: example-context
+      labels: create-collection
+      comment: Creating a new collection 'mg1'
+      changes:
+        - createCollection:
+            collectionName: mg4
+      rollback:
+        - dropCollection:
+            collectionName: mg4
 #
 #  - changeSet:
 #      id: user:10
