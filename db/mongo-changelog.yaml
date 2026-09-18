@@ -13,18 +13,18 @@ databaseChangeLog:
             collectionName: mg1
 
 
-#  - changeSet:
-#      id: b2
-#      author: kumar
-#      context: example-context
-#      labels: create-collection
-#      comment: Creating a new collection 'mg2'
-#      changes:
-#        - createCollection:
-#            collectionName: mg2
-#      rollback:
-#        - dropCollection:
-#            collectionName: mg2
+  - changeSet:
+      id: b2
+      author: kumar
+      context: example-context
+      labels: create-collection
+      comment: Creating a new collection 'mg2'
+      changes:
+        - createCollection:
+            collectionName: mg2
+      rollback:
+        - dropCollection:
+            collectionName: mg2
 #
 #  - changeSet:
 #      id: b3
