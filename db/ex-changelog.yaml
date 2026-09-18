@@ -1,12 +1,29 @@
 databaseChangeLog:
   - changeSet:
-      id: bikram1
-      author: bikramkumar
+      id: change0
+      author: bikram
+      labels: tag_2
+      comment: opa should fail
+      changes:
+        - createTable:
+            tableName: moon0
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+      rollback:
+        - dropTable:
+            tableName: moon0
+
+  - changeSet:
+      id: change1
+      author: bikram
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: batman
+            tableName: moon1
             columns:
               - column:
                   name: id
@@ -16,112 +33,22 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: batman
+            tableName: moon1
 
   - changeSet:
-      id: bikram2
-      author: bikramkumar
+      id: change1
+      author: bikram
       labels: tag_3
       context: example-context
       comment: example comment
       changes:
         - addColumn:
-            tableName: batman
+            tableName: moon1
             columns:
               - column:
                   name: country
                   type: varchar(1)
       rollback:
         - dropColumn:
-            tableName: batman
+            tableName: moon1
             columnName: country
-
-  - changeSet:
-      id: bikram3
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: street
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: street
-
-  - changeSet:
-      id: bikram4
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: code
-
-  - changeSet:
-     id: bikram5
-     author: bikramkumar
-     labels: example-label
-     context: example-context
-     comment: example comment
-     changes:
-       - addColumn:
-           tableName: batman
-           columns:
-             - column:
-                 name: handle
-                 type: varchar(10)
-     rollback:
-       - dropColumn:
-           tableName: batman
-           columnName: handle
-#
-#  - changeSet:
-#      id: IDDD5
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: batman
-#            columns:
-#              - column:
-#                  name: height
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: batman
-#            columnName: height
-#
-#  - changeSet:
-#      id: IDDD6
-#      author: bikramkumar
-#      labels: example-label
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: batman
-#            columns:
-#              - column:
-#                  name: weight
-#                  type: varchar(10)
-#      rollback:
-#        - dropColumn:
-#            tableName: batman
-#            columnName: weight
