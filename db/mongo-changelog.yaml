@@ -25,19 +25,19 @@ databaseChangeLog:
       rollback:
         - dropCollection:
             collectionName: mg2
-#
-#  - changeSet:
-#      id: b3
-#      author: kumar
-#      context: example-context
-#      labels: create-collection
-#      comment: Creating a new collection 'mg1'
-#      changes:
-#        - createCollection:
-#            collectionName: mg3
-#      rollback:
-#        - dropCollection:
-#            collectionName: mg3
+
+  - changeSet:
+      id: b3
+      author: kumar
+      context: example-context
+      labels: create-collection
+      comment: Creating a new collection 'mg1'
+      changes:
+        - createCollection:
+            collectionName: mg3
+      rollback:
+        - dropCollection:
+            collectionName: mg3
 
 #  - changeSet:
 #      id: user:9
