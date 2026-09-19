@@ -16,24 +16,24 @@ databaseChangeLog:
         - dropTable:
             tableName: moon01
 
-#  - changeSet:
-#      id: change1
-#      author: bikram
-#      labels: tag_2
-#      comment: example comment
-#      changes:
-#        - createTable:
-#            tableName: moon1
-#            columns:
-#              - column:
-#                  name: id
-#                  type: INT
-#                  autoIncrement: true
-#                  constraints:
-#                    primaryKey: true
-#      rollback:
-#        - dropTable:
-#            tableName: moon1
+  - changeSet:
+      id: change1
+      author: bikram
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: moon1
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: moon1
 #
 #  - changeSet:
 #      id: change2
