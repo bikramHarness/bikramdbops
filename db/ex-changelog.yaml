@@ -34,21 +34,22 @@ databaseChangeLog:
       rollback:
         - dropTable:
             tableName: moon1
-#
-#  - changeSet:
-#      id: change2
-#      author: bikram
-#      labels: tag_3
-#      context: example-context
-#      comment: example comment
-#      changes:
-#        - addColumn:
-#            tableName: moon1
-#            columns:
-#              - column:
-#                  name: country
-#                  type: varchar(1)
-#      rollback:
-#        - dropColumn:
-#            tableName: moon1
-#            columnName: country
+
+  - changeSet:
+      id: change2
+      author: bikram
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: moon2
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: moon2
