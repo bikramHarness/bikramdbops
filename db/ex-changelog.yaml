@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
       id: change0
-      author: bikram
+      author: bikram1
       labels: tag_2
       comment: opa should fail
       changes:
         - createTable:
-            tableName: moon0
+            tableName: moon01
             columns:
               - column:
                   name: id
@@ -14,7 +14,7 @@ databaseChangeLog:
                   autoIncrement: true
       rollback:
         - dropTable:
-            tableName: moon0
+            tableName: moon01
 
 #  - changeSet:
 #      id: change1
