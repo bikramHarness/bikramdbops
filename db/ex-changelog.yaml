@@ -36,7 +36,7 @@ databaseChangeLog:
 #            tableName: moon1
 #
 #  - changeSet:
-#      id: change1
+#      id: change2
 #      author: bikram
 #      labels: tag_3
 #      context: example-context
