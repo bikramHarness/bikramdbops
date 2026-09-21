@@ -13,20 +13,20 @@ databaseChangeLog:
       rollback:
         - deleteBigtableTable:
             tableName: bmw1
-#  - changeSet:
-#      id: id-2
-#      author: bikram-harness
-#      comment: bigtable
-#      labels: ""
-#      changes:
-#        - createBigtableTable:
-#            tableName: bmw2
-#            columnFamilies:
-#              - name: drift
-#              - name: engine
-#      rollback:
-#        - deleteBigtableTable:
-#            tableName: bmw2
+  - changeSet:
+      id: id-2
+      author: bikram-harness
+      comment: bigtable
+      labels: ""
+      changes:
+        - createBigtableTable:
+            tableName: bmw2
+            columnFamilies:
+              - name: drift
+              - name: engine
+      rollback:
+        - deleteBigtableTable:
+            tableName: bmw2
 #  - changeSet:
 #      id: id-3
 #      author: bikram-harness
