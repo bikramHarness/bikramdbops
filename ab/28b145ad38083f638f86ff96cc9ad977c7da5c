@@ -1,0 +1,14 @@
+db/ex-changelog.yaml
+  h_26c2061ab307d8 3,5,9,17,20,22-23,26,36,39,45,55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ab28b145ad38083f638f86ff96cc9ad977c7da5c",
+  "prompts": {},
+  "humans": {
+    "h_26c2061ab307d8": {
+      "author": "Bikram Kumar <bikram.kumar@harness.io>"
+    }
+  }
+}
