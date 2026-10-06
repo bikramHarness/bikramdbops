@@ -1,12 +1,12 @@
 databaseChangeLog:
   - changeSet:
-      id: change0
+      id: id1
       author: bikram1
-      labels: tag_2
+      labels: example-changelog
       comment: opa should fail
       changes:
         - createTable:
-            tableName: moon01
+            tableName: laptop
             columns:
               - column:
                   name: id
@@ -14,16 +14,16 @@ databaseChangeLog:
                   autoIncrement: true
       rollback:
         - dropTable:
-            tableName: moon01
+            tableName: laptop
 
   - changeSet:
-      id: change1
+      id: id2
       author: bikram
-      labels: tag_2
-      comment: example comment
+      labels: example-changelog
+      comment: example-changelog-cmt
       changes:
         - createTable:
-            tableName: moon1
+            tableName: laptop1
             columns:
               - column:
                   name: id
@@ -33,16 +33,16 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: moon1
+            tableName: laptop1
 
   - changeSet:
-      id: change2
+      id: id3
       author: bikram
       labels: tag_2
       comment: example comment
       changes:
         - createTable:
-            tableName: moon2
+            tableName: laptop2
             columns:
               - column:
                   name: id
@@ -52,4 +52,4 @@ databaseChangeLog:
                     primaryKey: true
       rollback:
         - dropTable:
-            tableName: moon2
+            tableName: laptop2
