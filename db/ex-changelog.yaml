@@ -53,3 +53,40 @@ databaseChangeLog:
       rollback:
         - dropTable:
             tableName: laptop2
+
+  - changeSet:
+      id: id4
+      author: bikram
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: laptop3
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: laptop3
+  - changeSet:
+      id: id5
+      author: bikram
+      labels: example-changelog
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: laptop4
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: laptop4
