@@ -90,3 +90,22 @@ databaseChangeLog:
       rollback:
         - dropTable:
             tableName: laptop4
+
+  - changeSet:
+      id: id6
+      author: bikram
+      labels: example-changelog
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: laptop5
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: laptop5
