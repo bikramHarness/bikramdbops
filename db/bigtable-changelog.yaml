@@ -52,7 +52,7 @@ databaseChangeLog:
             familyName: gear
       rollback:
         - deleteColumnFamily:
-            tableName: bmw4
+            tableName: bmw3
             familyName: gear
   - changeSet:
       id: id-5
