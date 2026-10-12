@@ -1,0 +1,14 @@
+db/bigtable-changelog.yaml
+  h_26c2061ab307d8 57-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bbe529c7bfa42bf81093ef4c62f6e5accd07be50",
+  "prompts": {},
+  "humans": {
+    "h_26c2061ab307d8": {
+      "author": "Bikram Kumar <bikram.kumar@harness.io>"
+    }
+  }
+}
