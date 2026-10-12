@@ -54,6 +54,19 @@ databaseChangeLog:
         - deleteColumnFamily:
             tableName: bmw4
             familyName: gear
+  - changeSet:
+      id: id-5
+      author: bikram-harness
+      comment: add color column family to bmw1
+      labels: "my dil goes zoom"
+      changes:
+        - createColumnFamily:
+            tableName: bmw3
+            familyName: clutch
+      rollback:
+        - deleteColumnFamily:
+            tableName: bmw3
+            familyName: clutch
 #  - changeSet:
 #      id: fail-duplicate-cf
 #      author: harness
