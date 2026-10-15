@@ -127,45 +127,62 @@ databaseChangeLog:
 #            changeStreamConfig:
 #              retentionPeriod: 3d
 
-#  - changeSet:
-#      id: 5-create-materialized-view
-#      author: harness
-#      changes:
-#        - createBigtableMaterializedView:
-#            name: user_activity_summary
-#            query: >
-#              SELECT _key, profile['user_id'] AS user_id
-#              FROM user_events
-#              ORDER BY _key ASC
-#      rollback:
-#        - deleteBigtableMaterializedView:
-#            name: user_activity_summary
+  - changeSet:
+      id: 1-create-user-events
+      author: harness
+      changes:
+        - createBigtableTable:
+            tableName: user_events
+            columnFamilies:
+              - name: profile
+                gcRule:
+                  maxNumVersions: 3
+              - name: activity
+                gcRule:
+                  maxAge: 30d
+      rollback:
+        - deleteBigtableTable:
+            tableName: user_events
 
-#  - changeSet:
-#      id: 6-create-logical-view
-#      author: harness
-#      changes:
-#        - createBigtableLogicalView:
-#            name: recent_activity
-#            query: >
-#              SELECT _key, activity['event_type'] AS event_type
-#              FROM user_events
-#      rollback:
-#        - deleteBigtableLogicalView:
-#            name: recent_activity
-#
-#  - changeSet:
-#      id: 6-create-logical-view-part-2
-#      author: harness
-#      changes:
-#        - createBigtableLogicalView:
-#            name: recent_activity_2
-#            query: >
-#              SELECT _key, activity['event_type'] AS event_type
-#              FROM user_events
-#      rollback:
-#        - deleteBigtableLogicalView:
-#            name: recent_activity
+  - changeSet:
+      id: 5-create-materialized-view
+      author: harness
+      changes:
+        - createBigtableMaterializedView:
+            name: user_activity_summary
+            query: >
+              SELECT _key, profile['user_id'] AS user_id
+              FROM user_events
+              ORDER BY _key ASC
+      rollback:
+        - deleteBigtableMaterializedView:
+            name: user_activity_summary
+
+  - changeSet:
+      id: 6-create-logical-view
+      author: harness
+      changes:
+        - createBigtableLogicalView:
+            name: recent_activity
+            query: >
+              SELECT _key, activity['event_type'] AS event_type
+              FROM user_events
+      rollback:
+        - deleteBigtableLogicalView:
+            name: recent_activity
+
+  - changeSet:
+      id: 6-create-logical-view-part-2
+      author: harness
+      changes:
+        - createBigtableLogicalView:
+            name: recent_activity_2
+            query: >
+              SELECT _key, activity['event_type'] AS event_type
+              FROM user_events
+      rollback:
+        - deleteBigtableLogicalView:
+            name: recent_activity
 
 #  - changeSet:
 #      id: delete-iam-binding-test
