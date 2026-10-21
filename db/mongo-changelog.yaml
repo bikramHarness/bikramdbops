@@ -44,7 +44,7 @@ databaseChangeLog:
       author: kumar
       context: example-context
       labels: create-collection
-      comment: Creating a new collection 'mg1'
+      comment: Creating a new collection 'mg4'
       changes:
         - createCollection:
             collectionName: mg4
