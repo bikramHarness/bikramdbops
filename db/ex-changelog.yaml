@@ -72,59 +72,59 @@ databaseChangeLog:
       rollback:
         - dropTable:
             tableName: laptop3
-  - changeSet:
-      id: id5
-      author: bikram
-      labels: example-changelog
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: laptop4
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-      rollback:
-        - dropTable:
-            tableName: laptop4
-
-  - changeSet:
-      id: id6
-      author: bikram
-      labels: example-changelog
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: laptop5
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-      rollback:
-        - dropTable:
-            tableName: laptop5
-
-  - changeSet:
-      id: id7
-      author: bikram
-      labels: tag_2
-      comment: example comment
-      changes:
-        - createTable:
-            tableName: laptop6
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-      rollback:
-        - dropTable:
-            tableName: laptop6
+#  - changeSet:
+#      id: id5
+#      author: bikram
+#      labels: example-changelog
+#      comment: example comment
+#      changes:
+#        - createTable:
+#            tableName: laptop4
+#            columns:
+#              - column:
+#                  name: id
+#                  type: INT
+#                  autoIncrement: true
+#                  constraints:
+#                    primaryKey: true
+#      rollback:
+#        - dropTable:
+#            tableName: laptop4
+#
+#  - changeSet:
+#      id: id6
+#      author: bikram
+#      labels: example-changelog
+#      comment: example comment
+#      changes:
+#        - createTable:
+#            tableName: laptop5
+#            columns:
+#              - column:
+#                  name: id
+#                  type: INT
+#                  autoIncrement: true
+#                  constraints:
+#                    primaryKey: true
+#      rollback:
+#        - dropTable:
+#            tableName: laptop5
+#
+#  - changeSet:
+#      id: id7
+#      author: bikram
+#      labels: tag_2
+#      comment: example comment
+#      changes:
+#        - createTable:
+#            tableName: laptop6
+#            columns:
+#              - column:
+#                  name: id
+#                  type: INT
+#                  autoIncrement: true
+#                  constraints:
+#                    primaryKey: true
+#      rollback:
+#        - dropTable:
+#            tableName: laptop6
