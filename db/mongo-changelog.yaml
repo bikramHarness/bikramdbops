@@ -39,27 +39,27 @@ databaseChangeLog:
         - dropCollection:
             collectionName: mg3
 
-  - changeSet:
-      id: b4
-      author: kumar
-      context: example-context
-      labels: create-collection
-      comment: Creating a new collection 'mg4'
-      changes:
-        - createCollection:
-            collectionName: mg4
-      rollback:
-        - dropCollection:
-            collectionName: mg4
+#  - changeSet:
+#      id: b4
+#      author: kumar
+#      context: example-context
+#      labels: create-collection
+#      comment: Creating a new collection 'mg4'
+#      changes:
+#        - createCollection:
+#            collectionName: mg4
+#      rollback:
+#        - dropCollection:
+#            collectionName: mg4
 
-  - changeSet:
-      id: b5
-      author: user@harness.io
-      context: example-context
-      labels: dynamic-collections
-      changes:
-        - createCollection:
-            collectionName: mg5
-      rollback:
-        - dropCollection:
-            collectionName: mg5
+#  - changeSet:
+#      id: b5
+#      author: user@harness.io
+#      context: example-context
+#      labels: dynamic-collections
+#      changes:
+#        - createCollection:
+#            collectionName: mg5
+#      rollback:
+#        - dropCollection:
+#            collectionName: mg5
