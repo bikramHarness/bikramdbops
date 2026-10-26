@@ -1,5 +1,5 @@
 pipeline:
-  name: trial branch
+  name: LLM Test and Preview - Git Managed
   identifier: dbops_default_pipeline
   description: This is the default LLM pipeline.
   stages:
