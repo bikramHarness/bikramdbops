@@ -1,5 +1,5 @@
 pipeline:
-  name: Default DBOPS Pipeline
+  name: trial branch
   identifier: dbops_default_pipeline
   description: This is the default LLM pipeline.
   stages:
@@ -38,3 +38,4 @@ pipeline:
           type: MarkAsFailure
   projectIdentifier: DoNotDelete_BikramDBOPS
   orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
