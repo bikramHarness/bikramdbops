@@ -1,0 +1,40 @@
+pipeline:
+  name: Default DBOPS Pipeline
+  identifier: dbops_default_pipeline
+  description: This is the default LLM pipeline.
+  stages:
+    - stage:
+        name: llm_stage
+        identifier: llm_stage
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - stepGroup:
+                  name: cs
+                  identifier: cs
+                  steps:
+                    - step:
+                        type: DBTestAndPreview
+                        name: DBTestAndPreview_1
+                        identifier: DBTestAndPreview_1
+                        spec:
+                          connectorRef: account.harnessImage
+                          dbSchema: <+input>
+                          dbInstance: <+input>
+                          changeset: <+input>
+                        timeout: 10m
+                  stepGroupInfra:
+                    type: KubernetesDirect
+                    spec:
+                      connectorRef: k8s_cluster_try_3
+                      containerSecurityContext:
+                        runAsUser: "0"
+  failureStrategies:
+    - onFailure:
+        errors:
+          - AllErrors
+        action:
+          type: MarkAsFailure
+  projectIdentifier: DoNotDelete_BikramDBOPS
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
