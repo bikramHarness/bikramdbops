@@ -35,24 +35,24 @@ databaseChangeLog:
         - dropTable:
             tableName: laptop1
 
-#  - changeSet:
-#      id: id3
-#      author: bikram
-#      labels: tag_2
-#      comment: example comment
-#      changes:
-#        - createTable:
-#            tableName: laptop2
-#            columns:
-#              - column:
-#                  name: id
-#                  type: INT
-#                  autoIncrement: true
-#                  constraints:
-#                    primaryKey: true
-#      rollback:
-#        - dropTable:
-#            tableName: laptop2
+  - changeSet:
+      id: id3
+      author: bikram
+      labels: tag_2
+      comment: example comment
+      changes:
+        - createTable:
+            tableName: laptop2
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+      rollback:
+        - dropTable:
+            tableName: laptop2
 #
 #  - changeSet:
 #      id: id4
