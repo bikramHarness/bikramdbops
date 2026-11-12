@@ -16,24 +16,24 @@ databaseChangeLog:
         - dropTable:
             tableName: laptop
 
-  - changeSet:
-      id: id2
-      author: bikram
-      labels: example-changelog
-      comment: example-changelog-cmt
-      changes:
-        - createTable:
-            tableName: laptop1
-            columns:
-              - column:
-                  name: id
-                  type: INT
-                  autoIncrement: true
-                  constraints:
-                    primaryKey: true
-      rollback:
-        - dropTable:
-            tableName: laptop1
+#  - changeSet:
+#      id: id2
+#      author: bikram
+#      labels: example-changelog
+#      comment: example-changelog-cmt
+#      changes:
+#        - createTable:
+#            tableName: laptop1
+#            columns:
+#              - column:
+#                  name: id
+#                  type: INT
+#                  autoIncrement: true
+#                  constraints:
+#                    primaryKey: true
+#      rollback:
+#        - dropTable:
+#            tableName: laptop1
 
 #  - changeSet:
 #      id: id3
