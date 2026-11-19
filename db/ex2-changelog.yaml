@@ -18,218 +18,218 @@ databaseChangeLog:
         - dropTable:
             tableName: batman
 
-  - changeSet:
-      id: bikram2
-      author: bikramkumar
-      labels: tag_3
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: country
-                  type: varchar(1)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: country
-
-  - changeSet:
-      id: bikram3
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: street
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: street
-
-  - changeSet:
-      id: bikram4
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: code
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: code
-
-  - changeSet:
-      id: bikram5
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: handle
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: handle
-
-  - changeSet:
-      id: bikram6
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: height
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: height
-
-  - changeSet:
-      id: bikram7
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: weight
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: weight
-
-  - changeSet:
-      id: bikram8
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: location
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: location
-
-  - changeSet:
-      id: bikram9
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: car
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: car
-
-  - changeSet:
-      id: bikram10
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: hotel
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: hotel
-
-  - changeSet:
-      id: bikram11
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: cloth
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: cloth
-
-  - changeSet:
-      id: bikram12
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: black
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: black
-
-  - changeSet:
-      id: bikram13
-      author: bikramkumar
-      labels: example-label
-      context: example-context
-      comment: example comment
-      changes:
-        - addColumn:
-            tableName: batman
-            columns:
-              - column:
-                  name: white
-                  type: varchar(10)
-      rollback:
-        - dropColumn:
-            tableName: batman
-            columnName: white
+#  - changeSet:
+#      id: bikram2
+#      author: bikramkumar
+#      labels: tag_3
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: country
+#                  type: varchar(1)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: country
+#
+#  - changeSet:
+#      id: bikram3
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: street
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: street
+#
+#  - changeSet:
+#      id: bikram4
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: code
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: code
+#
+#  - changeSet:
+#      id: bikram5
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: handle
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: handle
+#
+#  - changeSet:
+#      id: bikram6
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: height
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: height
+#
+#  - changeSet:
+#      id: bikram7
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: weight
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: weight
+#
+#  - changeSet:
+#      id: bikram8
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: location
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: location
+#
+#  - changeSet:
+#      id: bikram9
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: car
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: car
+#
+#  - changeSet:
+#      id: bikram10
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: hotel
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: hotel
+#
+#  - changeSet:
+#      id: bikram11
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: cloth
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: cloth
+#
+#  - changeSet:
+#      id: bikram12
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: black
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: black
+#
+#  - changeSet:
+#      id: bikram13
+#      author: bikramkumar
+#      labels: example-label
+#      context: example-context
+#      comment: example comment
+#      changes:
+#        - addColumn:
+#            tableName: batman
+#            columns:
+#              - column:
+#                  name: white
+#                  type: varchar(10)
+#      rollback:
+#        - dropColumn:
+#            tableName: batman
+#            columnName: white
